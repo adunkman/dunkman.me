@@ -1,0 +1,11 @@
+---
+layout: base
+categories: conferences
+---
+
+{% for post in site.posts %}
+  {% if post.categories.first == 'conferences' %}
+    {% assign content = post.content %}
+    {% include post-summary.html %}
+  {% endif %}
+{% endfor %}

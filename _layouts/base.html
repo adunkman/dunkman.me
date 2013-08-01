@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Andrew Dunkman" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>{% if page.title %}{{ page.title | append: " | " }}{% endif %}Andrew Dunkman</title>
+
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body class="{{ page.categories }}">
+    <header>
+      <a href="/" class="logo" title="Go home"><img src="http://gravatar.com/avatar/aff1bda77a8c8f8fc64530eaf99b7f6a.jpg?s=512" /></a>
+
+      <hgroup>
+        <a href="/">
+          <h1>I’m Andrew Dunkman.</h1>
+          <h2>Passionate about usable software.</h2>
+        </a>
+      </hgroup>
+
+      <nav>
+        <a href="/about/">About</a>
+        <a href="/articles/">Articles</a>
+        <a href="/projects/">Projects</a>
+        <a href="/conferences/">Conferences</a>
+        <a href="/code/">Code Samples</a>
+      </nav>
+    </header>
+
+    {{ content }}
+
+    <footer>
+      <nav>
+        <a href="http://twitter.com/adunkman">@adunkman</a>
+      </nav>
+    </footer>
+  </body>
+</html>

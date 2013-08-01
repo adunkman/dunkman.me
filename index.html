@@ -1,0 +1,9 @@
+---
+layout: base
+categories: articles
+---
+
+{% for post in site.posts limit:1 offset:1 reversed %}
+  {% assign content = post.content %}
+  {% include post.html %}
+{% endfor %}
