@@ -205,6 +205,9 @@ body > footer
   body > header, body > article, body > section, body > footer
     width: 85%
 
+  body.index > article, body.articles > article, body.conferences > article
+    width: 60%
+
   body > header
     .logo, hgroup
       display: inline-block
@@ -216,9 +219,15 @@ body > footer
   body > header hgroup
     font-size: 1em
 
+  body.index > article, body.articles > article, body.conferences > article
+    width: 55%
+
 @media screen and (min-width: 80em)
   body > header
     font-size: 1.1em
+
+  body.index > article, body.articles > article, body.conferences > article
+    width: 50%
 
 @media screen and (min-width: 100em)
   body > header
