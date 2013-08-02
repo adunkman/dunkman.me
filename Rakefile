@@ -1,7 +1,7 @@
 namespace :build do
   desc "Build SASS to CSS"
   task :css do
-    puts `sass --update --style compressed stylesheets`
+    puts `sass --update --compass --style compressed stylesheets`
   end
 
   desc "Build site using Jekyll"
