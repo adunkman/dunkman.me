@@ -77,13 +77,28 @@ categories: projects
     list-style-type: none;
     display: block;
     border: 1px solid #666;
-    border-radius: 0.5em;
+    border-radius: 10px;
     margin: 1em 0;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   }
 
+  section.tiles a {
+    display: block;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 1em 0.2em;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    font-size: 0.5em;
+  }
+
+  section.tiles a:hover {
+    text-decoration: none !important;
+  }
+
+
   @media screen and (min-width: 50em) {
-    section.tiles h1 {
+    section.tiles > h1 {
       margin-left: 5%;
     }
 
@@ -92,28 +107,13 @@ categories: projects
       width: 40%;
       margin-left: 5%;
     }
+
+    section.tiles a {
+      font-size: 0.7em;
+    }
   }
 
-  section.tiles a {
-    display: block;
-    border: 1px solid #fff;
-    text-align: center;
-    padding: 1em 0;
-    border-radius: 0.5em;
-    background-color: #e5e5e5;
-  }
-
-  section.tiles a:hover {
-    text-decoration: none !important;
-  }
-
-  section.tiles a h1 {
-    font-size: 1em;
-    margin: 0;
-  }
-
-  section.tiles a h2 {
-    font-size: 0.7em;
+  section.tiles a h1, section.tiles a h2 {
     margin: 0;
   }
 
