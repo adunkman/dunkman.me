@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Disabling the Mac OS X Startup Chime
-categories: code
+categories: articles
 ---
 
 **Update:** This is no longer compatible with newer Macs (OS X 10.6.8 and newer).
