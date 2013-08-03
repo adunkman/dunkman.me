@@ -127,6 +127,10 @@ task :deploy => :build do
         changes = true
       end
     else
+      remote_file = bucket.objects.build(local_file)
+      remote_file.content = open("_site/#{local_file}")
+      remote_file.content_type = "" # Use default
+      remote_file.save
       puts " |  #{local_file} is new."
       changes = true
     end
