@@ -51,17 +51,29 @@ task :build => [ "obliterate", "build:css", "build:site", "clean" ]
 namespace :watch do
   desc "Build SASS to CSS and watch for changes"
   task :css do
-    `sass --watch --compass stylesheets`
+    exec "sass --watch --compass stylesheets"
   end
 
   desc "Build site using Jekyll, start development server, and watch for changes"
   task :site do
-    `jekyll server --watch`
+    exec "jekyll server --watch"
   end
 end
 
 desc "Build it all, watch for changes, and serve it up at http://localhost:4000/"
-multitask :watch => [ "watch:css", "watch:site" ]
+task :watch do
+  pids = [
+    Process.spawn("jekyll server --watch"),
+    Process.spawn("sass --watch --compass stylesheets")
+  ]
+
+  trap("INT") {
+    pids.each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    exit 0
+  }
+
+  pids.each { |pid| Process.wait(pid) }
+end
 
 desc "Deploy site to Amazon S3"
 task :deploy => :build do
