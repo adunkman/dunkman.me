@@ -5,7 +5,5 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "smart"]
 
-# GitHub overrides
-safe: true
 lsi: false
 pygments: true

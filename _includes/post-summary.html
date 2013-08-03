@@ -1,3 +1,8 @@
-<article>
-  <h1><a href="{{ post.url }}">{{ page.title }}{{ post.title }}</a></h1>
+<article class="summary">
+  <a href="{{ post.url }}">
+    <h1>{{ page.title }}{{ post.title }}</h1>
+    <div class="summarize">
+      {{ content | strip_links }}
+    </div>
+  </a>
 </article>
