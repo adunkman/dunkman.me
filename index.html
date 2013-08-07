@@ -3,7 +3,7 @@ layout: base
 categories: articles
 ---
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:1 offset:1 %}
   {% assign content = post.content %}
   {% include post.html %}
 {% endfor %}
