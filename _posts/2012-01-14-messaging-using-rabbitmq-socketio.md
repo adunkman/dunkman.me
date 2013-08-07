@@ -8,6 +8,8 @@ A code snippet to relay messages from a RabbitMQ server to a browser in realtime
 
 ## Client
 
+Throw this in a HTML file and load it up in your favorite web browser:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -36,6 +38,8 @@ A code snippet to relay messages from a RabbitMQ server to a browser in realtime
 ```
 
 ## Server
+
+Throw this in a JavaScript file and run it with node.js:
 
 ```javascript
 var amqp = require('amqp');

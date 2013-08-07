@@ -8,6 +8,8 @@ I recently switched hosting for this site --- from Heroku to Amazon S3. I've alw
 
 My hesitation to use Amazon S3 has always been deploying --- I wanted something as simple as Heroku's push-to-deploy. After a bit of struggling, I ended up writing a [Rake](http://rake.rubyforge.org/) task to do it all for me. To see the complete source (including the build task), check out [this site on GitHub](https://github.com/adunkman/dunkman.me/blob/master/Rakefile).
 
+Rake task to deploy the `_site/` directory to an S3 bucket:
+
 ```ruby
 desc "Deploy site to Amazon S3"
 task :deploy => :build do

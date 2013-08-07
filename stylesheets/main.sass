@@ -197,6 +197,10 @@ body > footer
   body > article, body > section
     width: 83.7%
 
+  body.code > article .highlight
+    margin-left: -5%
+    margin-right: -5%
+
   body > header
     hgroup
       width: 93%
@@ -230,6 +234,10 @@ body > footer
   body > article, body > section
     width: 75%
 
+  body.code > article .highlight
+    margin-left: -10%
+    margin-right: -10%
+
 @media screen and (min-width: 45em)
   body > header hgroup
     width: 77.7%
@@ -237,12 +245,21 @@ body > footer
   body > article, body > section
     width: 70%
 
+  body.code > article .highlight
+    margin-left: -15%
+    margin-right: -15%
+
 @media screen and (min-width: 50em)
   body > header, body > article, body > section, body > footer
     width: 85%
 
-  body.index > article, body.articles > article, body.conferences > article
+  body.index > article, body.articles > article,
+  body.conferences > article, body.code > article
     width: 60%
+
+  body.code > article .highlight
+    margin-left: -21%
+    margin-right: -21%
 
   body > header
     .logo, hgroup
@@ -255,14 +272,20 @@ body > footer
   body > header hgroup
     font-size: 1em
 
-  body.index > article, body.articles > article, body.conferences > article
+  body.index > article, body.articles > article,
+  body.conferences > article, body.code > article
     width: 55%
+
+  body.code > article .highlight
+    margin-left: -28%
+    margin-right: -28%
 
 @media screen and (min-width: 80em)
   body > header
     font-size: 1.1em
 
-  body.index > article, body.articles > article, body.conferences > article
+  body.index > article, body.articles > article,
+  body.conferences > article, body.code > article
     width: 50%
 
 @media screen and (min-width: 100em)
