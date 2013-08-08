@@ -13,17 +13,6 @@ task :clean do
       File.delete file
     end
   end
-
-  Dir["_site/stylesheets/**/*"].reverse.each do |file|
-    next if file == "_site/stylesheets/main.css"
-    next if file.start_with? "_site/stylesheets/images"
-
-    if File.directory? file
-      Dir.delete file
-    else
-      File.delete file
-    end
-  end
 end
 
 desc "Obliterate the _site/ output directory"
@@ -32,12 +21,6 @@ task :obliterate do
 end
 
 namespace :build do
-  desc "Build SASS to CSS"
-  task :css do
-    puts `sass --update --compass --style compressed stylesheets`
-    puts
-  end
-
   desc "Build site using Jekyll"
   task :site do
     puts `jekyll build`
@@ -46,14 +29,9 @@ namespace :build do
 end
 
 desc "Build site"
-task :build => [ "obliterate", "build:css", "build:site", "clean" ]
+task :build => [ "obliterate", "build:site", "clean" ]
 
 namespace :watch do
-  desc "Build SASS to CSS and watch for changes"
-  task :css do
-    exec "sass --watch --compass stylesheets"
-  end
-
   desc "Build site using Jekyll, start development server, and watch for changes"
   task :site do
     exec "jekyll server --watch"
@@ -61,19 +39,7 @@ namespace :watch do
 end
 
 desc "Build it all, watch for changes, and serve it up at http://localhost:4000/"
-task :watch do
-  pids = [
-    Process.spawn("jekyll server --watch"),
-    Process.spawn("sass --watch --compass stylesheets")
-  ]
-
-  trap("INT") {
-    pids.each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
-    exit 0
-  }
-
-  pids.each { |pid| Process.wait(pid) }
-end
+task :watch => [ "watch:site" ]
 
 desc "Deploy site to Amazon S3"
 task :deploy => :build do
@@ -93,21 +59,6 @@ task :deploy => :build do
   local_files = Dir["_site/**/*"].map { |file| file.sub(/_site\//, "") }
   remote_files = bucket.objects
 
-  puts "Checking for remote files to delete..."
-  changes = false
-  remote_files.each do |remote_file|
-    unless File.exists? "_site/#{remote_file.key}"
-      remote_file.destroy
-      puts " |  #{remote_file.key} has been removed."
-      changes = true
-    end
-  end
-
-  unless changes
-    puts "  (no files to delete)"
-  end
-
-  puts
   puts "Checking for local files to upload..."
   changes = false
   local_files.each do |local_file|
@@ -134,11 +85,25 @@ task :deploy => :build do
       puts " |  #{local_file} is new."
       changes = true
     end
-
   end
 
   unless changes
     puts "  (no files to upload)"
+  end
+
+  puts
+  puts "Checking for remote files to delete..."
+  changes = false
+  remote_files.each do |remote_file|
+    unless File.exists? "_site/#{remote_file.key}"
+      remote_file.destroy
+      puts " |  #{remote_file.key} has been removed."
+      changes = true
+    end
+  end
+
+  unless changes
+    puts "  (no files to delete)"
   end
 
   puts
