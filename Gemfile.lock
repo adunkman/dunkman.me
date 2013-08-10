@@ -34,6 +34,7 @@ GEM
     liquid (2.5.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    mime-types (1.23)
     multi_json (1.7.8)
     posix-spawn (0.3.6)
     proxies (0.2.1)
@@ -63,6 +64,7 @@ DEPENDENCIES
   compass
   jekyll
   jekyll-assets
+  mime-types
   rake
   redcarpet
   s3

@@ -44,6 +44,7 @@ task :watch => [ "watch:site" ]
 desc "Deploy site to Amazon S3"
 task :deploy => :build do
   require "s3"
+  require "mime/types"
 
   id = ENV["WWWDUNKMANME_ID"]
   key = ENV["WWWDUNKMANME_KEY"]
@@ -72,7 +73,7 @@ task :deploy => :build do
 
       unless local_md5 == remote_md5
         remote_file.content = open("_site/#{local_file}")
-        remote_file.content_type = "" # Use default
+        remote_file.content_type = MIME::Types.of(local_file).first.content_type
         remote_file.save
         puts " |  #{local_file} has changed."
         changes = true
@@ -80,7 +81,7 @@ task :deploy => :build do
     else
       remote_file = bucket.objects.build(local_file)
       remote_file.content = open("_site/#{local_file}")
-      remote_file.content_type = "" # Use default
+      remote_file.content_type = MIME::Types.of(local_file).first.content_type
       remote_file.save
       puts " |  #{local_file} is new."
       changes = true
