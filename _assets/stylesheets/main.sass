@@ -126,7 +126,7 @@ body > article, body > section
     &:hover
       text-decoration: underline
 
-  p, li, blockquote
+  p, li, blockquote, .aside
     line-height: 1.6
     max-width: 30em
     hyphens: auto
@@ -138,6 +138,17 @@ body > article, body > section
     display: block
     font-size: 3.2em
     line-height: 1em
+
+  .aside
+    margin-bottom: 1em
+    color: #aaa
+
+    a, a:link
+      color: #aaa
+      text-decoration: underline
+
+      &:hover
+        color: #333
 
   p
     margin: 0 0 1em 0
