@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Andrew Dunkman" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@adunkman">
+    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
+    {% if page.content %}<meta name="twitter:description" content="{{ page.content }}">{% endif %}
+    <meta name="twitter:creator" content="@adunkman">
+    <meta name="twitter:image:src" content="http://gravatar.com/avatar/aff1bda77a8c8f8fc64530eaf99b7f6a.jpg?s=250">
 
     <title>{% if page.title %}{{ page.title | append: " | " }}{% endif %}Andrew Dunkman</title>
 
