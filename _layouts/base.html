@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@adunkman">
-    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Andrew Dunkman{% endif %}">
     {% if page.content %}<meta name="twitter:description" content="{{ page.content | to_twitter_description }}">{% endif %}
     <meta name="twitter:creator" content="@adunkman">
     <meta name="twitter:image:src" content="http://gravatar.com/avatar/aff1bda77a8c8f8fc64530eaf99b7f6a.jpg?s=250">
