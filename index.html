@@ -3,7 +3,7 @@ layout: base
 categories: conferences
 ---
 
-{% for post in site.posts limit:1 offset:2 %}
+{% for post in site.posts limit:1 offset:0 %}
   {% assign content = post.content %}
   {% include post.html %}
 {% endfor %}
