@@ -1,0 +1,62 @@
+body
+  max-width: 500px
+  padding: 0 10px
+  margin: 0 auto 40px auto
+  font-family: Abel, Helvetica, sans-serif
+  text-align: center
+
+h1
+  margin-bottom: 30px
+
+em
+  color: green
+
+.hamburger
+  margin-top: 40px
+
+  svg
+    width: 100%
+    height: 250px
+
+.cover-right, .cover-left
+  position: relative
+
+  &:after
+    display: block
+    content: ""
+    position: absolute
+    top: 0
+    height: 100%
+    width: 50%
+    background-color: rgba(245, 245, 245, 0.9)
+
+.cover-right:after
+  left: 50%
+
+.cover-left:after
+  left: 0
+
+.cake
+  margin-top: 40px
+
+  svg
+    width: 100%
+    height: 100px
+
+.maths
+  margin: 40px 0
+
+  > span
+    display: inline-block
+    vertical-align: top
+
+  .addend
+    .amount
+      display: block
+      color: green
+      font-size: 40px
+      font-weight: bold
+
+  .operand
+    font-size: 40px
+    vertical-align: top
