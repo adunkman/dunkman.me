@@ -79,9 +79,10 @@ task :deploy => :build do
         changes = true
       end
     else
+      local_mime = MIME::Types.of(local_file).first
       remote_file = bucket.objects.build(local_file)
       remote_file.content = open("_site/#{local_file}")
-      remote_file.content_type = MIME::Types.of(local_file).first.content_type
+      remote_file.content_type = local_mime ? local_mime.content_type : "text/html"
       remote_file.save
       puts " |  #{local_file} is new."
       changes = true
