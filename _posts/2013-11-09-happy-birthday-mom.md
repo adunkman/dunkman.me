@@ -4,7 +4,7 @@ plain: true
 norobots: true
 title: Happy Birthday!
 category: qr
-permalink: /qr/3f2f.html
+permalink: /qr/3f2f
 ---
 
 <style>{{ "posts/2013-11-09-happy-birthday" | asset }}</style>
