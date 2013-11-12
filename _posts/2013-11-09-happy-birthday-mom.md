@@ -7,10 +7,10 @@ category: qr
 permalink: /qr/3f2f
 ---
 
-<style>{{ "posts/2013-11-09-happy-birthday" | asset }}</style>
+<style>{% asset posts/2013-11-09-happy-birthday.css %}</style>
 
 <div class="cake">
-  {{ "posts/birthday-cake.svg" | asset }}
+  {% asset posts/birthday-cake.svg %}
 </div>
 
 # happy birthday, mom!
@@ -18,7 +18,7 @@ permalink: /qr/3f2f
 Enjoy dinner out at your favorite <em>Lettuce Entertain You</em> restaurant, courtesy of your sons and Michela.
 
 <div class="cover-left hamburger">
-  {{ "posts/hamburger.svg" | asset }}
+  {% asset posts/hamburger.svg %}
 </div>
 
 <div class="maths">

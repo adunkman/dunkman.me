@@ -22,8 +22,8 @@
       {% endif %}
     </title>
 
-    {{ 'main' | stylesheet }}
-    <link rel="shortcut icon" href="{{ 'favicon.png' | asset_path }}" />
+    {% stylesheet main.css %}
+    <link rel="shortcut icon" href="{% asset_path favicon.png %}" />
   </head>
   <body class="{{ page.categories }}">
     {% unless page.plain %}

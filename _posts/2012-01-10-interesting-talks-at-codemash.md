@@ -4,6 +4,8 @@ title: Interesting Talks at Codemash 2.0.1.2
 category: conferences
 ---
 
+<style>{% asset posts/2012-01-10-interesting-talks-at-codemash.css %}</style>
+
 I’ll be attending [Codemash](http://codemash.org) this year—and here are a few of the sessions I’m going to try to make it to. If you’re going to be there and want to mash, let me know!
 
 ## The People vs JavaScript
@@ -45,12 +47,3 @@ User Experience (UX) can be surprisingly difficult to bring into organizations. 
 ### [Scott Hanselman](http://twitter.com/shanselman) • Friday, 10:45am
 
 As developers, we are asked to absorb even more information than ever before. More APIs, more documentation, more patterns, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need, or do you just need to unplug. Is ZEB (zero email bounce) a myth or are there substantive techniques for prioritizing your live as a developer? Join Scott Hanselman as we explore this topic… perhaps we’ll crowd-source the answers!
-
-<style>
-  body > article h2 {
-    margin-bottom: 0;
-  }
-  body > article h3 {
-    margin-top: 0;
-  }
-</style>
