@@ -1,0 +1,16 @@
+---
+layout: base
+categories: articles index
+---
+
+{% include home-button.html %}
+
+<section class="summaries">
+  {% for post in site.posts %}
+    {% if post.categories.first != 'qr' %}
+      {% include post-summary.html %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% include navigation.html %}

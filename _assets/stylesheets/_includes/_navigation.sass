@@ -1,0 +1,86 @@
+
+$image-size: 100px
+
+.home-header
+  @include max-width
+  margin-top: 2rem
+
+  .house
+    background: inline-image("house.svg")
+    background-size: 2em 2em
+    content: ""
+    display: inline-block
+    height: 2em
+    margin-top: -4px
+    vertical-align: middle
+    width: 2em
+
+.clear-margins
+  display: block
+  height: 1px
+  margin-top: 2rem
+
+.horizontal-rule
+  @include max-width
+  border-top: 1px $grey solid
+  clear: both
+  color: $grey
+  margin-bottom: 2rem
+  margin-top: $image-size/2
+  padding-top: $image-size/2
+  position: relative
+  text-align: center
+
+  .face
+    background-color: $white
+    left: 50%
+    margin-left: -($image-size+30px)/2
+    padding: 0 15px
+    position: absolute
+    top: -$image-size/2
+
+    img
+      border: 1px solid #fff
+      border-radius: 100%
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.8)
+      display: block
+      width: $image-size
+      height: $image-size
+
+  ul
+    margin: 2rem 0
+    padding-left: 0
+
+  a
+    color: $grey
+    display: block
+    padding: 0.5rem 0
+    text-decoration: none
+
+    &:hover
+      color: $accent
+      text-decoration: underline
+
+  li
+    display: block
+    list-style-type: none
+    margin-bottom: 0
+
+  @media screen and (min-width: 30em)
+    li
+      display: inline
+
+      &:after
+        content: "•"
+        margin-left: 0.6rem
+        margin-right: 0.4rem
+
+      &:last-child
+        margin-right: 0
+
+        &:after
+          display: none
+
+    a
+      display: inline
+      padding: 0

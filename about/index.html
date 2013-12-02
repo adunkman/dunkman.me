@@ -3,48 +3,16 @@ layout: base
 categories: about
 ---
 
-<article class="about">
-  <img class="photo" src="photo.jpg" />
+{% include home-button.html %}
+
+<section class="about">
+  <h1>About Andrew (that’s me!)</h1>
 
   <blockquote>“Every day, think as you wake up, today I am fortunate to be alive, I have a precious human life, I am not going to waste it. I am going to use all my energies to develop myself, to expand my heart out to others; to achieve enlightenment for the benefit of all beings. I am going to have kind thoughts towards others, I am not going to get angry or think badly about others. I am going to benefit others as much as I can.” ― Dalai Lama XIV</blockquote>
 
   <p>I’m a sofware developer specializing in web and usability, currently working for <a href="http://getharvest.com">Harvest</a>. I tend to spend much of my time in JavaScript and CoffeeScript, but have worked with a variety of languages, libraries, and frameworks in the past in and around the web.</p>
 
-  <p>Currently a citizen of Washington, D.C. — you can generally find me anywhere reachable by bike or Metro.</p>
+  <p>Currently a citizen of Washington, D.C. — you can generally find me anywhere reachable by bike or Metro. You can find me around the ‘tubes on <a href="http://twitter.com/adunkman">Twitter</a> and <a href="https://github.com/adunkman">GitHub</a>, of course.</p>
+</section>
 
-  <p>You can find me around the ‘tubes on <a href="http://twitter.com/adunkman">Twitter</a> and <a href="https://github.com/adunkman">GitHub</a>, of course.</p>
-
-  <p class="secret">The other strapping gentleman sporting some <a href="http://sportingkc.com">Sporting</a> gear in that picture is <a href="http://twitter.com/Msinclair8">Michael</a>. He’s pretty special to me.</p>
-</article>
-
-<style>
-
-  article.about:after {
-    height: 0;
-    content: "";
-    display: block;
-    clear: both;
-  }
-
-  article.about .photo {
-    width: 100%;
-    opacity: 0.8;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-  }
-
-  article.about .secret {
-    font-style: italic;
-    color: #aaa;
-  }
-
-  @media screen and (min-width: 50em) {
-    article.about .photo {
-      float: right;
-      width: 45%;
-      margin-left: 5%;
-      opacity: 0.8;
-    }
-  }
-
-</style>
+{% include navigation.html %}

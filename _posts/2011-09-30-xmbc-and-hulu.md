@@ -32,7 +32,7 @@ After building, copy (and replace) the files `librtmp.so, librtmp.a, librtmp.so.
 
 And you’re all set! Reboot (you can probably get buy with just restarting XBMC, but rebooting doesn’t hurt—so fast!) and you’ll be able to watch all the Hulu you can get your hands on.
 
-## <a name="summary">Summary</a>
+## <span id="summary">Summary</span>
 
 1. Download [XBMC Live CD](http://xbmc.org/download) and burn to disk.
 2. Install to your media PC’s hard disk.

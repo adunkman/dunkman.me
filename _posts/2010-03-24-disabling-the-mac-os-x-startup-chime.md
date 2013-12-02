@@ -4,7 +4,7 @@ title: Disabling the Mac OS X Startup Chime
 categories: articles
 ---
 
-**Update:** This is no longer compatible with newer Macs (OS X 10.6.8 and newer).
+<div class="aside"><strong>Update:</strong> This is no longer compatible with newer Macs (OS X 10.6.8 and newer).</div>
 
 A big complaint about Mac laptops is that pretentious "startup chime" that quickly identifies to everyone within hearing distance that someone nearby has started their Mac. I’ve seen a few solutions that require `defaults write` but they have never seemed to work for me. I’ve finally found a working solution, and it’s elegant(ish).
 

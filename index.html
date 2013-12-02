@@ -1,9 +1,11 @@
 ---
 layout: base
-categories: articles
+categories: home
 ---
 
-{% for post in site.posts limit:1 offset:2 %}
-  {% assign content = post.content %}
-  {% include post.html %}
-{% endfor %}
+<section class="home">
+  <h1>Hello.</h1>
+  <p>I’m Andrew Dunkman, a software developer specializing in web and usability.</p>
+</section>
+
+{% include navigation.html %}

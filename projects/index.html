@@ -3,175 +3,34 @@ layout: base
 categories: projects
 ---
 
-<section class="tiles">
+{% include home-button.html %}
+
+<section class="projects">
   <h1>Sites</h1>
   <ul>
-    <li><a href="http://www.deployasaur.us">
-      <h1>deployasaur.us</h1>
-      <h2>Automatic Deploys with Travis CI</h2>
-    </a></li>
-    <li><a href="http://www.goingon.at">
-      <h1>goingon.at</h1>
-      <h2>What’s Going On?</h2>
-    </a></li>
-    <li><a href="http://www.pugbomb.me">
-      <h1>pugbomb.me</h1>
-      <h2>Pug Viewing for the Masses</h2>
-    </a></li>
-    <li><a href="http://preetup.herokuapp.com">
-      <h1>preetup.herokuapp.com</h1>
-      <h2>Pre-Meeting Slides for Meetup.com</h2>
-    </a></li>
+    <li><a href="http://www.hangoutbutton.com">hangoutbutton.com</a> — A big ole’ button to create a Google Hangout.</li>
+    <li><a href="http://www.deployasaur.us">deployasaur.us</a> — Automatic deployments after your complete build matrix finishes on Travis CI.</li>
+    <li><a href="http://www.pugbomb.me">pugbomb.me</a> — Pug viewing for the masses. It’s like Hubot’s pug bomb, but without the chat room.</li>
+    <li><a href="http://preetup.herokuapp.com">preetup.herokuapp.com</a> — Generated pre-meeting slides for your group on Meetup.com.</li>
   </ul>
 
   <h1>Teaching</h1>
   <ul>
-    <li><a href="http://nodelabs.org">
-      <h1>Node Labs</h1>
-      <h2>Day-Long <strong>Node.js</strong> Conference Training</h2>
-    </a></li>
+    <li><a href="http://nodelabs.org">Node Labs</a> — Day-long node.js conference training.</li>
   </ul>
 
   <h1>Libraries</h1>
   <ul>
-    <li><a href="https://github.com/adunkman/connect-assets">
-      <h1>connect-assets</h1>
-      <h2>Rails 3.1-Style Assets for Node.js</h2>
-    </a></li>
-    <li><a href="https://github.com/adunkman/node-trello">
-      <h1>node-trello</h1>
-      <h2>Node.js wrapper for Trello’s API</h2>
-    </a></li>
-    <li><a href="https://github.com/adunkman/unspamify">
-      <h1>unspamify</h1>
-      <h2>jQuery Plugin to Stop Email Robots</h2>
-    </a></li>
+    <li><a href="https://github.com/adunkman/connect-assets">connect-assets</a> — Rails 3.1-style assets for node.js.</li>
+    <li><a href="https://github.com/adunkman/node-trello">node-trello</a> — Node.js wrapper for Trello’s API.</li>
+    <li><a href="https://github.com/adunkman/unspamify">unspamify</a> — jQuery plugin to stop email robots.</li>
   </ul>
 
   <h1>Tools</h1>
   <ul>
-    <li><a href="https://github.com/adunkman/http-echo">
-      <h1>http-echo</h1>
-      <h2>Test Node.js HTTP Server</h2>
-    </a></li>
-    <li><a href="http://markdown-preview.herokuapp.com">
-      <h1>GitHub Markdown Preview</h1>
-      <h2>Preview Anything in GFM</h2>
-    </a></li>
+    <li><a href="https://github.com/adunkman/http-echo">http-echo</a> — Test node.js HTTP server.</li>
+    <li><a href="http://markdown-preview.herokuapp.com">GitHub Markdown Preview</a> — Preview anything in GFM.</li>
   </ul>
 </section>
 
-<style>
-  section.tiles ul {
-    padding: 0;
-  }
-
-  section.tiles ul:after {
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-  }
-
-  section.tiles li {
-    list-style-type: none;
-    display: block;
-    border: 1px solid #666;
-    border-radius: 10px;
-    margin: 1em 0;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  }
-
-  section.tiles a {
-    display: block;
-    border: 1px solid #fff;
-    text-align: center;
-    padding: 1em 0.2em;
-    border-radius: 10px;
-    background-color: #e5e5e5;
-    font-size: 0.5em;
-  }
-
-  section.tiles a:hover {
-    text-decoration: none !important;
-  }
-
-
-  @media screen and (min-width: 50em) {
-    section.tiles > h1 {
-      margin-left: 5%;
-    }
-
-    section.tiles li {
-      float: left;
-      width: 40%;
-      margin-left: 5%;
-    }
-
-    section.tiles a {
-      font-size: 0.7em;
-    }
-  }
-
-  section.tiles a h1, section.tiles a h2 {
-    margin: 0;
-  }
-
-  a[href="http://www.deployasaur.us"], a[href="http://www.deployasaur.us"]:link {
-    background-color: #e21b46;
-    background-image: -moz-linear-gradient(top,#e52e56,#df0030);
-    background-image: -ms-linear-gradient(top,#e52e56,#df0030);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#e52e56),to(#df0030));
-    background-image: -webkit-linear-gradient(top,#e52e56,#df0030);
-    background-image: -o-linear-gradient(top,#e52e56,#df0030);
-    background-image: linear-gradient(top,#e52e56,#df0030);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFE52E56,endColorstr=#FFDF0030);
-    color: #fef7f9;
-    text-shadow: 0 1px 0 #9e1230;
-  }
-
-  a[href="http://www.pugbomb.me"], a[href="http://www.pugbomb.me"]:link {
-    background-color: #2d2d2d;
-    background-image: -moz-linear-gradient(top,#404040,#292929);
-    background-image: -ms-linear-gradient(top,#404040,#292929);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#404040),to(#292929));
-    background-image: -webkit-linear-gradient(top,#404040,#292929);
-    background-image: -o-linear-gradient(top,#404040,#292929);
-    background-image: linear-gradient(top,#404040,#292929);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFE52E56,endColorstr=#FFDF0030);
-    color: #bfbfbf;
-    text-shadow: 0 1px 0 #000;
-  }
-
-  a[href="http://www.goingon.at"], a[href="http://www.goingon.at"]:link {
-    background-color: #266ec8;
-    background-image: -moz-linear-gradient(top,#2d87d2,#1e55be);
-    background-image: -ms-linear-gradient(top,#2d87d2,#1e55be);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#2d87d2),to(#1e55be));
-    background-image: -webkit-linear-gradient(top,#2d87d2,#1e55be);
-    background-image: -o-linear-gradient(top,#2d87d2,#1e55be);
-    background-image: linear-gradient(top,#2d87d2,#1e55be);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFE52E56,endColorstr=#FFDF0030);
-    color: #e2e7f0;
-    text-shadow: 0 1px 0 #1a4384;
-  }
-
-  a[href="http://preetup.herokuapp.com"], a[href="http://preetup.herokuapp.com"]:link {
-    background-color: #fff !important;
-    color: #e51937;
-    text-shadow: 0 1px 0 #eee;
-  }
-
-  a[href="http://nodelabs.org"], a[href="http://nodelabs.org"]:link {
-    background-color: #46483E !important;
-    color: #ddd;
-    text-shadow: 0 1px 0 #000;
-  }
-
-  a[href="http://nodelabs.org"] strong, a[href="http://nodelabs.org"]:link strong {
-    color: #7cc03b;
-  }
-</style>
+{% include navigation.html %}

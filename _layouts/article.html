@@ -3,4 +3,14 @@ layout: base
 is_article: true
 ---
 
+{% unless page.plain %}
+  {% include home-button.html %}
+{% endunless %}
+
 {% include post.html %}
+
+{% unless page.plain %}
+  <footer>
+    {% include navigation.html %}
+  </footer>
+{% endunless %}
