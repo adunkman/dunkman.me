@@ -46,4 +46,4 @@ The desk itself is well designed — it seems like someone with a business major
 
 Would buy again.
 
-<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. NextDesk has yet to issue me a refund for the part returned to them. It has been 47 days since the return arrived at their location as of <time datetime="2013-12-23T00:00:00-04:00">23 December 2013</time>. I have filed a complaint with the BBB, as NextDesk has yet to give me any information about the refund.</div>
+<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. NextDesk has yet to issue me a refund for the part returned to them. It has been 47 days since the return arrived at their location as of <time datetime="2013-12-24T00:00:00-04:00">23 December 2013</time>. I have filed a complaint with the BBB, as NextDesk has yet to give me any information about the refund. Stay tuned for updates!</div>
