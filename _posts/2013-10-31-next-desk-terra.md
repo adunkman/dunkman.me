@@ -4,6 +4,8 @@ title: "Review: The NextDesk Terra"
 category: articles
 ---
 
+<div class="aside"><strong>Update:</strong> I currently have an open dispute with NextDesk, as they have not issued me a refund for a returned part. More information at the end of this post.</div>
+
 At my last office, I was blessed with a stand/sit desk (specifically, an [Anthro Elevate Wrap](http://www.anthro.com/families/elevate/elevate-wrap)). Being able to choose standing as an option when that "I-need-a-stretch" feeling comes on is a luxury — a luxury that I didn’t expect to take so seriously. After leaving that office (I now work from home), I started searching around for a stand/sit desk of my own.
 
 After a good amount of research, I chose a [NextDesk Terra](http://www.nextdesks.com/terra). The Anthro was a nice desk, but it was made of particle board, blocked stretching out your feet when seated, and was awkward to place in a room due to its shape. The NextDesk improved on all of these shortcomings — made of bamboo, had no lower support beneath the cross-beam, and was rectangular.
@@ -43,3 +45,5 @@ Of the [available options](http://www.nextdesks.com/options), I purchased the Va
 The desk itself is well designed — it seems like someone with a business major took the original design and tried to productize the model, adding additional "options" and not considering how they would actually interact.
 
 Would buy again.
+
+<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. NextDesk has yet to issue me a refund for the part returned to them. It has been 47 days since the return arrived at their location as of <time datetime="2013-12-23T00:00:00-04:00">23 December 2013</time>. I have filed a complaint with the BBB, as NextDesk has yet to give me any information about the refund.</div>
