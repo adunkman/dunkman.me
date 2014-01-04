@@ -4,7 +4,7 @@ title: "Review: The NextDesk Terra"
 category: articles
 ---
 
-<div class="aside"><strong>Update:</strong> I currently have an open dispute with NextDesk, as they have not issued me a refund for a returned part. More information at the end of this post.</div>
+<div class="aside"><strong>Update:</strong> I have (finally) received a refund for the part returned. More information at the end of this post.</div>
 
 At my last office, I was blessed with a stand/sit desk (specifically, an [Anthro Elevate Wrap](http://www.anthro.com/families/elevate/elevate-wrap)). Being able to choose standing as an option when that "I-need-a-stretch" feeling comes on is a luxury — a luxury that I didn’t expect to take so seriously. After leaving that office (I now work from home), I started searching around for a stand/sit desk of my own.
 
@@ -46,4 +46,4 @@ The desk itself is well designed — it seems like someone with a business major
 
 Would buy again.
 
-<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. NextDesk has yet to issue me a refund for the part returned to them. It has been 47 days since the return arrived at their location as of <time datetime="2013-12-24T00:00:00-04:00">23 December 2013</time>. I have filed a complaint with the BBB, as NextDesk has yet to give me any information about the refund. Stay tuned for updates!</div>
+<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. I had a bit of trouble getting a refund for the part returned — I shipped it back to them per their instructions but did not receive a refund. After calls and emails were not returned, I filed a complaint with the BBB. The CEO of NextDesk contacted me directly and I had a check in hand within 24 hours — though in total, it took 32 business days (48 calendar days) to receive the refund (instead of 7 business days as their terms of service shows).</div>
