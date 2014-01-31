@@ -12,6 +12,10 @@ category: articles
 
 I received that tweet from an ex-coworker of mine this morning. Well, can you guess what’s wrong?
 
+<div class="tweet">
+  <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/smerchek">@smerchek</a> <a href="https://twitter.com/adunkman">@adunkman</a> Is this javascript? That small a number is represented in &#39;e&#39; notation. :/</p>&mdash; Make the World Dance (@dustyburwell) <a href="https://twitter.com/dustyburwell/statuses/429295164201238528">January 31, 2014</a></blockquote>
+</div>
+
 It has to do with how JavaScript represents extremely small and extremely large numbers: by using [E notation](http://en.wikipedia.org/wiki/Scientific_notation#E_notation).
 
 ```javascript
