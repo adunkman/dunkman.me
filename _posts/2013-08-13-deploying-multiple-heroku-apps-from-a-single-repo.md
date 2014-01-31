@@ -4,6 +4,8 @@ title: Deploying Multiple Heroku Apps From a Single Repo
 categories: code
 ---
 
+<style>{% asset posts/2013-08-13-deploying-multiple-heroku-apps-from-a-single-repo.css %}</style>
+
 <div class="aside">Cross-posted from the <a href="http://techtime.getharvest.com/blog/deploying-multiple-heroku-apps-from-a-single-repo">Harvest Tech Time</a> blog.</div>
 
 We’ve been toying around with [socket.io](http://socket.io) recently at Harvest to make our apps more responsive — and one of the big challenges that presented itself was how to manage and deploy a polyglot application on [Heroku](http://heroku.com) (as most of our application code is in Ruby, but socket.io is a [node.js](http://nodejs.org) project).
