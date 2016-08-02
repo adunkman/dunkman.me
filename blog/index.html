@@ -7,7 +7,7 @@ categories: articles index
 
 <section class="summaries">
   {% for post in site.posts %}
-    {% if post.categories.first != 'qr' %}
+    {% if post.categories.first != 'qr' and post.categories.first != 'talk' %}
       {% include post-summary.html %}
     {% endif %}
   {% endfor %}
