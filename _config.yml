@@ -1,4 +1,4 @@
-future: false
+future: true
 permalink: /:categories/:title.html
 markdown: redcarpet
 
