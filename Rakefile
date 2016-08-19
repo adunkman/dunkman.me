@@ -73,7 +73,8 @@ task :deploy => :build do
 
       unless local_md5 == remote_md5
         remote_file.content = open("_site/#{local_file}")
-        remote_file.content_type = MIME::Types.of(local_file).first.content_type
+        mime = MIME::Types.of(local_file).first
+        remote_file.content_type = mime ? mime.content_type : "text/html"
         remote_file.save
         puts " |  #{local_file} has changed."
         changes = true
