@@ -8,12 +8,7 @@ permalink: /talks/tabs
 
 This talk covered sharing state between tabs — and I’ve released a set of [minimalist code samples on GitHub](https://github.com/adunkman/client-side-sync-examples) to demonstrate every particular way I can think of to do this. I don’t believe the slides for this talk are particularly useful, but [the slides are available on Speaker Deck](https://speakerdeck.com/adunkman/beyond-the-tab-executing-javascript-across-browser-contexts-at-nodevember).
 
-**Stopping Hate:** The first section of this talk covered hate crimes in the United States after the election. [Donate to the SPLC](https://donate.splcenter.org/). [Here are all the hate crimes reported since Trump was elected president](http://www.revelist.com/us-news/donald-trump-hate-crimes/5796). I directly referenced:
-
-- Tweets by [@PAYOLETTER](https://twitter.com/PAYOLETTER/status/797106526104285184), [@CurvyGirlChic](https://twitter.com/CurvyGirlChic/status/799374585325973504), [@timaree_leigh](https://twitter.com/timaree_leigh/status/797515824517054466), [@Sid_Madden](https://twitter.com/Sid_Madden/status/797141813022822400), [@MillieLou5](https://twitter.com/MillieLou5/status/797512835714744321), [@lorenapineiro](https://twitter.com/lorenapineiro/status/797159172374675456), and [@dinkdoink](https://twitter.com/dinkdoink/status/797554435123621888).
-- [There Is No Violent Hate-Crimewave in 'Trump's America'](http://reason.com/blog/2016/11/11/election-night-hijab-attack-false)
-- [Musings Of An Average Joe: Let The Fake Hate Crime Frenzy Begin](http://nation.foxnews.com/2016/11/20/musings-average-joe-let-fake-hate-crime-frenzy-begin)
-- Lastly, [가끔은 고양이와 춤을 춥시다](https://vine.co/v/ih0rU2z62BK) as a palate cleanser.
+**Meet a Muslim:** This talk referenced [Meet a Muslim](https://www.youtube.com/watch?v=q9dwHYu_EK4) as well as [가끔은 고양이와 춤을 춥시다](https://vine.co/v/ih0rU2z62BK) as a palate cleanser.
 
 **Browser Support:** Check [Jake Archibald](https://twitter.com/jaffathecake)’s excellent site, [Is ServiceWorker Ready?](https://jakearchibald.github.io/isserviceworkerready/) for browser compatibility information.
 
