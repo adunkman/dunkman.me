@@ -1,14 +1,159 @@
-@import compass
+*
+  box-sizing: border-box
 
-@import _includes/_normalize
-@import _includes/_variables
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smooth: always
+  background-color: #fff
+  color: #333
+  font-family: Georgia, serif
+  line-height: 1.5
+  min-height: 100%
+  text-rendering: optimizeLegibility
+  font-variant-ligatures: common-ligatures discretionary-ligatures contextual
+  hyphens: auto
+  font-size: 1.2em
 
-@import _includes/_globals
-@import _includes/_navigation
+body
+  margin: 40px auto
+  padding: 0 20px
+  max-width: 600px
 
-@import _includes/_home
-@import _includes/_error
-@import _includes/_about
-@import _includes/_projects
-@import _includes/_article
-@import _includes/_code
+  @media screen and (min-width: 900px)
+    margin-bottom: 100px
+
+h1, h2, h3, h4, h5, h6
+  font-family: sans-serif
+  line-height: 1.3
+  margin: 1em 0
+
+h1
+  font-size: 1.5em
+
+.avatar
+  width: 100px
+  height: 100px
+  background-color: #fff
+  border-radius: 100%
+  border: 1px solid white
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8)
+
+.lede
+  font-family: sans-serif
+  font-size: 1.5em
+  line-height: 1.3
+
+.page-header
+  margin: -40px -20px 20px
+  padding: 80px 20px 20px
+
+  nav
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    a
+      margin: 0 10px
+      opacity: 0.3
+      transition: opacity 500ms ease-out
+      &:hover
+        opacity: 1
+      &:first-child
+        opacity: 1
+        margin: 0 auto 0 0
+      &:last-child
+        margin-right: 0
+
+.page-footer
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 3em 0
+  a
+    margin: 0 10px
+    opacity: 0.3
+    transition: opacity 500ms ease-out
+    &:hover
+      opacity: 1
+
+.video
+  position: relative
+  height: 0
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.1)
+  border-radius: 2px
+  overflow: hidden
+  &:before
+    content: "Video"
+    display: block
+    position: absolute
+    top: 50%
+    left: 50%
+    font-family: sans-serif
+    color: #ddd
+    transform: translateX(-50%) translateY(-50%)
+    text-align: center
+  &.is-16-by-9
+    padding-bottom: 56.25%
+  &.is-4-by-3
+    padding-bottom: 75%
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+details[open]
+  margin-left: -20px
+  padding-left: 15px
+  border-left: 5px #eee solid
+
+blockquote
+  padding: 10px
+  margin: 1em 0
+  border-left: 5px #eee solid
+  font-style: italic
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.1)
+
+  > p:first-child
+    margin-top: 0
+
+aside
+  margin: 1em 0
+
+form
+  margin: auto
+  display: block
+
+input, button
+  -webkit-appearance: none
+  outline-offset: 0
+  font-family: sans-serif
+  color: #333
+  font-size: 1em
+  line-height: 1.2
+  padding: 5px
+  border: 0 none
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.15)
+  margin: 1em 0
+  vertical-align: baseline
+  border-radius: 2px
+
+input
+  background: #fff
+
+button
+  background: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.02) 85%, rgba(0,0,0,0.08))
+  cursor: pointer
+  padding: 5px 10px
+
+code
+  background: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.02) 85%, rgba(0,0,0,0.08))
+  padding: 0.2em
+  border-radius: 2px
+  font-size: 1.2em
+
+img
+  max-width: 100%
+
+@import _includes/blog

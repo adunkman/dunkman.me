@@ -1,10 +1,13 @@
 ---
-layout: article
+layout: blog
 title: "Implement Your Next Feature with Node.js: JavaScript in Polyglot Systems"
-category: conferences
+summary: A summary of a conference talk focused on encouraging the use of Node.js to implement features which make sense to do so (and leaving the rest of your application alone).
+category: blog
+redirect_from:
+  - /conferences/implement-your-next-feature-with-node-js.html
 ---
 
-<div class="aside">This is a summary of a talk given at <a href="http://kcdc.info/">KCDC 2013</a>.</div>
+<aside>This is a summary of a talk given at <a href="http://kcdc.info/">KCDC 2013</a>.</aside>
 
 Have you seen one of those new-fangled node.js real-time web applications and wonder how to get that special sauce into your project, without being forced to convert it all to node.js? Wouldn’t it be great if you could keep your existing system for what it’s good at to avoid expensive rewrites?
 
@@ -36,4 +39,4 @@ When it comes time to actually present your application to the public, you’ll 
 
 Yeah, pretty much.
 
-<div class="aside">Editor’s Note: I went through the creation of the <a href="http://nodelabs.org">Node Labs</a> site as a part of this talk. The content of the pages are statically hosted on GitHub Pages, but the site has interactive features which are controlled via client-side scripting. The interactive features are run with socket.io on node.js, using a MongoDB backend.</div>
+<aside><strong>Editor’s Note:</strong> I went through the creation of the <a href="http://nodelabs.org">Node Labs</a> site as a part of this talk. The content of the pages are statically hosted on GitHub Pages, but the site has interactive features which are controlled via client-side scripting. The interactive features are run with socket.io on node.js, using a MongoDB backend.</aside>

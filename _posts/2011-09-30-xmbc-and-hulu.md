@@ -1,12 +1,15 @@
 ---
-layout: article
+layout: blog
 title: XMBC and Hulu
-categories: articles
+summary: Hulu isn’t officially supported on XBMC (a set-top box-like media application) — but with a lot of careful hacking, it can be run.
+category: blog
+redirect_from:
+  - /articles/xmbc-and-hulu.html
 ---
 
 I recently installed "[XBMC Live](http://xbmc.org/)," the Ubuntu-based standalone Linux distribution of XBMC (a set-top box-like media application). If you’re familiar with [Boxee](http://boxee.tv), Boxee is based off XBMC.
 
-Getting Hulu up and running on XBMC isn’t the easiest, and there aren’t too many good guides available out there. Steps to get Hulu up and running follow.
+<p class="lede">Getting Hulu up and running on XBMC isn’t the easiest, and there aren’t too many good guides available out there. Steps to get Hulu up and running follow.</p>
 
 TLDR: Check the [summary](#summary) if you are impatient. This process is not for those unfamiliar with Linux.
 

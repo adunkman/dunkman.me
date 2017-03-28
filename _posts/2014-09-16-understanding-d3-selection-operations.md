@@ -1,12 +1,13 @@
 ---
-layout: article
+layout: blog
 title: Understanding D3 Selection Operations
-categories: code
+summary: Selection operations in D3 (a library designed to help transform DOM elements in response to data sets) can be a bit tricky without understanding how D3 keeps track of your data.
+category: blog
+redirect_from:
+  - /code/understanding-d3-selection-operations.html
 ---
 
-<style>{% asset posts/2014-09-16-understanding-d3-selection-operations.css %}</style>
-
-<div class="aside">Cross-posted from the <a href="http://techtime.getharvest.com/blog/understanding-d3-selection-operations">Harvest Tech Time</a> blog.</div>
+<aside>Cross-posted from the <a href="http://techtime.getharvest.com/blog/understanding-d3-selection-operations">Harvest Tech Time</a> blog.</aside>
 
 As you might have heard, Harvest has been working on a [few new things](https://www.getharvest.com/blog/2014/03/introducing-harvest-projects/) recently, including new ways of visualizing data. One of the new libraries Harvest has pulled in to help out is D3.
 

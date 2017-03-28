@@ -1,20 +1,17 @@
 ---
-layout: article
+layout: blog
 title: JavaScript’s parseInt() at the Extremes
-category: articles
+summary: Misuse of parseInt in JavaScript can lead to weird behavior if the number being parsed is large or small enough to be represented in E notation.
+category: blog
+redirect_from:
+  - /articles/javascripts-parseint-at-the-extremes.html
 ---
 
-<style>{% asset posts/2014-01-31-javascripts-parseint-at-the-extremes.css %}</style>
-
-<div class="tweet">
-  <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/adunkman">@adunkman</a> look what I found today! years = parseInt(this.seconds / 31556926); can you guess what&#39;s wrong? :)</p>&mdash; Scott Smerchek (@smerchek) <a href="https://twitter.com/smerchek/statuses/429292734977802242">January 31, 2014</a></blockquote>
-</div>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/adunkman">@adunkman</a> look what I found today! years = parseInt(this.seconds / 31556926); can you guess what&#39;s wrong? :)</p>&mdash; Scott Smerchek (@smerchek) <a href="https://twitter.com/smerchek/statuses/429292734977802242">January 31, 2014</a></blockquote>
 
 I received that tweet from an ex-coworker of mine this morning. Well, can you guess what’s wrong?
 
-<div class="tweet">
-  <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/smerchek">@smerchek</a> <a href="https://twitter.com/adunkman">@adunkman</a> Is this javascript? That small a number is represented in &#39;e&#39; notation. :/</p>&mdash; Make the World Dance (@dustyburwell) <a href="https://twitter.com/dustyburwell/statuses/429295164201238528">January 31, 2014</a></blockquote>
-</div>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/smerchek">@smerchek</a> <a href="https://twitter.com/adunkman">@adunkman</a> Is this javascript? That small a number is represented in &#39;e&#39; notation. :/</p>&mdash; Make the World Dance (@dustyburwell) <a href="https://twitter.com/dustyburwell/statuses/429295164201238528">January 31, 2014</a></blockquote>
 
 It has to do with how JavaScript represents extremely small and extremely large numbers: by using [E notation](http://en.wikipedia.org/wiki/Scientific_notation#E_notation).
 
@@ -47,8 +44,4 @@ Additionally, when using `parseInt()` a radix should always be supplied as a sec
 
 Just something to look out for!
 
-<div class="tweet">
-  <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/smerchek">@smerchek</a> <a href="https://twitter.com/adunkman">@adunkman</a> The answer is &quot;everything.&quot; Everything is wrong with that.</p>&mdash; David Poeschl (@dpoeschl) <a href="https://twitter.com/dpoeschl/statuses/429302936737304576">January 31, 2014</a></blockquote>
-</div>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/smerchek">@smerchek</a> <a href="https://twitter.com/adunkman">@adunkman</a> The answer is &quot;everything.&quot; Everything is wrong with that.</p>&mdash; David Poeschl (@dpoeschl) <a href="https://twitter.com/dpoeschl/statuses/429302936737304576">January 31, 2014</a></blockquote>

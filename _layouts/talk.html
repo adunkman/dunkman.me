@@ -1,27 +1,16 @@
 ---
-layout: base
+layout: main
+title: Talks
 ---
-
-{% include home-button.html %}
-
-<article class="article">
+<article>
   <header>
     <h1>{{ page.title }}</h1>
   </header>
-  {{ content }}
+
+  {{ content | indent: 2 }}
+
   <footer>
-    <ul class="meta">
-      <li class="respond">
-        <a href="https://twitter.com/intent/tweet?text={{ "@adunkman (http://www.dunkman.me" | append: page.url | append: ")" | cgi_escape }}&amp;related={{ "adunkman:Author" | cgi_escape }}">Reply on Twitter</a>
-      </li>
-      <li class="respond">
-        <a href="https://github.com/adunkman/ask">Ask me on GitHub</a>
-      </li>
-    </ul>
+    <a href="https://twitter.com/intent/tweet?text={{ "@adunkman (https://www.dunkman.me" | append: page.url | append: ")" | cgi_escape }}&amp;related={{ "adunkman:Author" | cgi_escape }}">Reply on Twitter</a> or
+    <a href="https://github.com/adunkman/ask">Ask me on GitHub</a>
   </footer>
 </article>
-
-
-<footer>
-  {% include navigation.html %}
-</footer>

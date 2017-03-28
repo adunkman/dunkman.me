@@ -1,10 +1,13 @@
 ---
-layout: article
+layout: blog
 title: “lowercase”
-categories: articles
+summary: A quick pitch for a typography-themed restaurant in Washington, D.C.
+category: blog
+redirect_from:
+  - /articles/lowercase.html
 ---
 
-Located one block away from Capitol Street in Washington, D.C., "lowercase" would be a typography-themed restaurant.
+<p class="lede">Located one block away from Capitol Street in Washington, D.C., "lowercase" would be a typography-themed restaurant.</p>
 
 Each menu item would be named after a font and styled to be like the font. For example, Helvetica would be a clean dish cut with straight lines and very square --- say, a melt with the crusts trimmed served with a side of squared watermelon?
 

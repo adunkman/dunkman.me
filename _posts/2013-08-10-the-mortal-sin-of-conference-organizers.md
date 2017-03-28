@@ -1,7 +1,10 @@
 ---
-layout: article
+layout: blog
 title: The Mortal Sin of Conference Organizers
-category: conferences
+summary: If conference organizers and speakers don’t stick to the contract, things can get messy with talks cut by more than 25%.
+category: blog
+redirect_from:
+  - /conferences/the-mortal-sin-of-conference-organizers.html
 ---
 
 Like many professional developers, I find myself at my fair share of technology conferences --- some organized by conference veterans, some by conference noobies. I can deal with a cold hot lunch or running out of coffee, but there’s one mistake that we just can’t keep making --- both for *the sake of our community and for our sanity*.

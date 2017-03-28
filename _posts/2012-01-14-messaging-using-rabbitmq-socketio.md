@@ -1,7 +1,10 @@
 ---
-layout: article
+layout: blog
 title: Messaging using RabbitMQ and Socket.io
-categories: code
+summary: A code snippet to relay messages from a RabbitMQ server to a browser in realtime, using socket.io and Node.js.
+category: blog
+redirect_from:
+  - /code/messaging-using-rabbitmq-socketio.html
 ---
 
 A code snippet to relay messages from a RabbitMQ server to a browser in realtime, using [socket.io](http://socket.io) and [node.js](http://nodejs.org).

@@ -1,10 +1,13 @@
 ---
-layout: article
+layout: blog
 title: "Review: The NextDesk Terra"
-category: articles
+summary: A review of my purchasing experience of the NextDesk Terra, a motorized stand/sit desk with a bamboo surface.
+category: blog
+redirect_from:
+  - /articles/next-desk-terra.html
 ---
 
-<div class="aside"><strong>Update:</strong> I have (finally) received a refund for the part returned. More information at the end of this post.</div>
+<aside><strong>Update:</strong> I have (finally) received a refund for the part returned. More information at the end of this post.</aside>
 
 At my last office, I was blessed with a stand/sit desk (specifically, an [Anthro Elevate Wrap](http://www.anthro.com/families/elevate/elevate-wrap)). Being able to choose standing as an option when that "I-need-a-stretch" feeling comes on is a luxury — a luxury that I didn’t expect to take so seriously. After leaving that office (I now work from home), I started searching around for a stand/sit desk of my own.
 
@@ -46,4 +49,4 @@ The desk itself is well designed — it seems like someone with a business major
 
 Would buy again.
 
-<div class="aside"><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. I had a bit of trouble getting a refund for the part returned — I shipped it back to them per their instructions but did not receive a refund. After calls and emails were not returned, I filed a complaint with the BBB. The CEO of NextDesk contacted me directly and I had a check in hand within 24 hours — though in total, it took 32 business days (48 calendar days) to receive the refund (instead of 7 business days as their terms of service shows).</div>
+<aside><strong>Update:</strong> I have since returned the monitor arm purchased with the desk in favor of a <a href="http://www.monitorsinmotion.com/store/product/3">Boa</a>. I had a bit of trouble getting a refund for the part returned — I shipped it back to them per their instructions but did not receive a refund. After calls and emails were not returned, I filed a complaint with the BBB. The CEO of NextDesk contacted me directly and I had a check in hand within 24 hours — though in total, it took 32 business days (48 calendar days) to receive the refund (instead of 7 business days as their terms of service shows).</aside>

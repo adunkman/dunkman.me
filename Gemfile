@@ -5,7 +5,10 @@ gem "redcarpet"
 
 gem "jekyll-assets"
 gem "sass"
-gem "compass"
+gem "compass-core"
+
+gem "jekyll-itafroma-indent_filter"
+gem "jekyll-redirect-from"
 
 gem "rake"
 gem "s3"

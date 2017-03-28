@@ -1,16 +1,11 @@
 ---
-layout: base
-categories: error
+layout: main
 ---
 
-<section class="error">
-  <h1>Drats!</h1>
-  <p>That page wasn’t found. Try searching?</p>
-  <form action="https://www.google.com/search" method="GET">
-    <input type="hidden" name="as_sitesearch" value="dunkman.me" />
-    <input type="search" name="as_q" />
-    <button type="submit">Search with Google</button>
-  </form>
-</section>
+<p class="lede"><strong>Drats!</strong> That page wasn’t found. Try searching?</p>
 
-{% include navigation.html %}
+<form action="https://www.google.com/search" method="GET">
+  <input type="hidden" name="as_sitesearch" value="dunkman.me">
+  <input type="search" name="as_q">
+  <button type="submit">Search with Google</button>
+</form>
