@@ -2,7 +2,7 @@
 <html lang="en">{% strip_newlines %}
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' https://www.google-analytics.com; script-src 'self' https://www.google-analytics.com{% if page.content_security_policy.script_src %} {{ page.content_security_policy.script_src | join: ' ' }}{% endif %};{% if page.content_security_policy.frame_src %} frame-src {{ page.content_security_policy.frame_src | join: ' ' }};{% endif %}">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' https://www.google-analytics.com; script-src 'self' https://www.google-analytics.com{% if page.content_security_policy.script_src %} {{ page.content_security_policy.script_src | join: ' ' }}{% endif %};{% if page.content_security_policy.child_src %} child-src {{ page.content_security_policy.child_src | join: ' ' }};{% endif %}">
     <meta name="referrer" content="origin">
     <meta name="format-detection" content="telephone=no">
     <meta property="og:type" content="website">
