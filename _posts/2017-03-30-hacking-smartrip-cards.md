@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Hacking WMATA SmarTrip Cards
-summary: asdf
+summary: An overview of the technical details of Washington DC’s transit cards, and what RFID readers on the market can read their data.
 category: blog
 ---
 
