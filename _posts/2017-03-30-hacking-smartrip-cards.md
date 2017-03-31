@@ -1,13 +1,13 @@
 ---
 layout: blog
 title: Hacking WMATA SmarTrip Cards
-summary: An overview of the technical details of Washington DC’s transit cards, and what RFID readers on the market can read their data.
+summary: An overview of the technical details of Washington DC’s transit cards, including which off-the-shelf RFID readers were able to read card data.
 category: blog
 ---
 
 <p class="lede">Many residents of Washington DC carry RFID WMATA Smartrip transit cards in their wallets. What if we used those cards to sign in to Meetups?</p>
 
-This was the question which started my quest to understand more about the Washington-area transit cards — and although I never followed through on implementing an RFID door lock, here’s what I learned!
+This was the question which started my quest to understand more about the Washington-area transit cards — and although I never followed through on implementing anything further than a proof-of-concept, here’s what I learned along the way.
 
 Smartrip cards are [ISO-14443 Type A](https://en.wikipedia.org/wiki/ISO/IEC_14443) conforming cards, operating at 13.56 MHz (RFID HD). The current iteration of Smartrip cards are [MIFARE Plus X](https://en.wikipedia.org/wiki/MIFARE) cards, which use [AES-128](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption to store card data used to access fare information.
 
