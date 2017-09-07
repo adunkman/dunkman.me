@@ -33,3 +33,28 @@
 
   .card
     margin-bottom: 3em
+
+  table
+    border-collapse: collapse
+    font-family: sans-serif
+    width: 100%
+    font-size: 0.9em
+
+    th
+      text-align: left
+
+    th, td
+      padding: 5px
+      border-bottom: 1px #ddd solid
+
+    tr:first-of-type
+      td, th
+        border-top: 1px #ddd solid
+
+    &.grouped-table
+      .group-label
+        th
+          padding-top: 3em
+        &:first-of-type th
+          padding-top: 5px
+          border-top: 0 none
