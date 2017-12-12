@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Migrating from .dev to .localhost with puma-dev
-summary:
+summary: I’ve been a long-time user of Pow, but with Google’s purchase of the .dev top-level domain, I’m in search of a new way of running Rack-compatible local applications. I’ve found puma-dev to work well over the new top-level domain of .localhost.
 category: blog
 ---
 
