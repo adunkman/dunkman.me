@@ -9,7 +9,3 @@ gem "compass-core"
 
 gem "jekyll-itafroma-indent_filter"
 gem "jekyll-redirect-from"
-
-gem "rake"
-gem "s3"
-gem "mime-types"

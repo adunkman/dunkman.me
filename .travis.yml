@@ -1,0 +1,13 @@
+script: JEKYLL_ENV=production bundle exec jekyll build
+
+deploy:
+  provider: s3
+  access_key_id: AKIAIAWUP42AUXCOB3RA
+  secret_access_key:
+    secure: ZYUX1oR5ndON1vpMIwVW6CV7Tc4JUbt0pkUUvnYMnVTeH0BFdNtAHClGg8hxWp53dGc9z6v/b+dt37+wL5BmQbc7lEh/jbIbI/o5rjgvtgR7hxYrdAsrFfMTA8QVeLVo1u5ZPSzolUtOhGdCqibogMojQ8dN24vtsluPlmBOQow=
+  bucket: www.dunkman.me
+  local-dir: _site
+  acl: public_read
+  skip_cleanup: true
+  on:
+    repo: adunkman/dunkman.me

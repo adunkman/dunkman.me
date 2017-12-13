@@ -12,7 +12,7 @@ assets:
 lsi: false
 highlighter: rouge
 
-gems:
+plugins:
   - jekyll/itafroma/indent_filter
   - jekyll-redirect-from
   - jekyll-assets
