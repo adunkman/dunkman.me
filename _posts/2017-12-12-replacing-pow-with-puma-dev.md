@@ -32,5 +32,16 @@ Although I could have upgraded Pow to fix the issue, Pow hasn’t been working w
 3. Ran `sudo puma-dev -setup` to do some more junk (configuring /etc/resolver, but you don’t need to know anything about that).
 4. Ran `puma-dev -install -d localhost` to bind puma-dev to `.localhost` domains. I chose `.localhost` because it’s obvious what it’s doing (`myapp.localhost` clearly points to your machine) instead of the other newly-emerging standard, `.test`.
 5. Ran `puma-dev link` in each app directory to symlink them to subdomains of `.localhost`.
+6. You may need to resolve a Root CA issue, see below.
 
 Now, I’m able to access `http://myapp.localhost` happily (as well as `https://myapp.localhost`) again!
+
+# Resolved Root CA Issue
+
+After following the above steps, I began to have an issue where the automatically-generated SSL certificates used for HTTPS were only trusted in some cases. Turns out the issue was that puma-dev had installed the root CA certificate in my login keychain, and not in the system one. To fix:
+
+1. Launch “Keychain Access” from Applications.
+2. Search for the “Puma-dev CA” certificate.
+3. Drag the certificate to the “System” keychain.
+4. Enter your password to allow the change.
+5. Restart the application where certificates were not trusted (Chrome, for example).
