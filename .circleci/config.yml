@@ -1,0 +1,20 @@
+version: "2.1"
+
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Build app docker image
+          command: docker-compose build app
+      - run:
+          name: Build app
+          command: docker-compose run app hugo
+      - store_artifacts:
+          path: site/public
+
+workflows:
+  build:
+    jobs:
+      - build

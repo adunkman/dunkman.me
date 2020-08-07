@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="referrer" content="origin">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {{- block "title" . -}}
+        {{- .Site.Title -}}
+      {{- end -}}
+    </title>
+    {{ partial "head/stylesheet.html" "styles/index.scss" }}
+    {{ partial "head/script.html" "scripts/index.js" }}
+  </head>
+  <body class="{{- block "body-class" . -}} page-default {{- end -}}">
+    {{ block "header" . -}}{{- end }}
+    {{ block "main" . -}}{{- end }}
+    {{ block "footer" . -}}{{- end }}
+  </body>
+</html>

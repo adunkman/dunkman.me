@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  app:
+    build: .
+    volumes:
+      - ./site:/app
+    ports:
+      - "1313:1313"
