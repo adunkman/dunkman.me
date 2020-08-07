@@ -9,12 +9,31 @@ jobs:
           name: Build app docker image
           command: docker-compose build app
       - run:
-          name: Build app
+          name: Build site
           command: docker-compose run app hugo
       - store_artifacts:
           path: site/public
 
+  deploy:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Build terraform docker image
+          command: docker-compose build terraform
+      - run:
+          name: Initialize terraform
+          command: docker-compose run terraform init
+      - run:
+          name: Plan terraform run
+          command: docker-compose run terraform plan -out=execution-plan
+
 workflows:
-  build:
+  version: 2
+
+  build_and_deploy:
     jobs:
       - build
+      - deploy:
+          requires:
+            - build

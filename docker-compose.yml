@@ -1,4 +1,4 @@
-version: '2.0'
+version: "2.0"
 services:
   app:
     build: .
@@ -6,3 +6,12 @@ services:
       - ./site:/app
     ports:
       - "1313:1313"
+
+  terraform:
+    image: hashicorp/terraform:0.12.26
+    working_dir: /terraform
+    volumes:
+      - ./site/terraform:/terraform
+    environment:
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
