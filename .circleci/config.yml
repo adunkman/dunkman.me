@@ -46,20 +46,32 @@ jobs:
     machine: true
     steps:
       - checkout
-      - attach_workspace:
-          at: ./
       - run:
           name: Initialize terraform
           command: docker-compose run terraform init
       - run:
           name: Plan terraform run
-          command: docker-compose run terraform plan -out=execution-plan
+          command: docker-compose run terraform plan -out=plan
       - save_docker_compose_image:
           service: terraform
       - persist_to_workspace:
           root: ./
           paths:
+            - terraform/.terraform
+            - terraform/plan
             - docker
+
+  deploy:
+    machine: true
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - load_docker_compose_image:
+          service: terraform
+      - run:
+          name: Apply terraform plan
+          command: docker-compose run terraform apply plan
 
 workflows:
   version: 2
@@ -67,6 +79,8 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - plan:
+      - plan
+      - deploy:
           requires:
             - build
+            - plan
