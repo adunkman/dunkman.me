@@ -4,3 +4,4 @@ _site/
 *.css
 .env
 .terraform
+docker/

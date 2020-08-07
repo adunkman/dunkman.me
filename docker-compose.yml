@@ -1,15 +1,14 @@
 version: "2.0"
 services:
   app:
-    build: .
+    build: ./app
     volumes:
       - ./app:/app
     ports:
       - "1313:1313"
 
   terraform:
-    image: hashicorp/terraform:0.12.26
-    working_dir: /terraform
+    build: ./terraform
     volumes:
       - ./terraform:/terraform
     environment:

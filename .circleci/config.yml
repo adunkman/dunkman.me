@@ -1,15 +1,27 @@
 version: "2.1"
 
-checkout_workspace: &checkout_workspace
-  attach_workspace:
-    at: /
+commands:
+  save_docker_compose_image:
+    parameters:
+      service:
+        type: string
+    steps:
+      - run:
+          name: Save << parameters.service >> docker image
+          command: |
+            mkdir -p docker
+            docker save -o docker/<< parameters.service >>.tar project_<< parameters.service >>
 
-store_workspace: &store_workspace
-  persist_to_workspace:
-    root: /
-    paths:
-      - home/circleci/project
-      - var/lib/docker/containers
+  load_docker_compose_image:
+    parameters:
+      service:
+        type: string
+    steps:
+      - run:
+          name: Load << parameters.service >> docker image
+          command: |
+            mkdir -p docker
+            docker load -i docker/<< parameters.service >>.tar
 
 jobs:
   build:
@@ -22,19 +34,32 @@ jobs:
       - store_artifacts:
           path: app/public
           destination: preview
-      - *store_workspace
+      - save_docker_compose_image:
+          service: app
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - app/public
+            - docker
 
   plan:
     machine: true
     steps:
-      - *checkout_workspace
+      - checkout
+      - attach_workspace:
+          at: ./
       - run:
           name: Initialize terraform
           command: docker-compose run terraform init
       - run:
           name: Plan terraform run
           command: docker-compose run terraform plan -out=execution-plan
-      - *store_workspace
+      - save_docker_compose_image:
+          service: terraform
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - docker
 
 workflows:
   version: 2

@@ -2,3 +2,6 @@ baseURL: https://www.dunkman.me
 languageCode: en-us
 title: Andrew Dunkman
 relativeurls: true
+ignoreFiles:
+  - .gitignore
+  - Dockerfile
