@@ -6,6 +6,9 @@ services:
       - ./app:/app
     ports:
       - "1313:1313"
+    environment:
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
 
   terraform:
     build: ./terraform

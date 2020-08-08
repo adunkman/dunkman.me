@@ -69,9 +69,14 @@ jobs:
           at: ./
       - load_docker_compose_image:
           service: terraform
+      - load_docker_compose_image:
+          service: app
       - run:
           name: Apply terraform plan
           command: docker-compose run terraform apply plan
+      - run:
+          name: Upload app to host
+          command: docker-compose run app hugo deploy
 
 workflows:
   version: 2
