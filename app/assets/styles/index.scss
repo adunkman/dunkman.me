@@ -1,3 +1,4 @@
-body {
-  background-color: #fff;
-}
+@import "theme/media_queries";
+
+@import "theme/defaults";
+@import "theme/menu";

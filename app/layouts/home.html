@@ -1,7 +1,32 @@
-{{- define "body-class" -}}
-  page-home
-{{- end -}}
+{{- define "page-class" -}} page-home {{- end -}}
 
-{{- define "main" -}}
-  {{ .Content }}
+{{- define "header" -}}
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.tagline }} <a href="{{ relref . "about" }}">Continue reading</a></p>
+
+    <div class="primary-menu-button-wrapper">
+      <button class="primary-menu-button">Menu</button>
+      <div class="primary-menu-overlay"></div>
+    </div>
+
+    <nav role="navigation" class="primary-menu">
+      <div class="primary-menu-close-wrapper">
+        <button class="primary-menu-close-button">Close</button>
+      </div>
+
+      <ul class="primary-menu-items">
+        <li>
+          <a href="{{ relref . "/" }}" class="primary-menu-item">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="{{ relref . "about" }}" class="primary-menu-item">
+            About
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 {{- end -}}

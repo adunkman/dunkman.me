@@ -1,7 +1,11 @@
-baseURL: https://www.dunkman.me
 languageCode: en-us
 title: Andrew Dunkman
+params:
+  tagline: A software developer improving technology by investing in people, communities, and maintainable code.
+
+baseURL: https://www.dunkman.me
 relativeurls: true
+
 ignoreFiles:
   - .gitignore
   - Dockerfile

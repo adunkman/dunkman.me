@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode }}" class="{{- block "page-class" . -}} page-default {{- end -}}">
   <head>
     <meta charset="utf-8">
     <meta name="referrer" content="origin">
@@ -13,7 +13,7 @@
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
   </head>
-  <body class="{{- block "body-class" . -}} page-default {{- end -}}">
+  <body>
     {{ block "header" . -}}{{- end }}
     {{ block "main" . -}}{{- end }}
     {{ block "footer" . -}}{{- end }}
