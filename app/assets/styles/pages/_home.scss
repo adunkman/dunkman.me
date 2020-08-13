@@ -1,0 +1,25 @@
+.page-home {
+  body {
+    display: grid;
+    grid-template-columns: 1rem auto 1rem;
+    grid-template-rows: 90vh auto 3rem;
+    grid-template-areas:
+      ". header ."
+      ". content ."
+      ". footer .";
+  }
+
+  header { grid-area: header; }
+  main { grid-area: content; }
+  footer { grid-area: footer; }
+
+  .hero {
+    h1 {
+      font-size: 4vw;
+    }
+    p {
+      font-size: clamp(1rem, 5vw, 2rem);
+      max-width: 600px;
+    }
+  }
+}

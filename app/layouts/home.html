@@ -1,9 +1,11 @@
 {{- define "page-class" -}} page-home {{- end -}}
 
-{{- define "header" -}}
+{{- define "body" -}}
   <header>
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.tagline }} <a href="{{ relref . "about" }}">Continue reading</a></p>
+    <div class="hero">
+      <h1>{{ .Site.Title }}</h1>
+      <p>{{ .Site.Params.tagline }} <a href="{{ relref . "about" }}" class="continue-reading">Continue reading</a></p>
+    </div>
 
     <div class="primary-menu-button-wrapper">
       <button class="primary-menu-button">Menu</button>
@@ -29,4 +31,9 @@
       </ul>
     </nav>
   </header>
+  <main>
+  </main>
+  <footer>
+    <p>This site and its infrastructure are open source. <a href="https://github.com/adunkman/dunkman.me/edit/2020-updates/app/content/{{ .File.Path }}">Edit this page</a></p>
+  </footer>
 {{- end -}}
