@@ -6,6 +6,8 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
   enabled = true
   is_ipv6_enabled = true
   default_root_object = "index.html"
+  
+  aliases = [ "staging.dunkman.me" ]
 
   custom_error_response {
     error_caching_min_ttl = 3600
