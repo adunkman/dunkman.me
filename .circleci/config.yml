@@ -76,7 +76,7 @@ jobs:
           command: docker-compose run terraform apply plan
       - run:
           name: Upload app to host
-          command: docker-compose run app hugo deploy
+          command: docker-compose run app hugo deploy --maxDeletes -1
 
 workflows:
   version: 2
