@@ -73,6 +73,7 @@
   background-color: rgba(#000, 0);
   transition: background-color 0.2s linear;
   pointer-events: none;
+  z-index: 100;
 
   &.is-visible {
     visibility: visible;
@@ -95,6 +96,7 @@
     transition: transform 0.2s ease-out;
     background-color: #fff;
     color: rgba(#000, 0.8);
+    z-index: 101;
 
     &.is-visible {
       visibility: visible;
