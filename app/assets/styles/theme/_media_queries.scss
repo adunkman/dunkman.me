@@ -1,16 +1,20 @@
-$breakpoints: (
-  tablet: 768px,
-  desktop: 1024px,
-) !default;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+
+@mixin only-mobile {
+  @media (max-width: $tablet-breakpoint - 1px) {
+    @content;
+  }
+}
 
 @mixin min-width-tablet {
-  @media (min-width: #{map-get($breakpoints, "tablet")}) {
+  @media (min-width: $tablet-breakpoint) {
     @content;
   }
 }
 
 @mixin mid-width-desktop {
-  @media (min-width: #{map-get($breakpoints, "desktop")}) {
+  @media (min-width: $desktop-breakpoint) {
     @content;
   }
 }

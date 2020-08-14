@@ -1,12 +1,12 @@
 html {
   box-sizing: border-box;
-  font-family: "Public Sans";
+  font-family: "Public Sans", Helvetica, Arial, sans-serif;
   font-kerning: normal;
   font-feature-settings: "kern" 1;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   min-height: 100vh;
-  background-color: #e41d3d; // red-cool-50v
+  background-color: #fff;
 }
 
 *,

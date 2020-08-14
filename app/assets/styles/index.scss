@@ -1,7 +1,35 @@
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 200;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-ExtraLight.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Regular.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: italic;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Italic.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
 @import "theme/media_queries";
 
 @import "theme/defaults";
-@import "theme/menu";
+@import "theme/banner";
 @import "theme/article";
 
 @import "pages/home";

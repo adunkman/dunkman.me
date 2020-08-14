@@ -1,25 +1,37 @@
 .page-home {
-  body {
-    display: grid;
-    grid-template-columns: 1rem auto 1rem;
-    grid-template-rows: 90vh auto 3rem;
-    grid-template-areas:
-      ". header ."
-      ". content ."
-      ". footer .";
+  header {
+    position: absolute;
+    width: 100vw;
+    color: #fff;
   }
 
-  header { grid-area: header; }
-  main { grid-area: content; }
-  footer { grid-area: footer; }
-
   .hero {
-    h1 {
-      font-size: 4vw;
-    }
+    background-color: #3e4ded;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1.5rem, 7vw, 2.5rem);
+    font-weight: lighter;
+    height: clamp(20rem, 60vh, 30rem);
+
     p {
-      font-size: clamp(1rem, 5vw, 2rem);
-      max-width: 600px;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover:after {
+        padding-left: 0.3rem;
+      }
+
+      &:after {
+        content: "→";
+        transition: padding-left 0.2s ease-out;
+      }
     }
   }
 }

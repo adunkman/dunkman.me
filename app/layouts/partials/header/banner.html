@@ -1,0 +1,26 @@
+<header>
+  <div class="banner">
+    <h1>
+      <a href="{{ relref . "/" }}">
+        {{ .Site.Title }}
+      </a>
+    </h1>
+    <div class="primary-menu-button-wrapper">
+      <button class="primary-menu-button">Menu</button>
+      <div class="primary-menu-overlay"></div>
+    </div>
+    <nav role="navigation" class="primary-menu">
+      <div class="primary-menu-close-wrapper">
+        <button class="primary-menu-close-button">Close</button>
+      </div>
+
+      <div class="primary-menu-items">
+        <a href="{{ relref . "/" }}" class="primary-menu-item">Home</a>
+        <a href="{{ relref . "about" }}" class="primary-menu-item">About</a>
+        <a href="" class="primary-menu-item">Blog</a>
+        <a href="" class="primary-menu-item">Speaking</a>
+        <a href="" class="primary-menu-item">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
