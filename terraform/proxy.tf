@@ -17,11 +17,14 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
   }
 
   origin {
-    domain_name = aws_s3_bucket.dunkman_me.bucket_regional_domain_name
+    domain_name = aws_s3_bucket.dunkman_me.website_endpoint
     origin_id = local.s3_origin_id
 
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.dunkman_me.cloudfront_access_identity_path
+    custom_origin_config {
+      http_port = 80
+      https_port = 443
+      origin_protocol_policy = "http-only"
+      origin_ssl_protocols = ["TLSv1.2"]
     }
   }
 
@@ -51,26 +54,6 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
   restrictions {
     geo_restriction {
       restriction_type = "none"
-    }
-  }
-}
-
-resource "aws_cloudfront_origin_access_identity" "dunkman_me" {
-}
-
-resource "aws_s3_bucket_policy" "dunkman_me" {
-  bucket = aws_s3_bucket.dunkman_me.id
-  policy = data.aws_iam_policy_document.s3_policy.json
-}
-
-data "aws_iam_policy_document" "s3_policy" {
-  statement {
-    actions = ["s3:GetObject"]
-    resources = ["${aws_s3_bucket.dunkman_me.arn}/*"]
-
-    principals {
-      type = "AWS"
-      identifiers = [aws_cloudfront_origin_access_identity.dunkman_me.iam_arn]
     }
   }
 }

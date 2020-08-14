@@ -3,4 +3,5 @@ RUN apk add --no-cache hugo=0.71.1-r0
 
 WORKDIR /app
 
-CMD ["hugo", "server", "--bind=0.0.0.0"]
+ENTRYPOINT ["hugo"]
+CMD ["server", "--bind=0.0.0.0"]

@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "dunkman_me" {
   bucket = "dunkman.me"
-  acl = "private"
+  acl = "public-read"
 
   website {
     index_document = "index.html"
@@ -8,11 +8,18 @@ resource "aws_s3_bucket" "dunkman_me" {
   }
 }
 
-resource "aws_s3_bucket_public_access_block" "dunkman_me" {
+resource "aws_s3_bucket_policy" "dunkman_me" {
   bucket = aws_s3_bucket.dunkman_me.id
+  policy = data.aws_iam_policy_document.allow_public_read.json
+}
 
-  block_public_acls = true
-  block_public_policy = true
-  ignore_public_acls = true
-  restrict_public_buckets = true
+data "aws_iam_policy_document" "allow_public_read" {
+  statement {
+    actions = ["s3:GetObject"]
+    resources = ["${aws_s3_bucket.dunkman_me.arn}/*"]
+    principals {
+      type = "*"
+      identifiers = ["*"]
+    }
+  }
 }

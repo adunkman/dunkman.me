@@ -30,12 +30,12 @@ jobs:
       - checkout
       - run:
           name: Build app
-          command: docker-compose run app hugo
+          command: docker-compose run hugo --
       - store_artifacts:
           path: app/public
           destination: preview
       - save_docker_compose_image:
-          service: app
+          service: hugo
       - persist_to_workspace:
           root: ./
           paths:
@@ -70,13 +70,13 @@ jobs:
       - load_docker_compose_image:
           service: terraform
       - load_docker_compose_image:
-          service: app
+          service: hugo
       - run:
           name: Apply terraform plan
           command: docker-compose run terraform apply plan
       - run:
           name: Upload app to host
-          command: docker-compose run app hugo deploy --maxDeletes -1
+          command: docker-compose run hugo deploy --maxDeletes -1
 
 workflows:
   version: 2
