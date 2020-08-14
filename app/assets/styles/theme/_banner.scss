@@ -20,6 +20,8 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  max-width: $page-max-width;
+  margin: 0 auto;
 
   h1 {
     margin: 0;

@@ -4,16 +4,10 @@
   {{ partial "header/banner.html" . }}
   <main>
     <div class="hero">
-      <p>
-        <a href="{{ relref . "about" }}">
-          Invest in people,<br>
-          Invest in community,<br>
-          Invest in code.
-        </a>
-      </p>
+      {{ with .Params.hero }}
+        <p><a href="{{ relref $ .href }}">{{- .text | markdownify -}}</a></p>
+      {{ end }}
     </div>
   </main>
-  <footer>
-    <p>This site and its infrastructure are open source. <a href="https://github.com/adunkman/dunkman.me/edit/2020-updates/app/content/{{ .File.Path }}">Edit this page</a></p>
-  </footer>
+  {{ partial "footer/oss.html" . }}
 {{- end -}}

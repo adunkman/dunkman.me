@@ -26,10 +26,11 @@
   src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
 }
 
-@import "theme/media_queries";
+@import "theme/variables";
 
 @import "theme/defaults";
 @import "theme/banner";
 @import "theme/article";
+@import "theme/footer";
 
 @import "pages/home";

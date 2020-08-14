@@ -1,5 +1,5 @@
 .page-home {
-  header {
+  .page-header {
     position: absolute;
     width: 100vw;
     color: #fff;
@@ -13,11 +13,12 @@
     justify-content: center;
     font-size: clamp(1.5rem, 7vw, 2.5rem);
     font-weight: lighter;
-    height: clamp(20rem, 60vh, 30rem);
+    height: clamp(20rem, 45vh, 30rem);
 
     p {
       margin: 0;
       padding: 1rem;
+      transform: translateY(1rem);
     }
 
     a {
