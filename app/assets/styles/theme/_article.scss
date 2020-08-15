@@ -1,5 +1,15 @@
-.continue-reading {
-  &:after {
-    content: " →";
-  }
+.page-section {
+  margin: 2rem 0;
+}
+
+.grid-container {
+  max-width: calc(#{$page-max-width} - 2rem);
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: 43rem 1fr;
+}
+
+.article {
+  font-size: 1.15rem;
 }

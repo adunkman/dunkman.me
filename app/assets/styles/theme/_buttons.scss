@@ -1,0 +1,54 @@
+.button {
+  appearance: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  line-height: inherit;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(#000, 0.6);
+  color: #fff;
+
+  & + & {
+    margin-left: 0.5rem;
+  }
+
+  &:hover { background-color: rgba(#000, 0.7); }
+  &:active { background-color: rgba(#000, 0.9); }
+  &[disabled] { background-color: rgba(#000, 0.25); }
+}
+
+.button-primary {
+  background-color: #3e4ded;
+  color: #fff;
+
+  &:hover { background-color: #222fbf; }
+  &:active { background-color: #1b2b85 }
+  &[disabled] { background-color: rgba(#3e4ded, 0.4) }
+}
+
+.button-warning {
+  background-color: #e52207;
+  color: #fff;
+
+  &:hover { background-color: #b50909; }
+  &:active { background-color: #8b0a03 }
+  &[disabled] { background-color: rgba(#e52207, 0.4) }
+}
+
+.button-link {
+  background-color: unset;
+  color: $link-color;
+  text-decoration: underline;
+  font-weight: normal;
+
+  &:hover { background-color: unset; color: $link-hover-color; }
+  &:active { background-color: unset; color: $link-active-color; }
+  &[disabled] { background-color: unset; color: $link-color; opacity: 0.5; }
+}

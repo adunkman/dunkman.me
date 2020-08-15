@@ -8,6 +8,15 @@
         <p><a href="{{ relref $ .href }}">{{- .text | markdownify -}}</a></p>
       {{ end }}
     </div>
+
+    <section class="page-section">
+      <div class="grid-container">
+        <div class="article">{{ .Content }}</div>
+        <div class="sidebar">
+          <p>{{ .Params.introduction }}</p>
+        </div>
+      </div>
+    </section>
   </main>
   {{ partial "footer/oss.html" . }}
 {{- end -}}
