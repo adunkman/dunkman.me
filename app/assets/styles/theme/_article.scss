@@ -1,11 +1,57 @@
 .article {
-  font-size: 1rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
 
-  .lede {
-    font-size: 1.25rem;
+  header {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
   }
 
-  h1, h2, h3, h4, h5, h6, p {
-    max-width: 40em;
+  .byline {
+    order: 1;
+    margin: 0 0 0.5rem 0;
+    color: rgba(#000, 0.5);
+    text-transform: uppercase;
+    font-size: 0.75em;
+
+    time:after {
+      content: " •";
+      display: inline;
+      margin: 0 0.5em;
+    }
+  }
+
+  .title {
+    order: 2;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .lede {
+    order: 3;
+    font-size: 1.25em;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, li {
+    max-width: 60ch;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure {
+    margin: 1em 0;
+  }
+
+  figcaption {
+    color: rgba(#000, 0.5);
+    font-size: 0.75em;
+
+    a {
+      color: inherit;
+    }
   }
 }

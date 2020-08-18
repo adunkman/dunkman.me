@@ -6,9 +6,9 @@ summary: The appropriate way to lead a group changes based on the situation you 
 
 It’s pronounced KUN-iv-in, of course! It’s Welsh, meaning a habitat — and carries with it a sense of rootedness. It’s more like a place to stand — a place to view your own perceptions and make a choice.
 
-[![A visual guide to the Cynefin Framework by Edwin Stoop, demonstrating the process of making a decision that is outlined below.]({% asset_path posts/cynefin-framework-edwin-stoop.jpg %})](https://en.wikipedia.org/wiki/File:Cynefin_framework_by_Edwin_Stoop.jpg)
+{{<figure src="cynefin-framework-edwin-stoop.jpg" width="4096" height="1596" alt="A visual guide to the Cynefin Framework by Edwin Stoop, demonstrating the process of making a decision that is outlined below." caption="A visual guide to the Cynefin Framework." attr="Edwin Stoop" attrlink="https://en.wikipedia.org/wiki/File:Cynefin_framework_by_Edwin_Stoop.jpg" >}}
 
-<p class="lede">The core idea behind the framework for decision making is that depending on the situation, the path to making a choice isn’t always the same.</p>
+The core idea behind the framework for decision making is that depending on the situation, the path to making a choice isn’t always the same.
 
 The above graphic demonstrates the core principals — that the context in which you’re making a decision can be thought of in five ways — either simple, complicated, complex, chaotic, or disorder. Let’s examine them by looking at the extremes — simple and chaos.
 
