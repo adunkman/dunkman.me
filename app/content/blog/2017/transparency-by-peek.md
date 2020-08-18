@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: "Get In Loser, We’re Going Agritouring"
+date: "2017-11-09"
 summary: Operating a business transparently can sometimes feel like you’ve got too many cooks in the kitchen — and design by committee rarely results in quality. There’s a big difference between being interested in something and being involved in something — and walking that line can result in openness without a loss in focus.
-category: blog
 ---
 
 I’ve long felt that there’s an appalling disconnect between the lifespan of disposable food packages and the lifespan of the food within them. Fruit is pretty good at this — a rind or a peel lasts about as long as the flesh within it — but human-designed packages often are not.

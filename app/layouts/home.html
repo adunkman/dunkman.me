@@ -10,12 +10,10 @@
     </div>
 
     <section class="page-section">
-      <div class="grid-container">
-        <div class="article">{{ .Content }}</div>
-        <div class="sidebar">
-          <p>{{ .Params.introduction }}</p>
-        </div>
-      </div>
+      <article class="article grid-container">
+        <p class="lede">{{ .Params.introduction | markdownify }}</p>
+        {{ .Content | markdownify }}
+      </article>
     </section>
   </main>
   {{ partial "footer/oss.html" . }}

@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: "Zero Units in CSS: Duration, Frequency, Resolution Require Units"
+date: "2017-09-07"
 summary: In most cases, the value zero does not require units to be specified in CSS, however, this is not the case when using non-length and non-angle units.
-category: blog
 ---
 
 CSS doesn’t usually require zeros to have units — because zero is zero, regardless of units. Since these are all equivalent, the unitless version is often used:

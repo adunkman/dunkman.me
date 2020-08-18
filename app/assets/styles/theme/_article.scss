@@ -1,15 +1,11 @@
-.page-section {
-  margin: 2rem 0;
-}
-
-.grid-container {
-  max-width: calc(#{$page-max-width} - 2rem);
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 4rem;
-  grid-template-columns: 43rem 1fr;
-}
-
 .article {
-  font-size: 1.15rem;
+  font-size: 1rem;
+
+  .lede {
+    font-size: 1.25rem;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    max-width: 40em;
+  }
 }

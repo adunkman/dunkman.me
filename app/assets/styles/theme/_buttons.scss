@@ -1,4 +1,4 @@
-.button {
+.button, a.button {
   appearance: none;
   display: inline-block;
   cursor: pointer;
@@ -16,38 +16,44 @@
   color: #fff;
 
   & + & {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
 
+  &:visited { color: #fff; }
   &:hover { background-color: rgba(#000, 0.7); }
   &:active { background-color: rgba(#000, 0.9); }
   &[disabled] { background-color: rgba(#000, 0.25); }
 }
 
-.button-primary {
+.button-primary, a.button-primary {
   background-color: #3e4ded;
   color: #fff;
 
+  &:visited { color: #fff }
   &:hover { background-color: #222fbf; }
   &:active { background-color: #1b2b85 }
   &[disabled] { background-color: rgba(#3e4ded, 0.4) }
 }
 
-.button-warning {
+.button-warning, a.button-warning {
   background-color: #e52207;
   color: #fff;
 
+  &:visited { color: #fff }
   &:hover { background-color: #b50909; }
   &:active { background-color: #8b0a03 }
   &[disabled] { background-color: rgba(#e52207, 0.4) }
 }
 
-.button-link {
+.button-link, a.button-link {
   background-color: unset;
   color: $link-color;
   text-decoration: underline;
   font-weight: normal;
+  padding-left: 0;
+  padding-right: 0;
 
+  &:visited { color: $link-color; }
   &:hover { background-color: unset; color: $link-hover-color; }
   &:active { background-color: unset; color: $link-active-color; }
   &[disabled] { background-color: unset; color: $link-color; opacity: 0.5; }

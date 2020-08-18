@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: Hacking WMATA SmarTrip Cards
+date: "2017-03-30"
 summary: An overview of the technical details of Washington DC’s transit cards, including which off-the-shelf RFID readers were able to read card data.
-category: blog
 ---
 
 <p class="lede">Many residents of Washington DC carry RFID WMATA Smartrip transit cards in their wallets. What if we used those cards to sign in to Meetups?</p>

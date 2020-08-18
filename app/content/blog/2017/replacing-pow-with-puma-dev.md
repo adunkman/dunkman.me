@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: Migrating from .dev to .localhost with puma-dev
+date: "2017-12-12"
 summary: I’ve been a long-time user of Pow, but with Google’s purchase of the .dev top-level domain, I’m in search of a new way of running Rack-compatible local applications. I’ve found puma-dev to work well over the new top-level domain of .localhost.
-category: blog
 ---
 
 I’ve been a long-time user of [Pow](http://pow.cx) to manage my local development environment. If you’re not familiar, it maps local hostnames like `http://myapp.dev` to a folder (say, `~/projects/myapp`) and will start/stop the `myapp` project’s development server with [Rack](https://rack.github.io/).

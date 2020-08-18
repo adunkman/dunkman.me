@@ -1,15 +1,25 @@
 .page-footer {
   border-top: 3px rgba(0,0,0,0.1) solid;
-  max-width: $page-max-width;
+  max-width: unquote("min(#{$page-max-width}, calc(100vw - 2rem))");
   margin: 2rem auto;
+  text-align: center;
 
-  @include min-width-tablet {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  .footer-container {
+    max-width: calc(#{$page-max-width} - 2rem);
+    margin: 0 auto;
   }
 
-  p, .secondary-navigation {
-    margin: 1rem;
+  .secondary-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+  @include min-width-tablet {
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
   }
 }

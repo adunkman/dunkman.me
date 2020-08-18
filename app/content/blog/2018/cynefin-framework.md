@@ -1,8 +1,7 @@
 ---
-layout: blog
 title: The Cynefin Decision-Making Framework
+date: "2018-01-22"
 summary: The appropriate way to lead a group changes based on the situation you find yourself in — is it right to command people without listening to their input? This framework for thinking can help make that choice.
-category: blog
 ---
 
 It’s pronounced KUN-iv-in, of course! It’s Welsh, meaning a habitat — and carries with it a sense of rootedness. It’s more like a place to stand — a place to view your own perceptions and make a choice.

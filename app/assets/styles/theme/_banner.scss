@@ -14,6 +14,12 @@
   &:hover:after {
     opacity: 0.9;
   }
+
+  @include min-width-tablet {
+    &.item-current:after {
+      opacity: 0.9;
+    }
+  }
 };
 
 .banner {
