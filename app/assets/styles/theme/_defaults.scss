@@ -37,7 +37,7 @@ code {
   font-size: 0.85em;
   padding: 0 0.4em;
   display: inline-block;
-  background-color: #f8f8f8;
+  background-color: rgba(#000, 0.05);
   border-radius: 0.2rem;
 }
 
@@ -45,6 +45,26 @@ code {
   padding: 1rem;
   overflow-x: auto;
   border-radius: 0.2rem;
+
+  code { background-color: unset; }
+}
+
+blockquote {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-left: 5px rgba(#000, 0.1) solid;
+  color: rgba(#000, 0.6);
+
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+
+  a {
+    color: inherit;
+
+    &:hover { color: inherit; }
+    &:active { color: inherit; }
+    &:visited { color: inherit; }
+  }
 }
 
 .hide-on-mobile {
