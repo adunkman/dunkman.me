@@ -1,13 +1,13 @@
 ---
-layout: blog
 title: Understanding D3 Selection Operations
+date: "2014-09-16"
 summary: Selection operations in D3 (a library designed to help transform DOM elements in response to data sets) can be a bit tricky without understanding how D3 keeps track of your data.
-category: blog
-redirect_from:
+aliases:
   - /code/understanding-d3-selection-operations.html
+  - /blog/2014/understanding-d3-selection-operations.html
 ---
 
-<aside>Cross-posted from the <a href="http://techtime.getharvest.com/blog/understanding-d3-selection-operations">Harvest Tech Time</a> blog.</aside>
+> Cross-posted from the [Harvest Tech Time](http://techtime.getharvest.com/blog/understanding-d3-selection-operations) blog.
 
 As you might have heard, Harvest has been working on a [few new things](https://www.getharvest.com/blog/2014/03/introducing-harvest-projects/) recently, including new ways of visualizing data. One of the new libraries Harvest has pulled in to help out is D3.
 
@@ -20,14 +20,17 @@ Sometimes when working with D3 especially in the context of animating graph elem
 There are two critically important things I missed when I thought I knew how D3 selections work:
 
 1. D3 stores the data object which is responsible for creating a DOM node on the DOM node itself.
+
 2. You can control the method by which D3 compares your data objects with those stored on DOM nodes to determine if they are the same.
 
 Each time your graph is drawn, you can think of D3 as grouping the required actions into three segments on a Venn diagram:
 
-![Venn diagram showing two intersecting sets, the first being DOM Elements and the second being Data Set. The intersection is labeled Update, DOM Elements alone is labeled Exit, and Data Set alone is labeled Enter.]({% asset_path posts/d3-selections.png %})
+{{<figure src="d3-selections.png" width="1376" height="926" alt="Venn diagram showing two intersecting sets, the first being DOM Elements and the second being Data Set. The intersection is labeled Update, DOM Elements alone is labeled Exit, and Data Set alone is labeled Enter." caption="From _Thinking with Joins_." attr="Mike Bostock" attrlink="https://bost.ocks.org/mike/join/">}}
 
 - Remember, D3 stores the data object that created a DOM element on the element itself. If that data object is no longer present in the data set, it’s considered an “exit”.
+
 - If a data object exists both in the data set and as a property of a DOM node in the selection, it’s considered an “update”.
+
 - If the data object has no DOM element in the selection, then it’s considered an “enter”.
 
 Any operation called within the context of the `selection.enter()` or `selection.exit()` functions will be executed only during those phases:
@@ -98,10 +101,6 @@ The first time the chart is rendered, you shouldn’t feel strange about creatin
 var lines = svg.selectAll("line"); // but no <line> elements exist yet!
 ```
 
-Just think about it in terms of our diagram, and remember that if the DOM element doesn’t exist yet, you’ll get a chance to create it during `selection.enter()`.
-
-![Venn diagram showing two intersecting sets, the first being DOM Elements and the second being Data Set. The intersection is labeled Update, DOM Elements alone is labeled Exit, and Data Set alone is labeled Enter.]({% asset_path posts/d3-selections.png %})
-
-Happy charting!
+Just think about it in terms of our diagram, and remember that if the DOM element doesn’t exist yet, you’ll get a chance to create it during `selection.enter()`. Happy charting!
 
 If you’re looking for further reading on selections, you should consider reading [How Selections Work](http://bost.ocks.org/mike/selection/), [Object Constancy](http://bost.ocks.org/mike/constancy/), and [Thinking with Joins](http://bost.ocks.org/mike/join/) (where the Venn Diagram for this article (adapted) was taken from).

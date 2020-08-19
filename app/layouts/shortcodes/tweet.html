@@ -1,0 +1,4 @@
+<blockquote class="twitter-tweet" lang="en">
+  <p>{{ .Inner | markdownify }}</p>
+  — {{ .Get "author" }} <a href="{{ .Get "src" }}">{{ .Get "date" }}</a>
+</blockquote>

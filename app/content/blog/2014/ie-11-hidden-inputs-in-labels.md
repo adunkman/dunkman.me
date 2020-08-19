@@ -1,10 +1,10 @@
 ---
-layout: blog
 title: "IE 11: Hidden Inputs in Labels"
+date: "2014-06-04"
 summary: Internet Explorer and Edge do not always focus inputs within label elements when the label is clicked and a hidden input is present.
-category: blog
-redirect_from:
+aliases:
   - /articles/ie-11-hidden-inputs-in-labels.html
+  - /blog/2014/ie-11-hidden-inputs-in-labels.html
 ---
 
 I discovered today an interesting “bug” in Internet Explorer 11 (and Edge!*) today that hopefully you’ll never come across:

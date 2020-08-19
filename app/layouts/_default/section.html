@@ -9,6 +9,8 @@
           <p class="summary">{{ .Summary }}</p>
         </article>
       {{ end }}
+
+      {{ template "_internal/pagination.html" . }}
     </div>
   </main>
   {{ partial "footer/oss.html" . }}

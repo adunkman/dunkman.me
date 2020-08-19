@@ -1,10 +1,10 @@
 ---
-layout: blog
 title: Interesting Talks at Codemash 2.0.1.2
+date: "2012-01-10"
 summary: A quick list of conferences that I plan to attend at Codemash.
-category: blog
-redirect_from:
+aliases:
   - /conferences/interesting-talks-at-codemash.html
+  - /blog/2012/interesting-talks-at-codemash.html
 ---
 
 I’ll be attending [Codemash](http://codemash.org) this year—and here are a few of the sessions I’m going to try to make it to. If you’re going to be there and want to mash, let me know!

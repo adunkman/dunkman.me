@@ -1,10 +1,10 @@
 ---
-layout: blog
 title: Deploying Static Websites to Amazon S3
+date: "2013-08-07"
 summary: Amazon S3 is a great choice for hosting static content (like blogs), but the process of deploying can leave a little to be desired — unless you leverage a build tool like Rake.
-category: blog
-redirect_from:
+aliases:
   - /code/deploying-static-websites-to-amazon-s3.html
+  - /blog/2013/deploying-static-websites-to-amazon-s3.html
 ---
 
 I recently switched hosting for this site --- from Heroku to Amazon S3. I’ve always used [Jekyll](http://jekyllrb.com/) to build it, but had been using Heroku for the convenience of push-to-deploy (I use custom plugins as well as SASS, so I’m unable to use [GitHub Pages](http://pages.github.com/) without mucking up my site’s git history).
