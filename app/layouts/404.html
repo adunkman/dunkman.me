@@ -1,0 +1,19 @@
+{{- define "page-class" -}} page-error {{- end -}}
+
+{{- define "body" -}}
+  {{ partial "header/banner.html" . }}
+  <main>
+    <section class="page-section">
+      <article class="article grid-container">
+        <h1>Drats!</h1>
+        <p>That page wasn’t found. Try searching?</p>
+        <form action="https://www.google.com/search" method="GET" class="block-form">
+          <input type="hidden" name="as_sitesearch" value="dunkman.me">
+          <input type="search" name="as_q" class="input" autofocus>
+          <button type="submit" class="button button-primary">Search with Google</button>
+        </form>
+      </article>
+    </section>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{- end -}}
