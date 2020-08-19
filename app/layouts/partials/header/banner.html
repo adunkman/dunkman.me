@@ -17,7 +17,7 @@
       <div class="primary-menu-items">
         <a href="{{ relref . "/" }}" class="primary-menu-item {{ if eq .URL "/" }}item-current{{end}}">Home</a>
         <a href="{{ relref . "blog" }}" class="primary-menu-item {{ if eq .Section "blog" }}item-current{{end}}">Blog</a>
-        <a href="" class="primary-menu-item">Speaking</a>
+        <a href="{{ relref . "talks" }}" class="primary-menu-item {{ if eq .Section "talks" }}item-current{{end}}">Speaking</a>
         <a href="" class="primary-menu-item">Contact</a>
       </div>
     </nav>

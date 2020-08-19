@@ -1,6 +1,6 @@
 ---
-layout: talk
 title: How to Use a Brick
+date: "2016-08-02"
 summary: A handout for a conference talk given about Evidence for a Collective Intelligence Factor in the Performance of Human Groups by Anita Williams Woolley, Christopher F. Chabris, Alex Pentland, Nada Hashmi, and Thomas W. Malone.
 permalink: /talks/brick/index.html
 ---
