@@ -4,8 +4,8 @@
     <div class="grid-container">
       {{ range .Paginator.Pages.ByDate.Reverse }}
         <article class="article card">
-          <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-          <p class="byline">{{ .ReadingTime }} minute read, published <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 1, 2006" }}</time>.</p>
+          <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+          <p class="byline"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 1, 2006" }}</time> {{ .ReadingTime }} minute read</p>
           <p class="summary">{{ .Summary }}</p>
         </article>
       {{ end }}
