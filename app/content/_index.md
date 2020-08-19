@@ -4,10 +4,14 @@ hero:
     Invest in people, <br>
     Invest in community, <br>
     Invest in code.
-  href: about.md
+  href: .
 
 introduction: |
   **Hello!** I’m Andrew Dunkman, a software developer and occasional speaker. I use he/him pronouns, and am a resident of ANC 1B02 in Washington, DC.
+
+aliases:
+  - /about/
+  - /projects/
 ---
 
 <p>I often write code in and around the Internet, and am especially interested in how the <a href="https://github.com/adunkman">code I write</a> impacts how people interact with each other.</p>
