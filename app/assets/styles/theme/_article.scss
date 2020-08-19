@@ -33,8 +33,16 @@
     margin: 0;
   }
 
-  h1, h2, h3, h4, h5, h6, p, li {
+  h1, h2, h3, h4, h5, h6, p {
     max-width: 60ch;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.5em 0 0.3em 0;
+
+    + * {
+      margin-top: 0;
+    }
   }
 
   img {

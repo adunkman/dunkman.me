@@ -28,6 +28,23 @@ a {
   &:hover { color: $link-hover-color; }
   &:active { color: $link-active-color; }
   &:visited { color: $link-visited-color; }
+
+  code { text-decoration: underline; }
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  font-size: 0.85em;
+  padding: 0 0.4em;
+  display: inline-block;
+  background-color: #f8f8f8;
+  border-radius: 0.2rem;
+}
+
+.chroma {
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 0.2rem;
 }
 
 .hide-on-mobile {
@@ -35,5 +52,13 @@ a {
 
   @include min-width-tablet {
     display: unset;
+  }
+}
+
+.show-on-mobile {
+  display: unset;
+
+  @include min-width-tablet {
+    display: none;
   }
 }

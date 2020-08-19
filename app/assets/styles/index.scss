@@ -26,12 +26,27 @@
   src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
 }
 
+@font-face {
+  font-family: "Fira Code";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/fira_code/FiraCode-Regular.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: bold;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/fira_code/FiraCode-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
 @import "theme/variables";
 
 @import "theme/defaults";
 @import "theme/grid";
 @import "theme/banner";
 @import "theme/article";
+@import "theme/syntax_highlighting";
 @import "theme/links";
 @import "theme/buttons";
 @import "theme/footer";

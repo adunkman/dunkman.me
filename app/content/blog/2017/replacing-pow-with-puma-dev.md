@@ -2,13 +2,15 @@
 title: Migrating from .dev to .localhost with puma-dev
 date: "2017-12-12"
 summary: I’ve been a long-time user of Pow, but with Google’s purchase of the .dev top-level domain, I’m in search of a new way of running Rack-compatible local applications. I’ve found puma-dev to work well over the new top-level domain of .localhost.
+aliases:
+  - /blog/2017/replacing-pow-with-puma-dev.html
 ---
 
 I’ve been a long-time user of [Pow](http://pow.cx) to manage my local development environment. If you’re not familiar, it maps local hostnames like `http://myapp.dev` to a folder (say, `~/projects/myapp`) and will start/stop the `myapp` project’s development server with [Rack](https://rack.github.io/).
 
-<p class="lede">This worked great… until Chrome 63.</p>
+This worked great… until Chrome 63.
 
-Chrome 63, released December 6, 2017, requires all `.dev` domains to be loaded over `https` because <a href="https://icannwiki.org/.dev">Google purchased the `.dev` top-level domain</a> and decided it would require `https` via [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security).
+Chrome 63, released December 6, 2017, requires all `.dev` domains to be loaded over `https` because [Google purchased the `.dev` top-level domain](https://icannwiki.org/.dev) and decided it would require `https` via [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security).
 
 I found this gem in the Pow [release notes](http://pow.cx/manual.html#section_6):
 
@@ -16,7 +18,7 @@ I found this gem in the Pow [release notes](http://pow.cx/manual.html#section_6)
 
 # Migrating from pow to puma-dev
 
-Although I could have upgraded Pow to fix the issue, Pow hasn’t been working well with features required to build more modern apps like websockets and SSL certificates — so I was well ready to move along to something new. My upgrade steps:
+Although I could have upgraded Pow to fix the issue, Pow hasn’t been working well with features required to build more modern apps like WebSockets and SSL certificates — so I was well ready to move along to something new. My upgrade steps:
 
 1. Uninstalled pow.
 
