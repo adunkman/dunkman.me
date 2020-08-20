@@ -1,7 +1,7 @@
 <header class="page-header">
   <div class="banner">
     <h1>
-      <a href="{{ relref . "/" }}" class="{{ if eq .URL "/" }}item-current{{end}}">
+      <a href="{{ relref . "/" }}" class="{{ if .IsHome }}item-current{{end}}">
         {{ .Site.Title }}
       </a>
     </h1>
@@ -15,7 +15,7 @@
       </div>
 
       <div class="primary-menu-items">
-        <a href="{{ relref . "/" }}" class="primary-menu-item {{ if eq .URL "/" }}item-current{{end}}">Home</a>
+        <a href="{{ relref . "/" }}" class="primary-menu-item {{ if .IsHome }}item-current{{end}}">Home</a>
         <a href="{{ relref . "blog" }}" class="primary-menu-item {{ if eq .Section "blog" }}item-current{{end}}">Blog</a>
         <a href="{{ relref . "talks" }}" class="primary-menu-item {{ if eq .Section "talks" }}item-current{{end}}">Speaking</a>
         <a href="" class="primary-menu-item">Contact</a>

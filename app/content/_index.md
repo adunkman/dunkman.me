@@ -1,4 +1,6 @@
 ---
+title: Andrew Dunkman
+
 hero:
   text: |
     Invest in people, <br>
