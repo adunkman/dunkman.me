@@ -12,7 +12,7 @@ params:
 
 
 baseURL: https://www.dunkman.me
-relativeurls: true
+relativeURLs: true
 
 ignoreFiles:
   - .gitignore

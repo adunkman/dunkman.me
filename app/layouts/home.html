@@ -11,7 +11,7 @@
 
     <section class="page-section">
       <article class="article grid-container">
-        <p class="lede">{{ .Params.introduction | markdownify }}</p>
+        <p class="lede">{{ .Params.summary | markdownify }}</p>
         {{ .Content | markdownify }}
       </article>
     </section>

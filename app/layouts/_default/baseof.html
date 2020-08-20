@@ -1,22 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" class="{{- block "page-class" . -}} page-default {{- end -}}">
   <head>
-    <meta charset="utf-8">
-    <meta name="referrer" content="origin">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-      {{- template "title-chunk" (dict "p1" . "p2" . ) -}}
-      {{- define "title-chunk" -}}
-        {{- $separator := " • " -}}
-        {{- .p1.Title -}}
-        {{- if .p1.Parent -}}
-           {{ $separator }}{{ template "title-chunk" (dict "p1" .p1.Parent "p2" .p2 ) }}
-        {{- else if not .p1.IsHome -}}
-           {{ $separator }}{{ template "title-chunk" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
-        {{- end -}}
-      {{- end -}}
-    </title>
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    {{ partial "head/meta.html" . }}
+
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
     {{ template "_internal/google_analytics_async.html" . }}

@@ -1,6 +1,4 @@
 ---
-title: Andrew Dunkman
-
 hero:
   text: |
     Invest in people, <br>
@@ -8,7 +6,7 @@ hero:
     Invest in code.
   href: .
 
-introduction: |
+summary: |
   **Hello!** I’m Andrew Dunkman, a software developer and occasional speaker. I use he/him pronouns, and am a resident of ANC 1B02 in Washington, DC.
 
 aliases:

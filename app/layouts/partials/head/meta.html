@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="referrer" content="origin">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content="{{ .Summary }}">
+<link rel="shortcut icon" href="{{ (resources.Get "images/favicon.png" | fingerprint "sha512").Permalink }}">
+
+{{ if .Params.norobots }}
+  <meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+<!-- https://ogp.me/ -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Summary }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta name="og:image" content="{{ (resources.Get "images/adunkman.jpg" | fingerprint "sha512").Permalink }}">
+<meta name="og:image:alt" content="Image of Andrew Dunkman">
+
+<!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@adunkman">
+<meta name="twitter:creator" content="@adunkman">
