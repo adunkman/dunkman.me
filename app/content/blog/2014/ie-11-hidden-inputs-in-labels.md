@@ -1,5 +1,5 @@
 ---
-title: "IE 11: Hidden Inputs in Labels"
+title: "IE 11: hidden inputs in labels"
 date: "2014-06-04"
 summary: Internet Explorer and Edge do not always focus inputs within label elements when the label is clicked and a hidden input is present.
 aliases:

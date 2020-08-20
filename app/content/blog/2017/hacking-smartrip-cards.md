@@ -1,5 +1,5 @@
 ---
-title: Hacking WMATA SmarTrip Cards
+title: Hacking WMATA SmarTrip cards
 date: "2017-03-30"
 summary: An overview of the technical details of Washington DC’s transit cards, including which off-the-shelf RFID readers were able to read card data.
 aliases:

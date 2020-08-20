@@ -1,5 +1,5 @@
 ---
-title: "Zero Units in CSS: Duration, Frequency, Resolution Require Units"
+title: "Zero units in CSS: duration, frequency, resolution require units"
 date: "2017-09-07"
 summary: In most cases, the value zero does not require units to be specified in CSS, however, this is not the case when using non-length and non-angle units.
 aliases:

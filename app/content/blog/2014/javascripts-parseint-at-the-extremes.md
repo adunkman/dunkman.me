@@ -1,5 +1,5 @@
 ---
-title: JavaScript’s parseInt() at the Extremes
+title: JavaScript’s parseInt() at the extremes
 date: "2014-01-31"
 summary: Misuse of parseInt in JavaScript can lead to weird behavior if the number being parsed is large or small enough to be represented in E notation.
 aliases:

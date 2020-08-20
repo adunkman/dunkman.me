@@ -1,5 +1,5 @@
 ---
-title: Deploying Multiple Heroku Apps From a Single Repo
+title: Deploying multiple Heroku apps from a single repo
 date: "2013-08-13"
 summary: In some cases, it makes sense to run more than one app on Heroku from a single repository. This quick trick will let Heroku know which app to start.
 aliases:
@@ -15,7 +15,7 @@ Since the “web” process is the only process to receive HTTP traffic and only
 
 Traditionally, there is a one-to-one mapping of repositories to apps on Heroku — but we wanted to keep both apps in the same repository (as they’re really the same thing, conceptually) and yet deploy them as two apps on Heroku. So, what’s standing in the way?
 
-## Heroku Buildpacks
+## Heroku buildpacks
 
 Heroku uses this thing called [buildpacks](https://devcenter.heroku.com/articles/buildpacks) — the utilities and frameworks that are required to fetch your app and install dependencies. There are different buildpacks for [ruby](https://github.com/heroku/heroku-buildpack-ruby) and [node.js](https://github.com/heroku/heroku-buildpack-nodejs) on Heroku.
 

@@ -1,5 +1,5 @@
 ---
-title: NPM Install Ignores the --production Flag
+title: NPM install ignores the --production flag
 date: "2016-02-24"
 summary: When running npm install with the --production flag, the presence of a shrinkwrap file can cause it to install packages not listed as production dependencies.
 aliases:

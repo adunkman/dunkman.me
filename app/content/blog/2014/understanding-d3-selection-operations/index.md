@@ -1,5 +1,5 @@
 ---
-title: Understanding D3 Selection Operations
+title: Understanding D3 selection operations
 date: "2014-09-16"
 summary: Selection operations in D3 (a library designed to help transform DOM elements in response to data sets) can be a bit tricky without understanding how D3 keeps track of your data.
 aliases:
@@ -15,7 +15,7 @@ If you’re not already familiar with D3, it’s library designed to help transf
 
 Sometimes when working with D3 especially in the context of animating graph elements, we’ve discovered that the DOM elements don’t quite do what’s expected. I had an epiphany moment the other day when trying to understand how D3 selects DOM elements and compares them with the data set — hopefully this post can help you out if you’re stuck in the same rut that I was!
 
-## The Epiphany
+## The epiphany
 
 There are two critically important things I missed when I thought I knew how D3 selections work:
 
@@ -82,7 +82,7 @@ lines
 ```
 [Run example on jsfiddle](http://jsfiddle.net/hmkgbgzj/).
 
-## Controlling How Objects Are Compared
+## Controlling how objects are compared
 
 In order to successfully animate chart elements when data changes, it’s important to keep the relationship between the proper DOM nodes and items in your data set. By default, D3 uses the index of the data in the data array to compare the data set with DOM elements. This isn’t always ideal — but thankfully, you can pass a second (optional) parameter when assigning data to a selection (when calling the `.data()` function):
 
@@ -93,7 +93,7 @@ var lines = d3.select("body").append("svg").selectAll("line")
   .data(dataset, function (d) { return d.id; });
 ```
 
-## One Last Thing…
+## One last thing…
 
 The first time the chart is rendered, you shouldn’t feel strange about creating a selection which has no elements:
 

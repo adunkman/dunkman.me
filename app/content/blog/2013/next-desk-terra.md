@@ -1,5 +1,5 @@
 ---
-title: "Review: The NextDesk Terra"
+title: "Review: the NextDesk Terra"
 date: "2013-10-31"
 summary: A review of my purchasing experience of the NextDesk Terra, a motorized stand/sit desk with a bamboo surface.
 aliases:
@@ -17,7 +17,7 @@ I have to say that I’m happy with my purchase. The desk is very sturdy and loo
 
 Not everything was sunshine and roses though — here are a few things that caught me by surprise.
 
-## The Process
+## The process
 
 NextDesk custom manufactures their desks. Read: your desk will take a while to be delivered. I purchased mine on September 24, and it was delivered 24 days later on October 18.
 
@@ -25,7 +25,7 @@ I had heard tales of their customer support being unresponsive — but for me, i
 
 NextDesk also uses freight shipment companies. For me, this meant that the desk was left on a wooden pallet in the street in front of my apartment. The desk as shipped weighs 215 pounds, and the box is not sealed — it will fall apart if not carried flat; and it also doesn’t fit through doors if carried flat.
 
-## The Desk
+## The desk
 
 The desk itself is beautiful. The frame is made of solid (and heavy) aluminum. It’s not difficult to figure out how to put it together, but the directions aren’t very helpful.
 
@@ -35,7 +35,7 @@ The controls are very sturdy; the buttons are rubber on a plastic display, set i
 
 The desk comes with sticky-backed zip-ties to tidy up your cabling. They’re nice, but I’ve had two pop off so far in the two weeks I’ve owned the desk.
 
-## The Accessories
+## The accessories
 
 Of the [available options](http://www.nextdesks.com/options), I purchased the Vanity Cover, one Ergonomic Monitor Arm, and the Power Management. If I had to do it over, I would purchase only the Vanity Cover.
 

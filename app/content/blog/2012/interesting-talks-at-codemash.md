@@ -1,5 +1,5 @@
 ---
-title: Interesting Talks at Codemash 2.0.1.2
+title: Interesting talks at Codemash 2.0.1.2
 date: "2012-01-10"
 summary: A quick list of conferences that I plan to attend at Codemash.
 aliases:

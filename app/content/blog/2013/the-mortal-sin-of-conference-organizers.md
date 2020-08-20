@@ -1,5 +1,5 @@
 ---
-title: The Mortal Sin of Conference Organizers
+title: The mortal sin of conference organizers
 date: "2013-08-10"
 summary: If conference organizers and speakers don’t stick to the contract, things can get messy with talks cut by more than 25%.
 aliases:

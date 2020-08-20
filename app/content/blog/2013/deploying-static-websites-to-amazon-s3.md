@@ -1,5 +1,5 @@
 ---
-title: Deploying Static Websites to Amazon S3
+title: Deploying static websites to Amazon S3
 date: "2013-08-07"
 summary: Amazon S3 is a great choice for hosting static content (like blogs), but the process of deploying can leave a little to be desired — unless you leverage a build tool like Rake.
 aliases:

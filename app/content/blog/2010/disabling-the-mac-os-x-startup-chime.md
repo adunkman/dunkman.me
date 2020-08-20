@@ -1,5 +1,5 @@
 ---
-title: Disabling the Mac OS X Startup Chime
+title: Disabling the Mac OS X startup chime
 date: "2010-03-24"
 summary: A quick (no longer compatible) hack to disable the Mac OS X startup chime when a Mac computer is turned on.
 aliases:
