@@ -14,13 +14,13 @@ When I lived in Kansas City, there was only one milk distributor that used reusa
 
 After purchasing their milk for a few months and getting into the habit of returning milk bottles to the store, I decided to look into their company a bit. Why were they doing business so differently than the other milk distributors in Kansas City?
 
-# Open to the public
+## Open to the public
 
 One thing that struck me about the company is that it’s very open — intentionally. Reading into their business model, they stated that [offering tours](http://shattomilk.com/events-tours/) and [keeping the cows front and center](https://www.instagram.com/p/BX-hwTHhFku/) was key to their business — not because many people would actually come and visit the cows, but because it kept them honest and proud as a company. Cows are why they’re in business, after all.
 
 They believe that their product speaks for itself — and if the source of their product (cows) aren’t publicly front and center, they might be able to get away with sub-standard care for their farm. However, if they’re forced to show all of their cows to random millennials who face swap them on Snapchat, they’re held to a different standard.
 
-# Interest without involvement
+## Interest without involvement
 
 The most interesting part of this story to me is how it’s stuck with me (well, and that I _just_ got the joke about shat + chateau like ten years later).
 
@@ -30,7 +30,7 @@ There’s a big difference between interest and involvement. Am I interested in 
 
 I think of interest without involvement as Peeking. Sometimes it’s best to be able to peek into something, see what’s up, and decide if you’re going to get involved or not.
 
-# Knife, not knife?
+## Knife, not knife?
 
 What does the concept of Peeking look like within a company, say, within my employer, Harvest?
 

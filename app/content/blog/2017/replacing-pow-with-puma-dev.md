@@ -16,7 +16,7 @@ I found this gem in the Pow [release notes](http://pow.cx/manual.html#section_6)
 
 > This is the last release for the forseeable future. Check out [puma-dev](https://github.com/puma/puma-dev#readme) for a contemporary alternative.
 
-# Migrating from pow to puma-dev
+## Migrating from pow to puma-dev
 
 Although I could have upgraded Pow to fix the issue, Pow hasn’t been working well with features required to build more modern apps like WebSockets and SSL certificates — so I was well ready to move along to something new. My upgrade steps:
 
@@ -40,7 +40,7 @@ Although I could have upgraded Pow to fix the issue, Pow hasn’t been working w
 
 Now, I’m able to access `http://myapp.localhost` happily (as well as `https://myapp.localhost`) again!
 
-# Resolved root CA issue
+## Resolved root CA issue
 
 After following the above steps, I began to have an issue where the automatically-generated SSL certificates used for HTTPS were only trusted in some cases. Turns out the issue was that puma-dev had installed the root CA certificate in my login keychain, and not in the system one. To fix:
 
