@@ -1,3 +1,5 @@
+googleAnalytics: UA-42927858-1
+
 targets:
   name: production
   URL: s3://dunkman.me?region=us-east-1

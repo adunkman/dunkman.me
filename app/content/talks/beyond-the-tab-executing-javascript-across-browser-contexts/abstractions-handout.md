@@ -2,6 +2,8 @@
 title: "Beyond The Tab: Executing JavaScript Across Browser Contexts"
 date: "2016-08-19"
 summary: Keeping JavaScript from interfering across tabs is great, but what about when a web application wants to share state without a server? You’ll leave this talk with enough knowledge to get started with SharedWorkers, ServiceWorkers, and other techniques and enough wisdom to know when to use them.
+aliases:
+  - /talks/crosstab
 ---
 
 This talk presented a number of [minimalist code samples for cross-tab communication, which are available on GitHub](https://github.com/adunkman/client-side-sync-examples). I don’t believe the slides for this talk are particularly useful, but [the slides are available on Speaker Deck](https://speakerdeck.com/adunkman/beyond-the-tab-executing-javascript-across-browser-contexts-at-abstractions).

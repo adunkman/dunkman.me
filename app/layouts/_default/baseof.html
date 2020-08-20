@@ -12,6 +12,7 @@
     </title>
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
+    {{ template "_internal/google_analytics_async.html" . }}
   </head>
   <body>
     {{ block "body" . -}}{{- end }}

@@ -1,0 +1,13 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      {{ if eq .CurrentSection.Dir "talks/" }}
+        {{ partial "talks/section.html" . }}
+      {{ else }}
+        {{ partial "talks/single.html" . }}
+      {{ end }}
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}

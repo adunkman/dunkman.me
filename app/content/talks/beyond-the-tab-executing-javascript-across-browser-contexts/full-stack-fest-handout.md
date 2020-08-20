@@ -1,12 +1,12 @@
 ---
 title: "Beyond The Tab: Executing JavaScript Across Browser Contexts"
-date: "2016-11-20"
+date: "2016-09-09"
 summary: Keeping JavaScript from interfering across tabs is great, but what about when a web application wants to share state without a server? You’ll leave this talk with enough knowledge to get started with SharedWorkers, ServiceWorkers, and other techniques and enough wisdom to know when to use them.
+aliases:
+  - /talks/fsf
 ---
 
-This talk covered sharing state between tabs — and I’ve released a set of [minimalist code samples on GitHub](https://github.com/adunkman/client-side-sync-examples) to demonstrate every particular way I can think of to do this. I don’t believe the slides for this talk are particularly useful, but [the slides are available on Speaker Deck](https://speakerdeck.com/adunkman/beyond-the-tab-executing-javascript-across-browser-contexts-at-nodevember).
-
-**Meet a Muslim:** This talk referenced [Meet a Muslim](https://www.youtube.com/watch?v=q9dwHYu_EK4) as well as [가끔은 고양이와 춤을 춥시다](https://vine.co/v/ih0rU2z62BK) as a palate cleanser.
+This talk covered sharing state between tabs — and I’ve released a set of [minimalist code samples on GitHub](https://github.com/adunkman/client-side-sync-examples) to demonstrate every particular way I can think of to do this. I don’t believe the slides for this talk are particularly useful, but [the slides are available on Speaker Deck](https://speakerdeck.com/adunkman/beyond-the-tab-executing-javascript-across-browser-contexts-at-full-stack-fest).
 
 **Browser Support:** Check [Jake Archibald](https://twitter.com/jaffathecake)’s excellent site, [Is ServiceWorker Ready?](https://jakearchibald.github.io/isserviceworkerready/) for browser compatibility information.
 

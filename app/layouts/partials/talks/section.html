@@ -1,0 +1,9 @@
+{{ range (.Paginate .Sections).Pages.ByDate.Reverse }}
+  <article class="article card">
+    <p class="byline">{{ partial "talks/byline.html" . }}</p>
+    <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    <p class="summary">{{ .Summary }}</p>
+  </article>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}

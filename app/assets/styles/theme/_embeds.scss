@@ -1,12 +1,11 @@
-.video {
+.embed {
   position: relative;
   height: 0;
   border-radius: 0.2rem;
   overflow: hidden;
 
-  &.is-16-by-9 {
-    padding-bottom: 56.25%;
-  }
+  &.is-widescreen { padding-bottom: 56.25%; }
+  &.is-standard { padding-bottom: 75%; }
 
   iframe {
     border: 0;

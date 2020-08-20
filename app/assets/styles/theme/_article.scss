@@ -2,19 +2,17 @@
   font-size: clamp(1rem, 2vw, 1.2rem);
 
   header {
-    display: flex;
-    flex-direction: column;
     margin: 2rem 0;
   }
 
   .byline {
-    order: 1;
+    display: flex;
     margin: 0 0 0.5rem 0;
     color: rgba(#000, 0.5);
     text-transform: uppercase;
     font-size: 0.75em;
 
-    time:after {
+    .byline-item + .byline-item:before {
       content: " •";
       display: inline;
       margin: 0 0.5em;
@@ -22,13 +20,11 @@
   }
 
   .title {
-    order: 2;
     margin: 0;
     margin-bottom: 0.5rem;
   }
 
   .lede {
-    order: 3;
     font-size: 1.25em;
     margin: 0;
   }
@@ -80,12 +76,6 @@
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   margin: 3rem 0;
-
-  .summary {
-    order: 3;
-    margin: 0;
-  }
+  .summary { margin: 0; }
 }
