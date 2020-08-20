@@ -1,5 +1,5 @@
 .page-footer {
-  border-top: 3px rgba(0,0,0,0.1) solid;
+  border-top: 3px rgba(var(--theme-foreground-color), 0.15) solid;
   max-width: unquote("min(#{$page-max-width}, calc(100vw - 2rem))");
   margin: 6rem auto 2rem;
   text-align: center;

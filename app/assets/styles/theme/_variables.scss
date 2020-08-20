@@ -1,10 +1,5 @@
 $page-max-width: 1080px;
 
-$link-color: #005ea2;
-$link-hover-color: #1a4480;
-$link-active-color: #162e51;
-$link-visited-color: #54278f;
-
 $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1024px;
 
@@ -23,5 +18,25 @@ $desktop-breakpoint: 1024px;
 @mixin mid-width-desktop {
   @media (min-width: $desktop-breakpoint) {
     @content;
+  }
+}
+
+html {
+  --theme-foreground-color: 72, 72, 72;
+  --theme-background-color: 255, 255, 255;
+
+  --theme-link-color: #005ea2;
+  --theme-link-hover-color: #1a4480;
+  --theme-link-active-color: #162e51;
+  --theme-link-visited-color: #54278f;
+
+  @media (prefers-color-scheme: dark) {
+    --theme-foreground-color: 230, 230, 230;
+    --theme-background-color: 38, 38, 38;
+
+    --theme-link-color: #a1d3ff;
+    --theme-link-hover-color: #cfe8ff;
+    --theme-link-active-color: #edf5ff;
+    --theme-link-visited-color: #d5bfff;
   }
 }

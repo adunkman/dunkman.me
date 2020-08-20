@@ -16,7 +16,7 @@
   border: 1px transparent solid;
   border-radius: 0.2rem;
   padding: 0.5rem 0.7rem;
-  background-color: rgba(#000, 0.6);
+  background-color: #757575;
   color: #fff;
 
   & + & {
@@ -24,9 +24,9 @@
   }
 
   &:visited { color: #fff; }
-  &:hover { background-color: rgba(#000, 0.7); }
-  &:active { background-color: rgba(#000, 0.9); }
-  &[disabled] { background-color: rgba(#000, 0.25); }
+  &:hover { background-color: #5c5c5c; }
+  &:active { background-color: #2e2e2e; }
+  &[disabled] { background-color: rgba(#757575, 0.4); }
 }
 
 .button-primary, a.button-primary {
@@ -51,14 +51,14 @@
 
 .button-link, a.button-link {
   background-color: unset;
-  color: $link-color;
+  color: var(--theme-link-color);
   text-decoration: underline;
   font-weight: normal;
   padding-left: 0;
   padding-right: 0;
 
-  &:visited { color: $link-color; }
-  &:hover { background-color: unset; color: $link-hover-color; }
-  &:active { background-color: unset; color: $link-active-color; }
-  &[disabled] { background-color: unset; color: $link-color; opacity: 0.5; }
+  &:visited { color: var(--theme-link-color); }
+  &:hover { background-color: unset; color: var(--theme-active-link-color); }
+  &:active { background-color: unset; color: var(--theme-link-active-color); }
+  &[disabled] { background-color: unset; color: var(--theme-link-color); opacity: 0.5; }
 }

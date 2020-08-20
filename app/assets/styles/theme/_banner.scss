@@ -100,8 +100,8 @@
     height: 100vh;
     transform: translateX(100%);
     transition: transform 0.2s ease-out;
-    background-color: #fff;
-    color: rgba(#000, 0.8);
+    background-color: rgba(var(--theme-background-color), 1);
+    color: rgba(var(--theme-foreground-color), 1);
     z-index: 101;
 
     &.is-visible {
@@ -121,7 +121,7 @@
     padding: 0;
 
     .primary-menu-item:first-child {
-      border-top: 1px #ddd solid;
+      border-top: 1px rgba(var(--theme-foreground-color), 0.3) solid;
     }
   }
 
@@ -136,7 +136,7 @@
   @include only-mobile {
     margin: 0.5rem 1rem;
     padding: 0.5rem;
-    border-bottom: 1px #ddd solid;
+    border-bottom: 1px rgba(var(--theme-foreground-color), 0.3) solid;
   }
 
   @include min-width-tablet {
