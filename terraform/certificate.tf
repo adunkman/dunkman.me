@@ -1,5 +1,6 @@
 resource "aws_acm_certificate" "dunkman_me" {
-  domain_name = "*.dunkman.me"
+  domain_name = "dunkman.me"
+  subject_alternative_names = [ "*.dunkman.me" ]
   validation_method = "DNS"
 
   lifecycle {
