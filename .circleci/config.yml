@@ -89,3 +89,7 @@ workflows:
           requires:
             - build
             - plan
+          filters:
+            branches:
+              only:
+                main
