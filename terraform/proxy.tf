@@ -7,7 +7,7 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
   is_ipv6_enabled = true
   default_root_object = "index.html"
 
-  aliases = [ "dunkman.me", "staging.dunkman.me" ]
+  aliases = [ "www.dunkman.me", "staging.dunkman.me" ]
 
   custom_error_response {
     error_caching_min_ttl = 3600
