@@ -4,10 +4,7 @@
     <div class="grid-container">
       <article class="article">
         <header>
-          <p class="byline">
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="byline-item">{{ .Date.Format "January 1, 2006" }}</time>
-            <span class="byline-item">{{ .ReadingTime }} minute read</span>
-          </p>
+          <p class="byline">{{ partial "blog/byline.html" . }}</p>
           <h1 class="title">{{ .Title }}</h1>
           <p class="lede">{{ .Params.summary }}</p>
         </header>
