@@ -1,0 +1,2 @@
+{{- $script := resources.Get . | minify | fingerprint "sha512" -}}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>

@@ -1,0 +1,23 @@
+.page-home {
+  .hero-wrapper {
+    p {
+      margin: 0;
+      padding: 1rem;
+      transform: translateY(1rem);
+    }
+
+    a {
+      text-decoration: none;
+
+      &:after {
+        content: "→";
+        padding-left: 0.3rem;
+        transition: padding-left 0.2s ease-out;
+      }
+
+      &:hover:after {
+        padding-left: 0.6rem;
+      }
+    }
+  }
+}

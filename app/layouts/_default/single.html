@@ -1,0 +1,18 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      <article class="article">
+        <header>
+          <p class="byline">{{ partial "blog/byline.html" . }}</p>
+          <h1 class="title">{{ .Title }}</h1>
+          <p class="lede">{{ .Summary }}</p>
+        </header>
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}

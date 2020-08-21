@@ -1,0 +1,11 @@
+order:
+  - &static_assets ^.+\.(js|css)$
+
+matchers:
+  - pattern: *static_assets
+    cacheControl: max-age=31536000, public
+    gzip: true
+
+  - pattern: ^.+\.(html|xml)$
+    cacheControl: max-age=0, must-revalidate
+    gzip: true

@@ -1,0 +1,25 @@
+.page-footer {
+  border-top: 3px rgba(var(--theme-foreground-color), 0.15) solid;
+  max-width: unquote("min(#{$page-max-width}, calc(100vw - 2rem))");
+  margin: 6rem auto 2rem;
+  text-align: center;
+
+  .footer-container {
+    max-width: calc(#{$page-max-width} - 2rem);
+    margin: 0 auto;
+  }
+
+  .secondary-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+  @include min-width-tablet {
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+}

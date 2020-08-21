@@ -1,0 +1,15 @@
+.hero {
+  background-color: rgba(var(--theme-accent-color), 1);
+  color: #fff;
+
+  .hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1.5rem, 7vw, 2.5rem);
+    font-weight: lighter;
+    height: clamp(20rem, 45vh, 30rem);
+
+    a { color: inherit; }
+  }
+}

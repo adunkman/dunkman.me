@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 200;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-ExtraLight.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Regular.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: italic;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Italic.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/public_sans/PublicSans-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/fira_code/FiraCode-Regular.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: bold;
+  font-style: normal;
+  src: url('{{ (resources.Get "fonts/fira_code/FiraCode-Bold.woff2" | fingerprint "sha512").RelPermalink }}') format('woff2');
+}
+
+@import "theme/variables";
+
+@import "theme/defaults";
+@import "theme/grid";
+@import "theme/banner";
+@import "theme/hero";
+@import "theme/article";
+@import "theme/syntax_highlighting";
+@import "theme/embeds";
+@import "theme/buttons";
+@import "theme/forms";
+@import "theme/pagination";
+@import "theme/footer";
+
+@import "pages/home";
+@import "pages/talks";

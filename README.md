@@ -1,19 +1,13 @@
 # dunkman.me
+
 Source of my blog thing.
 
 # Development
 
-To get started in development, you’ll need to run the following commands in the project directory after it’s been cloned: 
+To get started in development, you’ll need [Docker](https://www.docker.com/) installed. Then, run the following command in the project directory after it’s been cloned:
 
 ```bash
-gem install bundler
-bundle install
+docker-compose up app
 ```
 
-Then, to build the site and watch the files for changes:
-
-```bash
-bundle exec jekyll serve
-```
-
-To quit the jekyll command, hit <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+To quit the command, hit <kbd>Ctrl</kbd>+<kbd>C</kbd>.

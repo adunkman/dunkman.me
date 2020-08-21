@@ -1,0 +1,49 @@
+<article class="article">
+  <header>
+    <p class="byline">{{ partial "talks/byline.html" . }} </p>
+    <h1 class="title">{{ .Title }}</h1>
+    <p class="lede">{{ .Params.summary }}</p>
+  </header>
+  <div class="content">
+    {{ with .Params.video }}
+      <div class="embed is-{{ .format }}">
+        <iframe src="{{ .src }}" allowfullscreen></iframe>
+      </div>
+    {{ end }}
+
+    {{ $handout := index .Pages.ByDate.Reverse 0 }}
+    {{ with $handout }}
+      <h2>Handout</h2>
+      {{ .Content }}
+    {{ end }}
+
+    {{ with .Params.slides }}
+      <h2>Slides</h2>
+      <div class="embed is-{{ .format }}">
+        <iframe src="{{ .src }}" allowfullscreen></iframe>
+      </div>
+    {{ end }}
+
+    <h2>Talk history</h2>
+
+    <ul class="events-list">
+      {{ range .Params.events }}
+        <li class="event">
+          <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 1, 2006" .date }}</time>
+          <div class="name">{{ .name }} <span class="location">in {{ .location }}</span></div>
+          <div class="button-group">
+            {{ if .slides_url }}
+              <a href="{{ .slides_url }}" class="button button-primary">Slides</a>
+            {{ end }}
+            {{ if .video_url }}
+              <a href="{{ .video_url }}" class="button">Video</a>
+            {{ end }}
+            {{ if .handout_url }}
+              <a href="{{ .handout_url }}" class="button button-link">Handout</a>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</article>

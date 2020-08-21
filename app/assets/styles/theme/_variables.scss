@@ -1,0 +1,46 @@
+$page-max-width: 1080px;
+
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+
+@mixin only-mobile {
+  @media (max-width: $tablet-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin min-width-tablet {
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin mid-width-desktop {
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+html {
+  --theme-foreground-color: 72, 72, 72;
+  --theme-background-color: 255, 255, 255;
+
+  --theme-accent-color: 62, 82, 228;
+  --theme-accent-hover-color: 34, 47, 191;
+  --theme-accent-active-color: 27, 43, 133;
+
+  --theme-link-color: 0, 118, 214;
+  --theme-link-hover-color: 11, 71, 120;
+  --theme-link-active-color: 17, 47, 78;
+  --theme-link-visited-color: 0, 94, 162;
+
+  @media (prefers-color-scheme: dark) {
+    --theme-foreground-color: 230, 230, 230;
+    --theme-background-color: 38, 38, 38;
+
+    --theme-link-color: 161, 211, 255;
+    --theme-link-hover-color: 36, 145, 255;
+    --theme-link-active-color: 0, 118, 214;
+    --theme-link-visited-color: 88, 180, 255;
+  }
+}

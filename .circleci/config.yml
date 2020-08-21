@@ -1,0 +1,91 @@
+version: "2.1"
+
+commands:
+  save_docker_compose_image:
+    parameters:
+      service:
+        type: string
+    steps:
+      - run:
+          name: Save << parameters.service >> docker image
+          command: |
+            mkdir -p docker
+            docker save -o docker/<< parameters.service >>.tar project_<< parameters.service >>
+
+  load_docker_compose_image:
+    parameters:
+      service:
+        type: string
+    steps:
+      - run:
+          name: Load << parameters.service >> docker image
+          command: |
+            mkdir -p docker
+            docker load -i docker/<< parameters.service >>.tar
+
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Build app
+          command: docker-compose run hugo --
+      - store_artifacts:
+          path: app/public
+          destination: preview
+      - save_docker_compose_image:
+          service: hugo
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - app/public
+            - docker
+
+  plan:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Initialize terraform
+          command: docker-compose run terraform init
+      - run:
+          name: Plan terraform run
+          command: docker-compose run terraform plan -out=plan
+      - save_docker_compose_image:
+          service: terraform
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - terraform/.terraform
+            - terraform/plan
+            - docker
+
+  deploy:
+    machine: true
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - load_docker_compose_image:
+          service: terraform
+      - load_docker_compose_image:
+          service: hugo
+      - run:
+          name: Apply terraform plan
+          command: docker-compose run terraform apply plan
+      - run:
+          name: Upload app to host
+          command: docker-compose run hugo deploy --maxDeletes -1
+
+workflows:
+  version: 2
+
+  build_and_deploy:
+    jobs:
+      - build
+      - plan
+      - deploy:
+          requires:
+            - build
+            - plan

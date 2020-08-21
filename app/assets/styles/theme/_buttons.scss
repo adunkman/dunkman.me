@@ -1,0 +1,67 @@
+.button-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.button, a.button {
+  appearance: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  line-height: inherit;
+  border: 1px transparent solid;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.7rem;
+  background-color: #757575;
+  color: #fff;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &:visited { color: #fff; }
+  &:hover { background-color: #5c5c5c; }
+  &:active { background-color: #2e2e2e; }
+  &[disabled] { background-color: rgba(#757575, 0.4); }
+}
+
+.button-primary, a.button-primary {
+  background-color: rgba(var(--theme-accent-color), 1);
+  color: #fff;
+
+  &:visited { color: #fff }
+  &:hover { background-color: rgba(var(--theme-accent-hover-color), 1); }
+  &:active { background-color: rgba(var(--theme-accent-active-color), 1); }
+  &[disabled] { background-color: rgba(var(--theme-accent-color), 0.4); }
+}
+
+.button-warning, a.button-warning {
+  background-color: #e52207;
+  color: #fff;
+
+  &:visited { color: #fff }
+  &:hover { background-color: #b50909; }
+  &:active { background-color: #8b0a03 }
+  &[disabled] { background-color: rgba(#e52207, 0.4) }
+}
+
+.button-link, a.button-link {
+  background-color: unset;
+  color: rgba(var(--theme-link-color), 1);
+  text-decoration: underline;
+  font-weight: normal;
+  padding-left: 0;
+  padding-right: 0;
+
+  &:visited { color: rgba(var(--theme-link-color), 1); }
+  &:hover { background-color: unset; color: rgba(var(--theme-link-hover-color), 1); }
+  &:active { background-color: unset; color: rgba(var(--theme-link-active-color), 1); }
+  &[disabled] { background-color: unset; color: rgba(var(--theme-link-color), 1); opacity: 0.5; }
+}

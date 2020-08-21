@@ -1,0 +1,17 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+        <article class="article card">
+          <p class="byline">{{ partial "blog/byline.html" . }}</p>
+          <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+          <p class="summary">{{ .Summary }}</p>
+        </article>
+      {{ end }}
+
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}

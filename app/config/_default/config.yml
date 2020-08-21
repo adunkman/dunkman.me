@@ -1,0 +1,19 @@
+languageCode: en-us
+title: Andrew Dunkman
+params:
+  tagline: A software developer improving technology by investing in people, communities, and maintainable code.
+  social:
+    - type: Twitter
+      url: https://twitter.com/adunkman
+    - type: GitHub
+      url: https://github.com/adunkman
+    - type: Keybase
+      url: https://keybase.io/adunkman
+
+
+baseURL: https://www.dunkman.me
+relativeURLs: true
+
+ignoreFiles:
+  - .gitignore
+  - Dockerfile

@@ -1,0 +1,25 @@
+<header class="page-header">
+  <div class="banner">
+    <h1>
+      <a href="{{ relref . "/" }}" class="{{ if .IsHome }}item-current{{end}}">
+        {{ .Site.Title }}
+      </a>
+    </h1>
+    <div class="primary-menu-button-wrapper">
+      <button class="primary-menu-button">Menu</button>
+      <div class="primary-menu-overlay"></div>
+    </div>
+    <nav role="navigation" class="primary-menu">
+      <div class="primary-menu-close-wrapper">
+        <button class="primary-menu-close-button">Close</button>
+      </div>
+
+      <div class="primary-menu-items">
+        <a href="{{ relref . "/" }}" class="primary-menu-item {{ if .IsHome }}item-current{{end}}">Home</a>
+        <a href="{{ relref . "blog" }}" class="primary-menu-item {{ if eq .Section "blog" }}item-current{{end}}">Blog</a>
+        <a href="{{ relref . "talks" }}" class="primary-menu-item {{ if eq .Section "talks" }}item-current{{end}}">Speaking</a>
+        <a href="{{ relref . "contact" }}" class="primary-menu-item {{ if eq .Page.Title "Contact" }}item-current{{end}}">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>

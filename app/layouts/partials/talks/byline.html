@@ -1,0 +1,6 @@
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="byline-item">{{ .Date.Format "2006" }}</time>
+{{ $events := len .Params.events }}
+<span class="byline-item">Presented at {{ $events }} event{{ if gt $events 1 }}s{{ end }}</span>
+{{ if .Params.video }}
+  <span class="byline-item">Video</span>
+{{ end }}
