@@ -23,11 +23,11 @@ body {
 }
 
 a {
-  color: var(--theme-link-color);
+  color: rgba(var(--theme-link-color), 1);;
 
-  &:hover { color: var(--theme-link-hover-color); }
-  &:active { color: var(--theme-link-active-color); }
-  &:visited { color: var(--theme-link-visited-color); }
+  &:visited { color: rgba(var(--theme-link-visited-color), 1);; }
+  &:hover { color: rgba(var(--theme-link-hover-color), 1); }
+  &:active { color: rgba(var(--theme-link-active-color), 1); }
 
   code { text-decoration: underline; }
 }
