@@ -30,7 +30,6 @@ locals {
 resource "aws_cloudfront_distribution" "redirect_to_dunkman_me" {
   enabled = true
   is_ipv6_enabled = true
-  default_root_object = "index.html"
 
   aliases = [ "dunkman.me" ]
 
