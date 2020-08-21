@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "redirect_to_dunkman_me" {
-  bucket = "redirect_to_dunkman.me"
+  bucket = "redirect.dunkman.me"
   acl = "public-read"
 
   website {
@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "redirect_to_dunkman_me" {
 
 resource "aws_s3_bucket_policy" "redirect_to_dunkman_me" {
   bucket = aws_s3_bucket.redirect_to_dunkman_me.id
-  policy = data.aws_iam_policy_document.allow_public_read.json
+  policy = data.aws_iam_policy_document.allow_public_read_for_redirect_to_dunkman_me.json
 }
 
 data "aws_iam_policy_document" "allow_public_read_for_redirect_to_dunkman_me" {
