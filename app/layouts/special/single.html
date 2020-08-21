@@ -4,9 +4,10 @@
     <div class="grid-container">
       <article class="article">
         <header>
-          <p class="byline">{{ partial "blog/byline.html" . }}</p>
           <h1 class="title">{{ .Title }}</h1>
-          <p class="lede">{{ .Summary }}</p>
+          {{ if .Summary }}
+            <p class="lede">{{ .Summary }}</p>
+          {{ end }}
         </header>
         <div class="content">
           {{ .Content }}

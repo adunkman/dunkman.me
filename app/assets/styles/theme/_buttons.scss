@@ -1,5 +1,6 @@
 .button-group {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .button, a.button {
@@ -18,9 +19,11 @@
   padding: 0.5rem 0.7rem;
   background-color: #757575;
   color: #fff;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 
-  & + & {
-    margin-left: 1rem;
+  &:last-of-type {
+    margin-right: 0;
   }
 
   &:visited { color: #fff; }
