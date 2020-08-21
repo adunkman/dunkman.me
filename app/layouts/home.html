@@ -1,20 +1,19 @@
 {{- define "page-class" -}} page-home {{- end -}}
 
 {{- define "body" -}}
-  {{ partial "header/banner.html" . }}
-  <main>
-    <div class="hero">
+  <div class="hero">
+    {{ partial "header/banner.html" . }}
+    <div class="hero-wrapper">
       {{ with .Params.hero }}
         <p><a href="{{ relref $ .href }}">{{- .text | markdownify -}}</a></p>
       {{ end }}
     </div>
-
-    <section class="page-section">
-      <article class="article grid-container">
-        <p class="lede">{{ .Params.summary | markdownify }}</p>
-        {{ .Content | markdownify }}
-      </article>
-    </section>
+  </div>
+  <main class="page-section">
+    <article class="article grid-container">
+      <p class="lede">{{ .Params.summary | markdownify }}</p>
+      {{ .Content | markdownify }}
+    </article>
   </main>
   {{ partial "footer/oss.html" . }}
 {{- end -}}

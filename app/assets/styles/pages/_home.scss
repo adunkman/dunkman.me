@@ -1,20 +1,5 @@
 .page-home {
-  .page-header {
-    position: absolute;
-    width: 100vw;
-    color: #fff;
-  }
-
-  .hero {
-    background-color: #3e4ded;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: clamp(1.5rem, 7vw, 2.5rem);
-    font-weight: lighter;
-    height: clamp(20rem, 45vh, 30rem);
-
+  .hero-wrapper {
     p {
       margin: 0;
       padding: 1rem;
@@ -22,7 +7,6 @@
     }
 
     a {
-      color: inherit;
       text-decoration: none;
 
       &:after {
