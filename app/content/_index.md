@@ -7,7 +7,7 @@ hero:
   href: .
 
 summary: |
-  **Hello!** I’m Andrew Dunkman, a software developer and occasional speaker. I use he/him pronouns, and am a resident of ANC 1B02 in Washington, DC.
+  **Hello!** I’m Andrew Dunkman, a software developer and occasional speaker. I use he/him pronouns, and am a resident of <abbr title="Advisory Neighborhood Commissions">ANC</abbr> 1B02 in Washington, DC.
 
 aliases:
   - /about/
