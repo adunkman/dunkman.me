@@ -4,9 +4,7 @@
   <div class="hero">
     {{ partial "header/banner.html" . }}
     <div class="hero-wrapper">
-      {{ with .Params.hero }}
-        <p><a href="{{ relref $ .href }}">{{- .text | markdownify -}}</a></p>
-      {{ end }}
+      {{ readFile "assets/images/andrew-dunkman.svg" | safeHTML }}
     </div>
   </div>
   <main class="page-section">

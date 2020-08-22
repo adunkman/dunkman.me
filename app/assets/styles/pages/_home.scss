@@ -1,23 +1,26 @@
 .page-home {
-  .hero-wrapper {
-    p {
-      margin: 0;
-      padding: 1rem;
-      transform: translateY(1rem);
-    }
+  .hero {
+    svg {
+      width: calc(100vw - 4rem);
+      max-width: 30rem;
+      height: auto;
 
-    a {
-      text-decoration: none;
-
-      &:after {
-        content: "→";
-        padding-left: 0.3rem;
-        transition: padding-left 0.2s ease-out;
-      }
-
-      &:hover:after {
-        padding-left: 0.6rem;
+      path {
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        animation: draw 1s linear forwards;
       }
     }
+  }
+}
+
+@keyframes draw {
+  0% {
+      stroke-dashoffset: 600;
+  }
+  100% {
+      stroke-dashoffset: 0;
   }
 }
