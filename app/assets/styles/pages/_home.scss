@@ -4,14 +4,27 @@
       width: calc(100vw - 4rem);
       max-width: 30rem;
       height: auto;
+    }
 
+    .pen {
       path {
         fill: none;
         stroke: #fff;
         stroke-dasharray: 600;
         stroke-dashoffset: 600;
-        animation: draw 1s linear forwards;
+        stroke-width: 6;
+        stroke-linecap: round;
+        animation: draw 0.6s linear forwards;
       }
+
+      g:nth-of-type(1) path { animation-delay: 0s; }                  // A
+      g:nth-of-type(2) path { animation-delay: 0.2s; }                // nd
+      g:nth-of-type(3) path { animation-delay: 0.5s; }                // rew
+      g:nth-of-type(4) path:nth-of-type(1) { animation-delay: 0.8s; } // D
+      g:nth-of-type(4) path:nth-of-type(2) { animation-delay: 0.85s; }// D
+      g:nth-of-type(5) path { animation-delay: 1.05s; }               // un
+      g:nth-of-type(6) path { animation-delay: 1.2s; }               // k
+      g:nth-of-type(7) path { animation-delay: 1.3s; }                // man
     }
   }
 }
