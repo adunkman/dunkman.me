@@ -1,5 +1,4 @@
-FROM alpine:3.12
-RUN apk add --no-cache hugo=0.71.1-r0
+FROM klakegg/hugo:0.74.3-ext-alpine
 
 WORKDIR /app
 
