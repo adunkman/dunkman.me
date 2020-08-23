@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     scheduledAnimationFrame = false;
 
     elements.forEach(el => {
-      const bounding = el.getBoundingClientRect();
-      console.log(bounding);
-      if (bounding.top >= 0 && bounding.left >= 0 && bounding.right <= window.innerWidth && bounding.bottom <= window.innerHeight) {
+      const b = el.getBoundingClientRect();
+
+      if (b.top >= 0 && b.left >= 0 && b.right <= window.innerWidth && b.bottom <= window.innerHeight) {
         el.classList.add('is-in-viewport');
       }
     })
