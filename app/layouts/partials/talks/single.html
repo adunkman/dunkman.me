@@ -30,7 +30,15 @@
       {{ range .Params.events }}
         <li class="event">
           <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 1, 2006" .date }}</time>
-          <div class="name">{{ .name }} <span class="location">in {{ .location }}</span></div>
+          <div class="name">
+            {{ .name }}
+            {{ if .location }}
+              <span class="location">in {{ .location }}</span>
+            {{ end }}
+            {{ if .remote }}
+              <span class="location">on the internet ✨</span>
+            {{ end }}
+          </div>
           <div class="button-group">
             {{ if .slides_url }}
               <a href="{{ .slides_url }}" class="button button-primary">Slides</a>

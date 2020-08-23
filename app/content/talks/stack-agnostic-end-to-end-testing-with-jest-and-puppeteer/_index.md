@@ -10,4 +10,8 @@ events:
     location: Kansas City, MO
     date: "2019-07-19"
     slides_url: https://speakerdeck.com/adunkman/stack-agnostic-end-to-end-testing-with-jest-and-puppeteer-at-kansas-city-developer-conference
+  - name: 18F
+    remote: true
+    date: "2019-01-28"
+    slides_url: https://speakerdeck.com/adunkman/stack-agnostic-end-to-end-testing-with-jest-and-puppeteer-at-18f
 ---
