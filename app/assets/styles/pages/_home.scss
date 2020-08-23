@@ -1,5 +1,5 @@
 .page-home {
-  .hero {
+  .signature {
     svg {
       width: calc(100vw - 4rem);
       max-width: 30rem;
@@ -9,11 +9,16 @@
     .pen {
       path {
         fill: none;
-        stroke: #fff;
+        stroke: rgba(var(--theme-foreground-color), 1);
         stroke-dasharray: 600;
         stroke-dashoffset: 600;
         stroke-width: 6;
         stroke-linecap: round;
+      }
+    }
+
+    &.is-in-viewport .pen {
+      path {
         animation: draw 0.6s linear forwards;
       }
 
@@ -23,7 +28,7 @@
       g:nth-of-type(4) path:nth-of-type(1) { animation-delay: 0.8s; } // D
       g:nth-of-type(4) path:nth-of-type(2) { animation-delay: 0.85s; }// D
       g:nth-of-type(5) path { animation-delay: 1.05s; }               // un
-      g:nth-of-type(6) path { animation-delay: 1.2s; }               // k
+      g:nth-of-type(6) path { animation-delay: 1.2s; }                // k
       g:nth-of-type(7) path { animation-delay: 1.3s; }                // man
     }
   }

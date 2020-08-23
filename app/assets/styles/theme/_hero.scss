@@ -10,6 +10,11 @@
     font-weight: lighter;
     padding: clamp(3rem, 8vw, 5rem) 0 clamp(4rem, 8vw, 6rem);
 
+    > * {
+      max-width: calc(#{$page-max-width} - 2rem);
+      margin: 0 1rem;
+    }
+
     a { color: inherit; }
   }
 }
