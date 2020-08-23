@@ -4,6 +4,7 @@
     <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     {{ partial "head/meta.html" . }}
 
+    {{ partial "head/stylesheet.html" "styles/fonts.scss" }}
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
     {{ template "_internal/google_analytics_async.html" . }}

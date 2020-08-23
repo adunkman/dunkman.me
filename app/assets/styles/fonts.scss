@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 200;
+  font-style: normal;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/public_sans/PublicSans-ExtraLight.woff2").Content | base64Encode }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/public_sans/PublicSans-Regular.woff2").Content | base64Encode }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  font-style: italic;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/public_sans/PublicSans-Italic.woff2").Content | base64Encode }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/public_sans/PublicSans-Bold.woff2").Content | base64Encode }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: normal;
+  font-style: normal;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/fira_code/FiraCode-Regular.woff2").Content | base64Encode }}') format('woff2');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: bold;
+  font-style: normal;
+  src: url('data:font/woff2;base64,{{ (resources.Get "fonts/fira_code/FiraCode-Bold.woff2").Content | base64Encode }}') format('woff2');
+}
