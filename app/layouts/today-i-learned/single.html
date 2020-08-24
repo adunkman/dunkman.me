@@ -1,0 +1,33 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      <article class="article">
+        <header>
+          <h1 class="title">{{ .Title }}</h1>
+          <p class="lede">{{ .Summary }}</p>
+        </header>
+        <div class="content">
+          {{ .Content }}
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>What I learned</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $.Site.Data.today-i-learned.links }}
+                <tr>
+                  <td><time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 1, 2006" .date }}</time></td>
+                  <td><a href="{{ .link }}">{{ .title | markdownify }}</a></td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}
