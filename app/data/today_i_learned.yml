@@ -1,0 +1,13 @@
+links:
+  - date: "2020-08-25"
+    title: Self-documented Makefiles with some shell scripting magic.
+    link: https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
+  - date: "2020-08-24"
+    title: USB 3.0 interferes with devices in the 2.4–2.5GHz spectrum.
+    link: https://superuser.com/questions/1282590/why-does-usb-3-0-interfere-with-2-4ghz-devices
+  - date: "2020-08-19"
+    title: There’s a media query to check system color schemes for dark/light preferences.
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+  - date: "2020-08-14"
+    title: Efficiency-thoroughness trade-off principle
+    link: https://en.wikipedia.org/wiki/Efficiency%E2%80%93thoroughness_trade-off_principle
