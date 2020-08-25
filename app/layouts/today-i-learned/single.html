@@ -1,3 +1,5 @@
+{{- define "page-class" -}} page-today-i-learned {{- end -}}
+
 {{ define "body" }}
   {{ partial "header/banner.html" . }}
   <main class="page-section">
@@ -9,22 +11,16 @@
         </header>
         <div class="content">
           {{ .Content }}
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>What I learned</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{ range $.Site.Data.today-i-learned.links }}
-                <tr>
-                  <td><time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 1, 2006" .date }}</time></td>
-                  <td><a href="{{ .link }}">{{ .title | markdownify }}</a></td>
-                </tr>
-              {{ end }}
-            </tbody>
-          </table>
+
+          <ul class="today-i-learned-list">
+            {{ range .Site.Data.today_i_learned.links }}
+              <li class="learning">
+                <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time></td>
+                <span class="description">{{ .title | markdownify }}</span>
+                <a href="{{ .link }}">{{ (urls.Parse .link).Host }}</a>
+              </li>
+            {{ end }}
+          </ul>
         </div>
       </article>
     </div>

@@ -29,7 +29,7 @@
     <ul class="events-list">
       {{ range .Params.events }}
         <li class="event">
-          <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 1, 2006" .date }}</time>
+          <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time>
           <div class="name">
             {{ .name }}
             {{ if .location }}
