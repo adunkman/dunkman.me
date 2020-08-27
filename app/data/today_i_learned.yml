@@ -1,4 +1,7 @@
 links:
+  - date: "2020-08-27"
+    title: Wreck — HTTP client utilities for hapi.
+    link: https://hapi.dev/module/wreck/
   - date: "2020-08-26"
     title: One swallow doesn’t make spring
     link: https://en.wiktionary.org/wiki/one_swallow_does_not_a_summer_make
