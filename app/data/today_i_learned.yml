@@ -1,4 +1,7 @@
 links:
+  - date: "2020-09-02"
+    title: Using `archive_file` in Terraform can generate ZIPs on-the-fly.
+    link: https://registry.terraform.io/providers/hashicorp/archive/latest/docs/data-sources/archive_file
   - date: "2020-09-01"
     title: Nix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible.
     link: https://nixos.org/
