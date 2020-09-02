@@ -1,4 +1,7 @@
 links:
+  - date: "2020-09-01"
+    title: Nix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible.
+    link: https://nixos.org/
   - date: "2020-08-28"
     title: There’s a Ben and Jerry’s flavor graveyard. 
     link: https://www.atlasobscura.com/places/ben-jerry-s-flavor-graveyard
