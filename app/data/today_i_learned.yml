@@ -1,4 +1,7 @@
 links:
+  - date: "2020-09-23"
+    title: LUFS (Loudness units relative to full scale) is a scale of loudness (the compression and amplification of sound resulting in a higher perceived sound).
+    link: https://en.wikipedia.org/wiki/LKFS
   - date: "2020-09-03"
     title: "A proposed standard which allows websites to define security policies through `.well-known/security.txt`"
     link: https://securitytxt.org/
