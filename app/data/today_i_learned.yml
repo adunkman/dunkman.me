@@ -1,4 +1,7 @@
 links:
+  - date: "2020-11-30"
+    title: Universal Scene Description (USD) is an open source project which is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications, maintained by Pixar.
+    link: https://graphics.pixar.com/usd/docs/index.html
   - date: "2020-11-25"
     title: Email was invented in 1971.
     link: https://en.wikipedia.org/wiki/Email
