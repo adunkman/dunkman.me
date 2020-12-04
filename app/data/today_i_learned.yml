@@ -1,4 +1,7 @@
 links:
+  - date: "2020-12-03"
+    title: The mix-blend-mode CSS property sets how an element’s content should blend with the content of the element’s parent and the element’s background.
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
   - date: "2020-11-30"
     title: Universal Scene Description (USD) is an open source project which is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications, maintained by Pixar.
     link: https://graphics.pixar.com/usd/docs/index.html
