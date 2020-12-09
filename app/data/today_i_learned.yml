@@ -1,4 +1,7 @@
 links:
+  - date: "2020-12-09"
+    title: If an S3 bucket has periods in its name, it can’t use accelerated transfers.
+    link: https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html#transfer-acceleration-getting-started
   - date: "2020-12-03"
     title: The mix-blend-mode CSS property sets how an element’s content should blend with the content of the element’s parent and the element’s background.
     link: https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
