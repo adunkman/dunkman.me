@@ -1,4 +1,7 @@
 links:
+  - date: "2020-12-13"
+    title: Python has a Global Interpreter Lock (GIL) which prevents multiple lines of Python code from executing concurrently across threads. 
+    link: https://wiki.python.org/moin/GlobalInterpreterLock
   - date: "2020-12-09"
     title: If an S3 bucket has periods in its name, it can’t use accelerated transfers.
     link: https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html#transfer-acceleration-getting-started
