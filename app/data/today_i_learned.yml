@@ -1,4 +1,7 @@
 links:
+  - date: "2021-01-08"
+    title: There is an extended markdown syntax for footnotes, supported by some parsers.
+    link: https://www.markdownguide.org/extended-syntax/#footnotes
   - date: "2021-01-02"
     title: Korean fried chicken developed as a byproduct of the Korean War, where Black Americans intoduced Koreans to soul food. 
     link: https://en.wikipedia.org/wiki/Korean_fried_chicken#History
