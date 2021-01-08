@@ -6,6 +6,8 @@
   }
 
   .learning {
+    max-width: 60ch;
+
     time {
       color: rgba(var(--theme-foreground-color), 0.7);
       text-transform: uppercase;
