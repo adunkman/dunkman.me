@@ -1,3 +1,10 @@
+<article class="article">
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+    <p class="lede">{{ .Summary }}</p>
+  </header>
+</article>
+
 {{ range (.Paginate .Sections).Pages.ByDate.Reverse }}
   <article class="article card">
     <p class="byline">{{ partial "talks/byline.html" . }}</p>

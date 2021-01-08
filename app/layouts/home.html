@@ -1,19 +1,18 @@
 {{- define "page-class" -}} page-home {{- end -}}
 
 {{- define "body" -}}
-  <div class="hero">
-    {{ partial "header/banner.html" . }}
-    <div class="hero-wrapper">
-      <p>{{ .Summary }}</p>
-    </div>
-  </div>
-  <main class="page-section">
-    <article class="article grid-container">
-      {{ .Content | markdownify }}
-
-      <div class="signature has-viewport-event">
-        {{ readFile "assets/images/andrew-dunkman.svg" | safeHTML }}
+  {{ partial "header/banner.html" . }}
+  <main class="article">
+    <div class="page-section hero">
+      <div class="grid-container">
+        <p class="pledge">{{ .Params.pledge | markdownify }}</p>
+        <div class="signature has-viewport-event">
+          {{ readFile "assets/images/andrew-dunkman.svg" | safeHTML }}
+        </div>
       </div>
+    </div>
+    <article class="article grid-container">
+      {{ .Content }}
     </article>
   </main>
   {{ partial "footer/oss.html" . }}

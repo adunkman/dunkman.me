@@ -1,15 +1,37 @@
 .page-home {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: calc(100vh - 10rem);
+
+    .grid-container {
+      width: 100%;
+    }
+  }
+
+  .pledge {
+    font-size: 1.5em;
+    font-weight: lighter;
+    max-width: 50ch;
+
+    strong {
+      font-weight: normal;
+    }
+  }
+
   .signature {
+    font-size: 1.2em;
+
     svg {
-      width: calc(100vw - 4rem);
-      max-width: 30rem;
+      width: 17em;
       height: auto;
     }
 
     .pen {
       path {
         fill: none;
-        stroke: rgba(var(--theme-foreground-color), 1);
+        stroke: currentColor;
         stroke-dasharray: 600;
         stroke-dashoffset: 600;
         stroke-width: 6;
@@ -36,9 +58,9 @@
 
 @keyframes draw {
   0% {
-      stroke-dashoffset: 600;
+    stroke-dashoffset: 600;
   }
   100% {
-      stroke-dashoffset: 0;
+    stroke-dashoffset: 0;
   }
 }

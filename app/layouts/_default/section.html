@@ -2,6 +2,13 @@
   {{ partial "header/banner.html" . }}
   <main class="page-section">
     <div class="grid-container">
+      <article class="article">
+        <header>
+          <h1 class="title">{{ .Title }}</h1>
+          <p class="lede">{{ .Summary }}</p>
+        </header>
+      </article>
+
       {{ range .Paginator.Pages.ByDate.Reverse }}
         <article class="article card">
           <p class="byline">{{ partial "blog/byline.html" . }}</p>
