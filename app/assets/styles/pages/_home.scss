@@ -1,19 +1,19 @@
 .page-home {
-  .hero {
+  body {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: calc(100vh - 10rem);
+    flex-direction: column;
+    justify-content: space-between;
 
-    .grid-container {
-      width: 100%;
+    .page-footer {
+      margin-top: 2rem;
     }
   }
 
   .pledge {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: lighter;
     max-width: 50ch;
+    margin-top: 0;
 
     strong {
       font-weight: normal;
@@ -21,7 +21,7 @@
   }
 
   .signature {
-    font-size: 1.2em;
+    font-size: 1em;
 
     svg {
       width: 17em;
