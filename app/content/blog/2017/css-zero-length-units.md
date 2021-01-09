@@ -21,7 +21,7 @@ CSS doesn’t usually require zeros to have units — because zero is zero, reg
 
 This works for all length-based units and angle-based units, but does not work other types of values. The CSS spec requires units to be specified for duration, frequency, and resolution values — even for zero.
 
-### [Length units](https://www.w3.org/TR/css-values/#lengths)
+## [Length units](https://www.w3.org/TR/css-values/#lengths)
 
 | Unit   | Zero (with unit) | Zero (without unit) |
 |--------|------------------|---------------------|
@@ -41,7 +41,7 @@ This works for all length-based units and angle-based units, but does not work o
 | `pt`   | `0pt`            | `0`                 |
 | `px`   | `0px`            | `0`                 |
 
-### [Angle units](https://www.w3.org/TR/css-values/#angles)
+## [Angle units](https://www.w3.org/TR/css-values/#angles)
 
 | Unit   | Zero (with unit) | Zero (without unit) |
 |--------|------------------|---------------------|
@@ -50,21 +50,21 @@ This works for all length-based units and angle-based units, but does not work o
 | `rad`  | `0rad`           | `0`                 |
 | `turn` | `0turn`          | `0`                 |
 
-### [Duration units](https://www.w3.org/TR/css-values/#time)
+## [Duration units](https://www.w3.org/TR/css-values/#time)
 
 | Unit   | Zero (with unit) | Zero (without unit) |
 |--------|------------------|---------------------|
 | `s`    | `0s`             | ❌                  |
 | `ms`   | `0ms`            | ❌                  |
 
-### [Frequency units](https://www.w3.org/TR/css-values/#frequency)
+## [Frequency units](https://www.w3.org/TR/css-values/#frequency)
 
 | Unit   | Zero (with unit) | Zero (without unit) |
 |--------|------------------|---------------------|
 | `Hz`   | `0Hz`            | ❌                  |
 | `kHz`  | `0kHz`           | ❌                  |
 
-### [Resolution units](https://www.w3.org/TR/css-values/#resolution)
+## [Resolution units](https://www.w3.org/TR/css-values/#resolution)
 
 | Unit   | Zero (with unit) | Zero (without unit) |
 |--------|------------------|---------------------|

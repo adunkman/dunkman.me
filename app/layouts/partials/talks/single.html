@@ -7,7 +7,7 @@
   <div class="content">
     {{ with .Params.video }}
       <div class="embed is-{{ .format }}">
-        <iframe src="{{ .src }}" allowfullscreen></iframe>
+        <iframe src="{{ .src }}" title="Talk video" allowfullscreen></iframe>
       </div>
     {{ end }}
 
@@ -20,7 +20,7 @@
     {{ with .Params.slides }}
       <h2>Slides</h2>
       <div class="embed is-{{ .format }}">
-        <iframe src="{{ .src }}" allowfullscreen></iframe>
+        <iframe src="{{ .src }}" title="Embedded slides" allowfullscreen></iframe>
       </div>
     {{ end }}
 
