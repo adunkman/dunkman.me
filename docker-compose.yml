@@ -11,6 +11,16 @@ services:
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       HUGO_ENV: "${HUGO_ENV}"
 
+  test:
+    build: ./test
+    volumes:
+      - ./test:/test
+      - /test/node_modules
+    depends_on:
+      - hugo
+    environment:
+      APP_HOST: http://hugo:1313
+
   terraform:
     build: ./terraform
     volumes:
