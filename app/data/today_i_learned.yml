@@ -1,4 +1,7 @@
 links:
+  - date: "2021-01-10"
+    title: ONNX is an open format built to represent machine learning models.
+    link: https://onnx.ai/
   - date: "2021-01-08"
     title: There is an extended markdown syntax for footnotes, supported by some parsers.
     link: https://www.markdownguide.org/extended-syntax/#footnotes
