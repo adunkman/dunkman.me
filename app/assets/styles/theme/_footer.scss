@@ -1,12 +1,12 @@
 .page-footer {
   border-top: 3px rgba(var(--theme-foreground-color), 0.15) solid;
   width: 100%;
-  max-width: unquote("min(#{$page-max-width}, calc(100vw - 2rem))");
+  max-width: unquote("min(#{$page-max-width}, calc(100vw - (2 * clamp(1rem, 4vw, 2rem))))");
   margin: 3rem auto 2rem;
   text-align: center;
 
   .footer-container {
-    max-width: calc(#{$page-max-width} - 2rem);
+    max-width: unquote("calc(#{$page-max-width} - (2 * clamp(1rem, 4vw, 2rem)))");
     margin: 0 auto;
 
     > * {
