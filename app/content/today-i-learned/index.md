@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-14"
+    link: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-creating-values.html
+    title: The interval specified when configuring a Route53 Health Check is not the interval you’ll receive health check requests — instead, it’s about 15 times higher (the interval is per AWS data center).
   - date: "2021-01-10"
     link: https://onnx.ai/
     title: ONNX is an open format built to represent machine learning models.
