@@ -41,39 +41,41 @@
     </section>
   </div>
 
-  <div class="two-column grid-container">
+  <section class="page-section grid-container">
     {{- with site.GetPage "talks" -}}
       {{- range ( (.Paginate .Sections).Pages.ByDate.Reverse | first 1 ) -}}
-        <section class="page-section">
-          <h1>Most recent speaking engagement</h1>
+        <h1>Most recent speaking engagement</h1>
 
-          <article class="card">
-            <p class="byline">{{ partial "talks/byline.html" . }}</p>
-            <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-            <p class="summary">{{ .Summary }}</p>
-          </article>
+        <article class="card">
+          <p class="byline">{{ partial "talks/byline.html" . }}</p>
 
-          <a class="button read-more" href="{{ relref . "talks"}}">See more in <em>Speaking</em> →</a>
-        </section>
+          <div class="two-column">
+            <div>
+              <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+              <p class="summary">{{ .Summary }}</p>
+            </div>
+            <div class="speaking-embed">
+              {{- if .Params.slides -}}
+                {{- with .Params.slides -}}
+                  <div class="embed is-{{ .format }}">
+                    <iframe src="{{ .src }}" title="Embedded slides" allowfullscreen></iframe>
+                  </div>
+                {{- end -}}
+              {{- else if .Params.video -}}
+                {{- with .Params.video -}}
+                  <div class="embed is-{{ .format }}">
+                    <iframe src="{{ .src }}" title="Talk video" allowfullscreen></iframe>
+                  </div>
+                {{- end -}}
+              {{- end -}}
+            </div>
+          </div>
+        </article>
 
-        <section class="page-section speaking-embed">
-          {{- if .Params.slides -}}
-            {{- with .Params.slides -}}
-              <div class="embed is-{{ .format }}">
-                <iframe src="{{ .src }}" title="Embedded slides" allowfullscreen></iframe>
-              </div>
-            {{- end -}}
-          {{- else if .Params.video -}}
-            {{- with .Params.video -}}
-              <div class="embed is-{{ .format }}">
-                <iframe src="{{ .src }}" title="Talk video" allowfullscreen></iframe>
-              </div>
-            {{- end -}}
-          {{- end -}}
-        </section>
+        <a class="button read-more" href="{{ relref . "talks"}}">See more in <em>Speaking</em> →</a>
       {{- end -}}
     {{- end -}}
-  </div>
+  </section>
 
   {{ partial "footer/oss.html" . }}
 {{- end -}}

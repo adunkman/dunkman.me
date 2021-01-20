@@ -50,7 +50,7 @@
     }
 
     main {
-      width: 55%;
+      width: calc(50% + 3rem);
       margin: clamp(100px, 20vw, 200px) auto 2rem 0;
     }
 
@@ -67,15 +67,15 @@
       > * {
         width: calc(50% - 1rem);
 
-        &:nth-of-type(2) {
+        &:nth-child(2) {
           margin-left: 2rem;
         }
       }
     }
+  }
 
-    .speaking-embed {
-      padding-top: 6rem;
-    }
+  .speaking-embed {
+    margin-top: 1rem;
   }
 
   .pledge {
@@ -126,6 +126,7 @@
 
   .card {
     margin: 2rem 0;
+    max-width: none;
     &:first-of-type { margin-top: 0; }
     &:last-of-type { margin-bottom: 0; }
   }
