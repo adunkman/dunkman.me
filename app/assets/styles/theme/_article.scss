@@ -5,30 +5,6 @@
     margin: 2rem 0;
   }
 
-  .byline {
-    display: flex;
-    margin: 0 0 0.25rem 0;
-    color: rgba(var(--theme-foreground-color), 0.7);
-    text-transform: uppercase;
-    font-size: 0.75em;
-
-    .byline-item + .byline-item:before {
-      content: " •";
-      display: inline;
-      margin: 0 0.5em;
-    }
-  }
-
-  .title {
-    margin: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  .lede {
-    font-size: 1.25em;
-    margin: 0;
-  }
-
   img {
     max-width: 100%;
     height: auto;
@@ -79,7 +55,38 @@
   }
 }
 
+.article,
+.card {
+  .byline {
+    display: flex;
+    margin: 0 0 0.25rem 0;
+    color: rgba(var(--theme-foreground-color), 0.7);
+    text-transform: uppercase;
+    font-size: 0.75em;
+
+    .byline-item + .byline-item:before {
+      content: " •";
+      display: inline;
+      margin: 0 0.5em;
+    }
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .lede {
+    font-size: 1.25em;
+    margin: 0;
+  }
+}
+
 .card {
   margin: 3rem 0;
+  max-width: 60ch;
+
+  &:first-of-type { margin-top: 0; }
+
   .summary { margin: 0; }
 }

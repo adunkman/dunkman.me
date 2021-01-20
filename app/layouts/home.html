@@ -1,12 +1,79 @@
 {{- define "page-class" -}} page-home {{- end -}}
 
 {{- define "body" -}}
-  {{ partial "header/banner.html" . }}
-  <main class="page-section grid-container article">
-    <p class="pledge">{{ .Params.pledge | markdownify }}</p>
-    <div class="signature has-viewport-event">
-      {{ readFile "assets/images/andrew-dunkman.svg" | safeHTML }}
-    </div>
-  </main>
+  <div class="andrew-image">
+    {{ partial "header/banner.html" . }}
+    <main class="page-section grid-container">
+      <p class="pledge">{{ .Params.pledge | markdownify }}</p>
+      <div class="signature has-viewport-event">
+        {{ readFile "assets/images/andrew-dunkman.svg" | safeHTML }}
+      </div>
+    </main>
+  </div>
+
+  <div class="two-column grid-container">
+    <section class="page-section">
+      <h1>Recent blog posts</h1>
+      {{- range ( where site.RegularPages "Section" "blog" | first 2 ) -}}
+        <article class="card">
+          <p class="byline">{{ partial "blog/byline.html" . }}</p>
+          <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+          <p class="summary">{{ .Summary }}</p>
+        </article>
+      {{- end -}}
+      <a class="button read-more" href="{{ relref . "blog"}}">Read more in <em>Blog</em> →</a>
+    </section>
+
+    <section class="page-section">
+      <h1>Did you know…</h1>
+      {{- with site.GetPage "today-i-learned" -}}
+        <ul class="today-i-learned-list">
+          {{- range ( .Params.links | first 3 ) -}}
+            <li class="learning">
+              <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time></td>
+              <span class="description">{{ .title | markdownify }}</span>
+              <a href="{{ .link }}" target="_blank" rel="noopener">{{ (urls.Parse .link).Host }}</a>
+            </li>
+          {{- end -}}
+        </ul>
+      {{- end -}}
+      <a class="button read-more" href="{{ relref . "today-i-learned"}}">Read more in <em>Today I learned</em> →</a>
+    </section>
+  </div>
+
+  <div class="two-column grid-container">
+    {{- with site.GetPage "talks" -}}
+      {{- range ( (.Paginate .Sections).Pages.ByDate.Reverse | first 1 ) -}}
+        <section class="page-section">
+          <h1>Most recent speaking engagement</h1>
+
+          <article class="card">
+            <p class="byline">{{ partial "talks/byline.html" . }}</p>
+            <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+            <p class="summary">{{ .Summary }}</p>
+          </article>
+
+          <a class="button read-more" href="{{ relref . "talks"}}">See more in <em>Speaking</em> →</a>
+        </section>
+
+        <section class="page-section speaking-embed">
+          {{- if .Params.slides -}}
+            {{- with .Params.slides -}}
+              <div class="embed is-{{ .format }}">
+                <iframe src="{{ .src }}" title="Embedded slides" allowfullscreen></iframe>
+              </div>
+            {{- end -}}
+          {{- else if .Params.video -}}
+            {{- with .Params.video -}}
+              <div class="embed is-{{ .format }}">
+                <iframe src="{{ .src }}" title="Talk video" allowfullscreen></iframe>
+              </div>
+            {{- end -}}
+          {{- end -}}
+        </section>
+      {{- end -}}
+    {{- end -}}
+  </div>
+
   {{ partial "footer/oss.html" . }}
 {{- end -}}
