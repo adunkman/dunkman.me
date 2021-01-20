@@ -17,5 +17,5 @@
 
 // Resource resolution helpers do not work in Sass imports.
 .page-home .andrew-image {
-  background-image: url('{{ (resources.Get "images/IMG_0550.JPG" | fingerprint "sha512").Permalink }}');
+  background-image: url('{{ ((resources.Get "images/IMG_0550.JPG").Resize "1500x" | fingerprint "sha512").Permalink }}');
 }
