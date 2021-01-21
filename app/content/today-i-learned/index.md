@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-21"
+    link: https://www.wamc.org/post/president-s-microphone
+    title: Since Lyndon Johnson, the President of the United States has used a Shure SM57 microphone for addresses (most often in a pair).
   - date: "2021-01-20"
     link: https://en.wikipedia.org/wiki/Green_eyeshade
     title: Green visors that accountants wore around the 1900s were to reduce eyestrain due to early incandescent lights (and were worn by more than just accountants). 
