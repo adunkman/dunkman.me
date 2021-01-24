@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-23"
+    link: https://en.wikipedia.org/wiki/Apple
+    title: Despite having an “American” association, apples are from Central Asia. 
   - date: "2021-01-21"
     link: https://www.wamc.org/post/president-s-microphone
     title: Since Lyndon Johnson, the President of the United States has used a Shure SM57 microphone for addresses (most often in a pair).
