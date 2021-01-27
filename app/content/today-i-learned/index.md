@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-27"
+    link: https://kellycordes.com/2009/11/02/the-fun-scale/
+    title: There are three types of fun — type 1 (fun while it’s happening), type 2 (fun in retrospect), and type 3 (not fun despite feeling like it would be fun).
   - date: "2021-01-25"
     link: https://en.wikipedia.org/wiki/Flight_recorder
     title: Airplane black boxes are orange in color.
