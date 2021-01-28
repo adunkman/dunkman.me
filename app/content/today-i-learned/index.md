@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-28"
+    link: https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
+    title: A Certificate Authority Authorization (CAA) DNS record indicates which authorities can issue security certificates for the domain.
   - date: "2021-01-27"
     link: https://kellycordes.com/2009/11/02/the-fun-scale/
     title: There are three types of fun — type 1 (fun while it’s happening), type 2 (fun in retrospect), and type 3 (not fun despite feeling like it would be fun).
