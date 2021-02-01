@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-01-31"
+    link: https://www.usps.com/international/first-class-mail-international.htm
+    title: USPS sells Global First Class Forever stamps ($1.20) in addition to their national counterpart ($0.55).
   - date: "2021-01-28"
     link: https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
     title: A Certificate Authority Authorization (CAA) DNS record indicates which authorities can issue security certificates for the domain.
