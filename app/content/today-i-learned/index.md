@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-04"
+    link: https://buildpacks.io/
+    title: There is a cross-platform standard for buildpacks — the Cloud Native Buildpacks project was initiated by Pivotal and Heroku and aims to unify the buildpack ecosystems and incorporates learnings from maintaining production-grade buildpacks for years.
   - date: "2021-02-01"
     link: https://stackoverflow.com/a/3152478
     title: Similar to how "example.com" is provided as an example domain, RFC5737 is about IPv4 addresses used for examples, which are any address in networks 192.0.2.0/24 (TEST-NET-1), 198.51.100.0/24 (TEST-NET-2) and 203.0.113.0/24 (TEST-NET-3), like 192.0.2.10, 198.51.100.3 or 203.0.113.254 which don’t exist on the Internet.
