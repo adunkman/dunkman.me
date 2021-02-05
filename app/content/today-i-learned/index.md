@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-05"
+    link: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation
+    title: When IP addresses end with a slash and a number, they are in CIDR notation which is a way of specifying a range of IPs. The suffix determines the last significant bit, so higher numbers are more specific — CIDR notation for a single IP address in IPv4 ends in /32, in IPv6 it’s /128.
   - date: "2021-02-04"
     link: https://buildpacks.io/
     title: There is a cross-platform standard for buildpacks — the Cloud Native Buildpacks project was initiated by Pivotal and Heroku and aims to unify the buildpack ecosystems and incorporates learnings from maintaining production-grade buildpacks for years.
