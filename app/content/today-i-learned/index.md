@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-07"
+    link: https://en.wikipedia.org/wiki/The_Chicken_and_the_Pig
+    title: The business fable of the chicken and the pig references when some parties are strongly committed and some are lightly invested.
   - date: "2021-02-05"
     link: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation
     title: When IP addresses end with a slash and a number, they are in CIDR notation which is a way of specifying a range of IPs. The suffix determines the last significant bit, so higher numbers are more specific — CIDR notation for a single IP address in IPv4 ends in /32, in IPv6 it’s /128.
