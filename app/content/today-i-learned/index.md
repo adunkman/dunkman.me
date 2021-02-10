@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-10"
+    link: https://en.wikipedia.org/wiki/Normalization_of_deviance
+    title: Normalization of deviance is the process by which improper or incorrect behavior becomes gradually standardized through inaction or a lack of consequence for variance.
   - date: "2021-02-07"
     link: https://en.wikipedia.org/wiki/The_Chicken_and_the_Pig
     title: The business fable of the chicken and the pig references when some parties are strongly committed and some are lightly invested.
