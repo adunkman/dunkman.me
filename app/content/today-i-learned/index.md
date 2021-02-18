@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-16"
+    link: https://en.wikipedia.org/wiki/Capitonym
+    title: A capitonym is a word that changes its meaning (and sometimes pronunciation) when it is capitalized.
   - date: "2021-02-10"
     link: https://en.wikipedia.org/wiki/Normalization_of_deviance
     title: Normalization of deviance is the process by which improper or incorrect behavior becomes gradually standardized through inaction or a lack of consequence for variance.
