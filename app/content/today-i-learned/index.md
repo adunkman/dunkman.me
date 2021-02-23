@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-23"
+    link: https://en.wikipedia.org/wiki/FAIR_data
+    title: FAIR is an acronym that refers to data which is findable, accessible, interoperable, and reusable.
   - date: "2021-02-16"
     link: https://en.wikipedia.org/wiki/Capitonym
     title: A capitonym is a word that changes its meaning (and sometimes pronunciation) when it is capitalized.
