@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-02-24"
+    link: https://yaml-multiline.info/
+    title: YAML has extremely fine-grained control over how multiline strings are processed.
   - date: "2021-02-23"
     link: https://en.wikipedia.org/wiki/FAIR_data
     title: FAIR is an acronym that refers to data which is findable, accessible, interoperable, and reusable.
