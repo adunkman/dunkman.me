@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-03-12"
+    link: https://fatherhood.gov/jsonapi/node/dad_jokes
+    title: There’s a U.S. Government API for dad jokes from fatherhood.gov.
   - date: "2021-02-24"
     link: https://yaml-multiline.info/
     title: YAML has extremely fine-grained control over how multiline strings are processed.
