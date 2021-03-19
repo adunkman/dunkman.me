@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-03-18"
+    link: https://en.wikipedia.org/wiki/Collective_capitalism
+    title: Collective capitalism is a type of captialism, and one such example is interlocking share ownership, in which companies own shares in other companies. This results in a spirit of cooperation between the involved companies, since each has an interest in the other's performance.
   - date: "2021-03-15"
     link: https://regexper.com/#%28%5Cd%7B1%2C2%7D%3A%5Cd%7B2%7D%5Cs%3F%28am%7Cpm%29%3F%29%5Cs%3F%28%28%28ak%7Ca%7Cc%7Ce%7Cm%7Cp%29%28s%7Cd%29%3Ft%29%7C%3A%28eastern%7Ccentral%7Cmountain%7Cpacific%29-time-zone%3A%29%3F
     title: Regexper is a tool which generates syntax diagrams to aid in understanding and writing regular expressions.
