@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-03-28"
+    link: https://tonsky.me/blog/emoji/
+    title: More than you ever want to know about how Emoji are implemented and rendered.
   - date: "2021-03-18"
     link: https://en.wikipedia.org/wiki/Collective_capitalism
     title: Collective capitalism is a type of captialism, and one such example is interlocking share ownership, in which companies own shares in other companies. This results in a spirit of cooperation between the involved companies, since each has an interest in the other's performance.
