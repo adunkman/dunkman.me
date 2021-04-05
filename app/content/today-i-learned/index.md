@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-04"
+    link: https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love
+    title: _Can’t Help Falling in Love_ as recorded by Elvis Presley was originally written as "Only fools rush in / But I can’t help falling in love with him".
   - date: "2021-04-01"
     link: https://ojin.nursingworld.org/MainMenuCategories/ANAMarketplace/ANAPeriodicals/OJIN/TableofContents/Vol-21-2016/No2-May-2016/Integrating-Lewins-Theory-with-Leans-System-Approach.html
     title: Lewin’s theory of change proposes that individuals are influenced by restraining forces (obstacles that counter driving forces aimed at keeping the status quo) and driving forces (positive forces for change that push in the direction that causes change to happen) — and three steps to adjust the equilibrium point. 
