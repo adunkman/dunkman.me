@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-13"
+    link: https://brentryanjohnson.com/developing-film-with-coffee/
+    title: You can develop film using instant coffee.
   - date: "2021-04-04"
     link: https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love
     title: _Can’t Help Falling in Love_ as recorded by Elvis Presley was originally written as "Only fools rush in / But I can’t help falling in love with him".
