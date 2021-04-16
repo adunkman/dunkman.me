@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-16"
+    link: https://www.gsa.gov/about-us/mission-and-background/our-missions-evolution
+    title: The General Services Administration used to manage hemp plantations in South America.
   - date: "2021-04-14"
     link: http://forreadingaddicts.co.uk/news/medieval-monk-cursed-cat-who-peed-on-his-manuscript/33035
     title: There’s a book written in 1420 with a blank spot in it because a cat peed on the page.
