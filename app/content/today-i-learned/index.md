@@ -7,6 +7,9 @@ links:
   - date: "2021-04-16"
     link: https://www.gsa.gov/about-us/mission-and-background/our-missions-evolution
     title: The General Services Administration used to manage hemp plantations in South America.
+  - date: "2021-04-15"
+    link: https://spiffe.io/
+    title: SPIFFE (Secure Production Identity Framework for Everyone) is a universal identity control plane for distributed systems, designed to authenticate services to each other.
   - date: "2021-04-14"
     link: http://forreadingaddicts.co.uk/news/medieval-monk-cursed-cat-who-peed-on-his-manuscript/33035
     title: There’s a book written in 1420 with a blank spot in it because a cat peed on the page.
