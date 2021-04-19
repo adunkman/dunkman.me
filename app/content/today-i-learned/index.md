@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-19"
+    link: https://github.com/ulid/spec
+    title: ULID (Universally Unique Lexicographically Sortable Identifier) is similar to a UUID, but sorts alphabetically according to time.
   - date: "2021-04-16"
     link: https://www.gsa.gov/about-us/mission-and-background/our-missions-evolution
     title: The General Services Administration used to manage hemp plantations in South America.
