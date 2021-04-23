@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-23"
+    link: https://docs.aws.amazon.com/pinpoint/latest/developerguide/validate-phone-numbers.html
+    title: You can figure out if a phone number is a mobile, landline, or VoIP number using AWS Pinpoint.
   - date: "2021-04-19"
     link: https://github.com/ulid/spec
     title: ULID (Universally Unique Lexicographically Sortable Identifier) is similar to a UUID, but sorts alphabetically according to time.
