@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-27"
+    link: https://qwerty.dev/whitespace/
+    title: There are 11 characters for different kinds of spaces, including the word space (the one you get with the space bar), zero-width space, and em space.
   - date: "2021-04-23"
     link: https://docs.aws.amazon.com/pinpoint/latest/developerguide/validate-phone-numbers.html
     title: You can figure out if a phone number is a mobile, landline, or VoIP number using AWS Pinpoint.
