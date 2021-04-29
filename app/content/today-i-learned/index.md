@@ -4,6 +4,12 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-29"
+    link: https://www.forbes.com/sites/kellyphillipserb/2015/09/08/irs-to-refuse-checks-greater-than-100-million-beginning-in-2016/?sh=2a2c069a4756
+    title: The IRS cannot accept a single check (including a cashier’s check) for amounts of $100 million or more.
+  - date: "2021-04-28"
+    link: https://github.com/adunkman.keys
+    title: GitHub shows public keys registered to a user at `https://github.com/<username>.keys`.
   - date: "2021-04-27"
     link: https://qwerty.dev/whitespace/
     title: There are 11 characters for different kinds of spaces, including the word space (the one you get with the space bar), zero-width space, and em space.
