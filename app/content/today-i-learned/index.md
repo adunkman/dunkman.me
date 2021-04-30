@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-04-30"
+    link: https://www.washingtonpost.com/local/in-the-shadow-of-the-nations-capital-is-bob-ross-inc-where-everything-is-happy/2018/10/17/b4e9c31a-d21c-11e8-b2d2-f397227b43f0_story.html
+    title: Bob Ross, Inc. is located in Herndon, VA.
   - date: "2021-04-29"
     link: https://www.forbes.com/sites/kellyphillipserb/2015/09/08/irs-to-refuse-checks-greater-than-100-million-beginning-in-2016/?sh=2a2c069a4756
     title: The IRS cannot accept a single check (including a cashier’s check) for amounts of $100 million or more.
