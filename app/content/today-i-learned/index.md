@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-05-05"
+    link: https://twitter.com/SlackAPI/status/1389698173627768838
+    title: In Slack, you can add multiple emoji reactions by holding <kbd>Shift</kbd>.
   - date: "2021-04-30"
     link: https://www.washingtonpost.com/local/in-the-shadow-of-the-nations-capital-is-bob-ross-inc-where-everything-is-happy/2018/10/17/b4e9c31a-d21c-11e8-b2d2-f397227b43f0_story.html
     title: Bob Ross, Inc. is located in Herndon, VA.
