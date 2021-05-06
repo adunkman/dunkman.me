@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-05-06"
+    link: https://en.m.wikipedia.org/wiki/Human_milk_oligosaccharide
+    title: Human milk oligosaccharides (HMOs) are the third most common ingredient in human breast milk, and is indigestible by babies (it feeds gut bacteria). 
   - date: "2021-05-05"
     link: https://twitter.com/SlackAPI/status/1389698173627768838
     title: In Slack, you can add multiple emoji reactions by holding <kbd>Shift</kbd>.
