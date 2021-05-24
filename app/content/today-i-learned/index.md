@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-05-24"
+    link: https://en.wikipedia.org/wiki/Numeronym
+    title: A numeronym is a number-based word, like k9 (representing "canine") or a11y (representing "accessibility").
   - date: "2021-05-06"
     link: https://en.m.wikipedia.org/wiki/Human_milk_oligosaccharide
     title: Human milk oligosaccharides (HMOs) are the third most common ingredient in human breast milk, and is indigestible by babies (it feeds gut bacteria). 
