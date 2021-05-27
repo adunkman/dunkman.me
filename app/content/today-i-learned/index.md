@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-05-27"
+    link: https://twitter.com/Kristy_Viers/status/1287189581926981634
+    title: There is a braille keyboard on iPhone.
   - date: "2021-05-24"
     link: https://en.wikipedia.org/wiki/Numeronym
     title: A numeronym is a number-based word, like k9 (representing "canine") or a11y (representing "accessibility").
