@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-05-28"
+    link: https://bigthink.com/delancey-place/the-two-systems-of-cognitive-processes
   - date: "2021-05-27"
     link: https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
   - date: "2021-05-21"
