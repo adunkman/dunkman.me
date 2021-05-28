@@ -6,6 +6,6 @@ matchers:
     cacheControl: max-age=31536000, public
     gzip: true
 
-  - pattern: ^.+\.(html|xml)$
+  - pattern: ^.+\.(html|xml|txt)$
     cacheControl: max-age=0, must-revalidate
     gzip: true
