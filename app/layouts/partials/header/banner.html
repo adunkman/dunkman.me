@@ -18,6 +18,7 @@
         <a href="{{ relref . "/" }}" class="primary-menu-item {{ if .IsHome }}item-current{{end}}">Home</a>
         <a href="{{ relref . "blog" }}" class="primary-menu-item {{ if eq .Section "blog" }}item-current{{end}}">Blog</a>
         <a href="{{ relref . "today-i-learned" }}" class="primary-menu-item {{ if eq .Type "today-i-learned" }}item-current{{end}}">Today I learned</a>
+        <a href="{{ relref . "reading" }}" class="primary-menu-item {{ if eq .Type "reading" }}item-current{{end}}">Reading</a>
         <a href="{{ relref . "talks" }}" class="primary-menu-item {{ if eq .Section "talks" }}item-current{{end}}">Speaking</a>
         <a href="{{ relref . "contact" }}" class="primary-menu-item {{ if eq .Page.Title "Contact" }}item-current{{end}}">Contact</a>
       </div>

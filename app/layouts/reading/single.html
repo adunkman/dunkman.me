@@ -1,0 +1,29 @@
+{{- define "page-class" -}} page-today-i-learned {{- end -}}
+
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      <article class="article">
+        <header>
+          <h1 class="title">{{ .Title }}</h1>
+          <p class="lede">{{ .Summary }}</p>
+        </header>
+        <div class="content">
+          {{ .Content }}
+
+          <ul class="today-i-learned-list">
+            {{ range .Params.links }}
+              <li class="learning">
+                <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time></td>
+                <span class="description">{{ .title | markdownify }}</span>
+                {{ partial "shortcodes/unfurl.html" .link }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </article>
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}
