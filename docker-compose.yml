@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.2"
 services:
   hugo:
     build: ./app
@@ -7,8 +7,7 @@ services:
     ports:
       - "1313:1313"
     depends_on:
-      metascraper:
-        condition: service_healthy
+      - metascraper
     environment:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
@@ -31,6 +30,8 @@ services:
       PORT: 8080
 
   test:
+    profiles:
+      - utilities
     build: ./test
     volumes:
       - ./test:/test
@@ -41,6 +42,8 @@ services:
       APP_HOST: http://hugo:1313
 
   terraform:
+    profiles:
+      - utilities
     build: ./terraform
     volumes:
       - ./terraform:/terraform
