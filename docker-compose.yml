@@ -50,3 +50,10 @@ services:
     environment:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+
+  tfsec:
+    profiles:
+      - utilities
+    image: tfsec/tfsec:v0.39.42
+    volumes:
+      - ./terraform:/terraform

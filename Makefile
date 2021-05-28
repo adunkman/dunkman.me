@@ -34,6 +34,10 @@ clean: ## Reset docker and clear temporary files
 	@rm -rf ./test/node_modules/
 	@docker-compose down
 
+.PHONY: tfsec
+tfsec: ## Runs tfsec to scan for security issues
+	@docker-compose run tfsec /terraform
+
 .PHONY: deploy
 deploy: ## 🔒 Deploys compiled application files to static host
 	@docker-compose run hugo deploy --maxDeletes -1

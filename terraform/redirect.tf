@@ -1,6 +1,11 @@
+# AWS002 — logging is not required for public files
+# AWS017 — encryption not needed for public files
+# AWS077 — build files do not need to be versioned
+#
+# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077
 resource "aws_s3_bucket" "redirect_to_dunkman_me" {
   bucket = "redirect.dunkman.me"
-  acl = "public-read"
+  acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
 
   website {
     redirect_all_requests_to = "https://www.dunkman.me"
@@ -27,6 +32,10 @@ locals {
   redirect_s3_origin_id = "redirect_to_dunkman_me"
 }
 
+# AWS045 — firewall is not needed to protect S3
+# AWS071 — access logging is not required for public files
+#
+# tfsec:ignore:AWS045 tfsec:ignore:AWS071
 resource "aws_cloudfront_distribution" "redirect_to_dunkman_me" {
   enabled = true
   is_ipv6_enabled = true
@@ -64,7 +73,7 @@ resource "aws_cloudfront_distribution" "redirect_to_dunkman_me" {
 
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.dunkman_me.arn
-    minimum_protocol_version = "TLSv1.2_2018"
+    minimum_protocol_version = "TLSv1.2_2019"
     ssl_support_method = "sni-only"
   }
 

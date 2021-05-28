@@ -1,6 +1,11 @@
+# AWS002 — logging is not required for public files
+# AWS017 — encryption not needed for public files
+# AWS077 — build files do not need to be versioned
+#
+# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077
 resource "aws_s3_bucket" "dunkman_me" {
   bucket = "dunkman.me"
-  acl = "public-read"
+  acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
 
   website {
     index_document = "index.html"

@@ -2,6 +2,10 @@ locals {
   s3_origin_id = "dunkman_me"
 }
 
+# AWS045 — firewall is not needed to protect S3
+# AWS071 — access logging is not required for public files
+#
+# tfsec:ignore:AWS045 tfsec:ignore:AWS071
 resource "aws_cloudfront_distribution" "dunkman_me" {
   enabled = true
   is_ipv6_enabled = true
@@ -46,7 +50,7 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
 
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.dunkman_me.arn
-    minimum_protocol_version = "TLSv1.2_2018"
+    minimum_protocol_version = "TLSv1.2_2019"
     ssl_support_method = "sni-only"
   }
 
