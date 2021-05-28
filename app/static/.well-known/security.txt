@@ -1,0 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:adunkman@gmail.com
+Expires: Fri, 27 May 2022 12:00 -0400
+Encryption: https://www.dunkman.me/key.asc
+Preferred-Languages: en
+Canonical: https://www.dunkman.me/.well-known/security.txt
+Policy: https://github.com/adunkman/dunkman.me/blob/main/SECURITY.md
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAEBCAAyFiEEQXAcEXyKHVs+rPZtzf/gCd4BJ/gFAmCwPykUHGFkdW5rbWFu
+QGtleWJhc2UuaW8ACgkQzf/gCd4BJ/hEKQgArDjKLUoLj7PGCZs0GgSIGHnCzS63
+gb0HIP434SoayrxpSnW2D3G7uQf+JDm2FwdK0DiqRAW7u3PAQL+t1y/K0yAGEVSt
+4tsrHNEl4Fm1l5qN1X9jcJZ36T+Xw57uhTjDYYp2ok6+e8ARN5EHl5rwhRJnIFKX
+JzgCbD2e8M8x7fzPJkZlJDJfQkOemY2l9wRTLf0i0DLP2KcSGNRGTKV9x+S/65op
+Gq3Jj31y6r+Mukf38r5DRQO0SYx3gcIWze2SSyZLh65g3J+BigK5dNmEsqwxTm9i
+XDXys8yL+dxj1uwSsuZOH5hrRqHJzs3uYTuK7PG38eDJ1JVpQlNz3YTROg==
+=ut1u
+-----END PGP SIGNATURE-----
