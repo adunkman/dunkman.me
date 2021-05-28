@@ -1,0 +1,54 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      AWS_DEFAULT_REGION: us-east-1
+      HUGO_ENV: production
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: actions/cache@v2
+        with:
+          path: terraform/.terraform
+          key: v1-${{ hashFiles('terraform/.terraform.lock.hcl') }}
+
+      - name: Build site
+        run: make build
+
+      - name: Scan infrastructure for security issues
+        run: make tfsec
+
+      - name: Initialize terraform
+        run: make terraform-init
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Plan infrastructure changes
+        if: ${{ env.AWS_ACCESS_KEY_ID != '' }}
+        run: make terraform-plan
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Apply infrastructure changes
+        if: ${{ env.AWS_ACCESS_KEY_ID != '' }}
+        run: make terraform-apply
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Deploy site
+        if: ${{ env.AWS_ACCESS_KEY_ID != '' }}
+        run: make deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
