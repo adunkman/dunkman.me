@@ -1,0 +1,20 @@
+{{- with getJSON "http://metascraper:8080/expand?url=" . -}}
+  <blockquote class="link-preview">
+    <div class="metadata">
+      {{ if isset . "logo" }}<img src="{{ .logo }}" class="favicon">{{ end }}
+      <span>{{ (urls.Parse .url).Host }}</span>
+    </div>
+    <div>
+      <a href="{{ .url }}" target="_blank" rel="noopener">
+        {{ if .title }}
+          <strong>{{ .title }}</strong>
+        {{ else }}
+          <strong class="url">{{ .url }}</strong>
+        {{ end }}
+      </a>
+    </div>
+    <div>
+      {{ if isset . "description" }}<p>{{ .description | safeHTML }}</p>{{ end }}
+    </div>
+  </blockquote>
+{{- end -}}

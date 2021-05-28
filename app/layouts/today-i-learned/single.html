@@ -17,7 +17,7 @@
               <li class="learning">
                 <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time></td>
                 <span class="description">{{ .title | markdownify }}</span>
-                <a href="{{ .link }}" target="_blank" rel="noopener">{{ (urls.Parse .link).Host }}</a>
+                {{ partial "shortcodes/unfurl.html" .link }}
               </li>
             {{ end }}
           </ul>

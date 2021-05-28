@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.74.3-ext-alpine
+FROM klakegg/hugo:0.83.1-ext-alpine
 
 WORKDIR /app
 

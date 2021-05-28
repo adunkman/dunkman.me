@@ -50,8 +50,8 @@ code {
 }
 
 blockquote {
-  margin: 0;
-  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  padding: 0.3rem 1rem;
   border-left: 5px rgba(var(--theme-foreground-color), 0.15) solid;
   color: rgba(var(--theme-foreground-color), 0.8);
 
@@ -64,6 +64,33 @@ blockquote {
     &:hover { color: inherit; }
     &:active { color: inherit; }
     &:visited { color: inherit; }
+  }
+}
+
+.link-preview {
+  font-size: 1rem;
+
+  .metadata {
+    margin-bottom: .1rem;
+  }
+
+  .url {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .favicon {
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: .2rem;
+    margin-right: .2rem;
+  }
+
+  p {
+    margin: 0.1rem 0 0;
   }
 }
 
