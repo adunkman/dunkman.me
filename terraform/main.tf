@@ -1,4 +1,11 @@
 terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "~> 3.42.0"
+    }
+  }
+
   backend "s3" {
     bucket = "dunkman.me-terraform"
     key = "state"
@@ -8,6 +15,5 @@ terraform {
 }
 
 provider "aws" {
-  version = "~> 3.0"
   region = "us-east-1"
 }

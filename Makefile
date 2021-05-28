@@ -20,6 +20,10 @@ docker-rebuild-app: ## Rebuild docker image used for hugo
 docker-rebuild-metascraper: ## Rebuild docker image used for metascraper
 	@docker-compose build metascraper
 
+.PHONY: docker-rebuild-terraform
+docker-rebuild-terraform: ## Rebuild docker image used for terraform
+	@docker-compose build terraform
+
 .PHONY: clean
 clean: ## Reset docker and clear temporary files
 	@rm -rf ./app/public/
