@@ -1,4 +1,5 @@
-[![Build status for the main branch on CircleCI](https://circleci.com/gh/adunkman/dunkman.me/tree/main.svg?style=svg)](https://circleci.com/gh/adunkman/dunkman.me/tree/main)
+![Build status on the main branch](https://github.com/adunkman/dunkman.me/actions/workflows/release.yml/badge.svg?branch=main)
+
 
 This repository holds the application code and infrastructure for [dunkman.me](https://www.dunkman.me).
 
