@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-06-01"
+    link: https://en.m.wikipedia.org/wiki/Dice
+    title: Dice have dots on them because they predate Arabic numerals.
   - date: "2021-05-27"
     link: https://twitter.com/Kristy_Viers/status/1287189581926981634
     title: There is a braille keyboard on iPhone.
