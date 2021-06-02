@@ -49,11 +49,14 @@ links:
   - date: "2020-07-16"
     link: https://medium.com/@johnpcutler/go-towards-the-discomfort-its-a-sign-21ce4b1a8cc5
   - date: "2020-07-16"
-    link: https://madeofmetaphors.com/shapes
-  - date: "2020-07-16"
-    link: https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/
-  - date: "2020-07-16"
-    link: https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/
-  - date: "2020-07-16"
     link: https://www.thoughtworks.com/insights/blog/double-diamond
+  - date: "2020-07-16"
+    link: https://startsmallscalefast.com/agilebusiness/a-structure-for-continuous-innovation-pioneers-settlers-town-planners/
+  - date: "2019-12-18"
+    link: https://madeofmetaphors.com/shapes
+  - date: "2019-08-26"
+    link: https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/
+  - date: "2019-08-12"
+    link: https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/
+
 ---
