@@ -4,6 +4,8 @@ date: "2021-01-12"
 summary: Even if you use a third-party email service like Mailchimp, Sendgrid, or AWS Simple Email Service, the security and deliverability of your emails depends on a set of DNS records on your domain.
 ---
 
+{{<figure src="marvin-meyer-unsplash.jpg" width="5995" height="2186" alt="A stock photo depicting a group of laptops around a messy coffee shop table." caption="Designing the perfect email doesn’t matter if it’s sent to spam." attr="Marvin Meyer" attrlink="https://unsplash.com/photos/SYTO3xs06fU" >}}
+
 Similar to how DNS indicates to web browsers which servers to contact to view a website at a domain, DNS also indicates to email clients which servers are authorized to send and receive email at a domain.
 
 This problem is a bit different than web hosting, because emails are received, rather than requested. When loading a website, the browser performs a series of checks to determine which server to reach out to — however, when an email is received, how does the email client know the email originated from a trustworthy source? Let’s break this down, starting with a quick summary.
