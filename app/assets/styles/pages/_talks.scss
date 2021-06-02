@@ -26,4 +26,31 @@
   .event + .event {
     margin-top: 2rem;
   }
+
+  .card {
+    max-width: none;
+  }
+
+  .speaking-embed {
+    margin-top: 1rem;
+  }
+
+  @include min-width-tablet {
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+
+      > * {
+        width: calc(50% - 1rem);
+
+        &:nth-child(2) {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .speaking-embed {
+      margin-top: 0;
+    }
+  }
 }

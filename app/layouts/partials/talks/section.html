@@ -8,8 +8,28 @@
 {{ range (.Paginate .Sections).Pages.ByDate.Reverse }}
   <article class="card">
     <p class="byline">{{ partial "talks/byline.html" . }}</p>
-    <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-    <p class="summary">{{ .Summary }}</p>
+
+    <div class="two-column">
+      <div>
+        <h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <p class="summary">{{ .Summary }}</p>
+      </div>
+      <div class="speaking-embed">
+        {{- if .Params.slides -}}
+          {{- with .Params.slides -}}
+            <div class="embed is-{{ .format }}">
+              <iframe src="{{ .src }}" title="Embedded slides" allowfullscreen></iframe>
+            </div>
+          {{- end -}}
+        {{- else if .Params.video -}}
+          {{- with .Params.video -}}
+            <div class="embed is-{{ .format }}">
+              <iframe src="{{ .src }}" title="Talk video" allowfullscreen></iframe>
+            </div>
+          {{- end -}}
+        {{- end -}}
+      </div>
+    </div>
   </article>
 {{ end }}
 
