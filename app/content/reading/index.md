@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-06-04"
+    link: https://www.verywellmind.com/what-is-the-anchoring-bias-2795029
   - date: "2021-06-02"
     link: https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/
   - date: "2021-05-28"
