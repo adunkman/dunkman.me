@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-06-04"
+    link: https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/
+    title: Of 1121 federally-managed `.gov` domains, 28% of them simply redirect to another domain.
   - date: "2021-06-01"
     link: https://en.m.wikipedia.org/wiki/Dice
     title: Dice have dots on them because they predate Arabic numerals.
