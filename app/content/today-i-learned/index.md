@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-06-07"
+    link: https://odpc.ucsf.edu/clinical/patient-centered-care/medical-and-social-models-of-disability
+    title: The medical model of disability views disability as a defect in a human, whereas the social model of disability views disability as an inability of society to accomodate a person’s differences.
   - date: "2021-06-04"
     link: https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/
     title: Of 1121 federally-managed `.gov` domains, 28% of them simply redirect to another domain.
