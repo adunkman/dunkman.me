@@ -8,6 +8,8 @@ links:
     link: https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f
   - date: "2021-06-04"
     link: https://www.verywellmind.com/what-is-the-anchoring-bias-2795029
+  - date: "2021-06-03"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S016412120700194X
   - date: "2021-06-02"
     link: https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/
   - date: "2021-05-28"
