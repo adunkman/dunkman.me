@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-06-07"
+    link: https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f
   - date: "2021-06-04"
     link: https://www.verywellmind.com/what-is-the-anchoring-bias-2795029
   - date: "2021-06-02"
