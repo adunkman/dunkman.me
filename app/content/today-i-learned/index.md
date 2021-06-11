@@ -6,7 +6,7 @@ type: today-i-learned
 links:
   - date: "2021-06-11"
     link: https://www.quora.com/Is-it-racist-to-say-long-time-no-see
-    title: "Long time no see" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
+    title: \"Long time no see\" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
   - date: "2021-06-07"
     link: https://odpc.ucsf.edu/clinical/patient-centered-care/medical-and-social-models-of-disability
     title: The medical model of disability views disability as a defect in a human, whereas the social model of disability views disability as an inability of society to accomodate a person’s differences.
