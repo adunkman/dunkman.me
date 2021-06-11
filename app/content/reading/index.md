@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-06-11"
+    link: https://randsinrepose.com/archives/ninety-days/
   - date: "2021-06-07"
     link: https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f
   - date: "2021-06-04"
