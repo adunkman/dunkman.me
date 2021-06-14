@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-06-14"
+    link: https://support.apple.com/guide/voiceover/pause-or-mute-voiceover-mchlp2707/mac
+    title: You can press <kbd>Control</kbd> to temporarily pause VoiceOver readout.
   - date: "2021-06-11"
     link: https://www.quora.com/Is-it-racist-to-say-long-time-no-see
     title: \"Long time no see\" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
