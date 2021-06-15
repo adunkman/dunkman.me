@@ -7,6 +7,9 @@ links:
   - date: "2021-06-14"
     link: https://support.apple.com/guide/voiceover/pause-or-mute-voiceover-mchlp2707/mac
     title: You can press <kbd>Control</kbd> to temporarily pause VoiceOver readout.
+  - date: "2021-06-13"
+    link: https://seths.blog/2008/01/permission-mark/
+    title: Permission marketing works like this: if you stop showing up, people complain, they ask where you went.
   - date: "2021-06-11"
     link: https://www.quora.com/Is-it-racist-to-say-long-time-no-see
     title: \"Long time no see\" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
