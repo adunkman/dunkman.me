@@ -4,8 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
-  - date: "2021-06-14"
-    link: https://seths.blog/2008/01/permission-mark/
+  - date: "2021-06-15"
+    link: http://zenhabits.com/ah/
   - date: "2021-06-11"
     link: https://randsinrepose.com/archives/ninety-days/
   - date: "2021-06-07"
