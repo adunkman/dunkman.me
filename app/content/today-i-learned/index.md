@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-07-06"
+    link: https://www.youtube.com/watch?v=7DWLw4bDZVU
+    title: Blind users can edit text on Android devices using TalkBack (if it cooperates).
   - date: "2021-06-14"
     link: https://support.apple.com/guide/voiceover/pause-or-mute-voiceover-mchlp2707/mac
     title: You can press <kbd>Control</kbd> to temporarily pause VoiceOver readout.
