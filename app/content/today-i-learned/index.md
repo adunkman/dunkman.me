@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-07-09"
+    link: https://www.youtube.com/watch?v=bZ1LB1XQ-Us
+    title: There’s an official Spanish version of the Star-Spangled Banner.
   - date: "2021-07-06"
     link: https://www.youtube.com/watch?v=7DWLw4bDZVU
     title: Blind users can edit text on Android devices using TalkBack (if it cooperates).
