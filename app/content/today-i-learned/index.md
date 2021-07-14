@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-07-14"
+    link: https://blog.crunchydata.com/blog/generating-json-directly-from-postgres
+    title: Postres can natively convert SQL results to JSON objects. 
   - date: "2021-07-09"
     link: https://www.youtube.com/watch?v=bZ1LB1XQ-Us
     title: There’s an official Spanish version of the Star-Spangled Banner.
