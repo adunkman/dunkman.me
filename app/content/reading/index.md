@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-07-14"
+    link: https://codesubmit.io/blog/guide-to-onboarding-developers/
   - date: "2021-07-12"
     link: https://www.linkedin.com/pulse/frame-model-coach-enable-sabrina-clark/
   - date: "2021-07-01"
