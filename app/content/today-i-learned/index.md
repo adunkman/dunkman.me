@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-07-19"
+    link: https://www.psychologytoday.com/us/blog/deaf-gain/201411/introduction-deaf-gain
+    title: The term "Deaf Gain" (as apposed to "Hearing Loss") refers to the myriad of ways which both deaf people and society at large benefit from the existence of deaf people and sign language.
   - date: "2021-07-14"
     link: https://blog.crunchydata.com/blog/generating-json-directly-from-postgres
     title: Postres can natively convert SQL results to JSON objects. 
