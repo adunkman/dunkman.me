@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-02"
+    link: https://alexschroeder.ch/wiki/Optimistic_Merging
   - date: "2021-07-15"
     link: https://www.fastcompany.com/90649969/the-most-popular-design-thinking-strategy-is-bs
   - date: "2021-07-14"
