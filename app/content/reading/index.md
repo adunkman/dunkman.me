@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-11"
+    link: https://bradfrost.com/blog/post/job-title-its-complicated/
   - date: "2021-08-02"
     link: https://alexschroeder.ch/wiki/Optimistic_Merging
   - date: "2021-07-15"
