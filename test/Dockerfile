@@ -2,7 +2,7 @@ FROM mhart/alpine-node:15.5.1
 
 WORKDIR /test
 
-COPY ./package*.json ./
-RUN npm ci
+COPY ./package.json ./yarn.lock ./
+RUN yarn
 
-ENTRYPOINT ["npm", "test"]
+ENTRYPOINT ["yarn", "test"]

@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.83.1-ext-alpine
+FROM klakegg/hugo:0.87.0-ext-alpine
 RUN apk add --no-cache openssl
 
 ENV DOCKERIZE_VERSION v0.6.1

@@ -12,9 +12,29 @@ test: ## Run automated tests
 build: ## Generate compiled application files to prepare for a deployment
 	@docker-compose run hugo --
 
-.PHONY: docker-rebuild-app
-docker-rebuild-app: ## Rebuild docker image used for hugo
+.PHONY: sh-metascraper
+sh-metascraper: ## Open a shell in the metascraper docker image
+	@docker-compose run --entrypoint sh metascraper
+
+.PHONY: sh-hugo
+sh-hugo: ## Open a shell in the hugo docker image
+	@docker-compose run --entrypoint sh hugo
+
+.PHONY: sh-test
+sh-test: ## Open a shell in the test docker image
+	@docker-compose run --entrypoint sh test
+
+.PHONY: sh-terraform
+sh-terraform: ## Open a shell in the terraform docker image
+	@docker-compose run --entrypoint sh terraform
+
+.PHONY: docker-rebuild-hugo
+docker-rebuild-hugo: ## Rebuild docker image used for hugo
 	@docker-compose build hugo
+
+.PHONY: docker-rebuild-test
+docker-rebuild-test: ## Rebuild docker image used for test
+	@docker-compose build test
 
 .PHONY: docker-rebuild-metascraper
 docker-rebuild-metascraper: ## Rebuild docker image used for metascraper
