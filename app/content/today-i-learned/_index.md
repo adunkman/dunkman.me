@@ -6,13 +6,13 @@ type: today-i-learned
 links:
   - date: "2021-08-02"
     link: https://grafana.wikimedia.org
-    title: Wikimedia’s Grafana instance (which shows statistics on their running services) is public. 
+    title: Wikimedia’s Grafana instance (which shows statistics on their running services) is public.
   - date: "2021-07-19"
     link: https://www.psychologytoday.com/us/blog/deaf-gain/201411/introduction-deaf-gain
     title: The term "Deaf Gain" (as apposed to "Hearing Loss") refers to the myriad of ways which both deaf people and society at large benefit from the existence of deaf people and sign language.
   - date: "2021-07-14"
     link: https://blog.crunchydata.com/blog/generating-json-directly-from-postgres
-    title: Postres can natively convert SQL results to JSON objects. 
+    title: Postres can natively convert SQL results to JSON objects.
   - date: "2021-07-09"
     link: https://www.youtube.com/watch?v=bZ1LB1XQ-Us
     title: There’s an official Spanish version of the Star-Spangled Banner.
@@ -27,7 +27,7 @@ links:
     title: "Permission marketing works like this: if you stop showing up, people complain, they ask where you went."
   - date: "2021-06-11"
     link: https://www.quora.com/Is-it-racist-to-say-long-time-no-see
-    title: \"Long time no see\" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
+    title: The phrase "long time no see" may have originated as a phrase mocking Chinese immigrants’ usage of English (it is a direct translation of the common greeting 好久不见).
   - date: "2021-06-07"
     link: https://odpc.ucsf.edu/clinical/patient-centered-care/medical-and-social-models-of-disability
     title: The medical model of disability views disability as a defect in a human, whereas the social model of disability views disability as an inability of society to accomodate a person’s differences.
@@ -45,7 +45,7 @@ links:
     title: A numeronym is a number-based word, like k9 (representing "canine") or a11y (representing "accessibility").
   - date: "2021-05-06"
     link: https://en.m.wikipedia.org/wiki/Human_milk_oligosaccharide
-    title: Human milk oligosaccharides (HMOs) are the third most common ingredient in human breast milk, and is indigestible by babies (it feeds gut bacteria). 
+    title: Human milk oligosaccharides (HMOs) are the third most common ingredient in human breast milk, and is indigestible by babies (it feeds gut bacteria).
   - date: "2021-05-05"
     link: https://twitter.com/SlackAPI/status/1389698173627768838
     title: In Slack, you can add multiple emoji reactions by holding <kbd>Shift</kbd>.
@@ -57,7 +57,7 @@ links:
     title: The IRS cannot accept a single check (including a cashier’s check) for amounts of $100 million or more.
   - date: "2021-04-28"
     link: https://github.com/adunkman.keys
-    title: GitHub shows public keys registered to a user at `https://github.com/<username>.keys`.
+    title: GitHub shows public keys registered to a user if you append `.keys` to their profile URL.
   - date: "2021-04-27"
     link: https://qwerty.dev/whitespace/
     title: There are 11 characters for different kinds of spaces, including the word space (the one you get with the space bar), zero-width space, and em space.
@@ -84,7 +84,7 @@ links:
     title: _Can’t Help Falling in Love_ as recorded by Elvis Presley was originally written as "Only fools rush in / But I can’t help falling in love with him".
   - date: "2021-04-01"
     link: https://ojin.nursingworld.org/MainMenuCategories/ANAMarketplace/ANAPeriodicals/OJIN/TableofContents/Vol-21-2016/No2-May-2016/Integrating-Lewins-Theory-with-Leans-System-Approach.html
-    title: Lewin’s theory of change proposes that individuals are influenced by restraining forces (obstacles that counter driving forces aimed at keeping the status quo) and driving forces (positive forces for change that push in the direction that causes change to happen) — and three steps to adjust the equilibrium point. 
+    title: Lewin’s theory of change proposes that individuals are influenced by restraining forces (obstacles that counter driving forces aimed at keeping the status quo) and driving forces (positive forces for change that push in the direction that causes change to happen) — and three steps to adjust the equilibrium point.
   - date: "2021-03-28"
     link: https://tonsky.me/blog/emoji/
     title: More than you ever want to know about how Emoji are implemented and rendered.
@@ -135,13 +135,13 @@ links:
     title: Airplane black boxes are orange in color.
   - date: "2021-01-23"
     link: https://en.wikipedia.org/wiki/Apple
-    title: Despite having an “American” association, apples are from Central Asia. 
+    title: Despite having an “American” association, apples are from Central Asia.
   - date: "2021-01-21"
     link: https://www.wamc.org/post/president-s-microphone
     title: Since Lyndon Johnson, the President of the United States has used a Shure SM57 microphone for addresses (most often in a pair).
   - date: "2021-01-20"
     link: https://en.wikipedia.org/wiki/Green_eyeshade
-    title: Green visors that accountants wore around the 1900s were to reduce eyestrain due to early incandescent lights (and were worn by more than just accountants). 
+    title: Green visors that accountants wore around the 1900s were to reduce eyestrain due to early incandescent lights (and were worn by more than just accountants).
   - date: "2021-01-14"
     link: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-creating-values.html
     title: The interval specified when configuring a Route53 Health Check is not the interval you’ll receive health check requests — instead, it’s about 15 times higher (the interval is per AWS data center).
