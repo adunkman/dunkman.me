@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-08-16"
+    link: https://www.npr.org/2013/07/18/203361119/where-are-all-of-wyomings-escalators
+    title: The state of Wyoming has two escalators.
   - date: "2021-08-02"
     link: https://grafana.wikimedia.org
     title: Wikimedia’s Grafana instance (which shows statistics on their running services) is public.
