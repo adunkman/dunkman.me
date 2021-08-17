@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-08-17"
+    link: https://github.com/LingDong-/fishdraw
+    title: There’s a website which "generates all sorts of weird fishes."
   - date: "2021-08-16"
     link: https://www.npr.org/2013/07/18/203361119/where-are-all-of-wyomings-escalators
     title: The state of Wyoming has two escalators.
