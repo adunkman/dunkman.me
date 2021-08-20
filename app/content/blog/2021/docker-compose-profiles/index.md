@@ -4,7 +4,7 @@ date: "2021-08-19"
 summary: Your development tools deserve to be versioned, easily installed, and quickly run from docker — and using docker compose with profiles enabled can make your team happier and more productive.
 ---
 
-{{<figure src="guillaume-bolduc-unsplash.jpg" width="5995" height="2186" alt="A stock photo of a wall of shipping containers stacked densely." caption="Containers keep your application and its dependencies versioned, why wouldn’t you do the same for your one-off tools?" attr="Guillaume Bolduc" attrlink="https://unsplash.com/photos/uBe2mknURG4" >}}
+{{<figure src="guillaume-bolduc-unsplash.jpg" width="4430" height="1311" alt="A stock photo of a wall of shipping containers stacked densely." caption="Containers keep your application and its dependencies versioned, why wouldn’t you do the same for your one-off tools?" attr="Guillaume Bolduc" attrlink="https://unsplash.com/photos/uBe2mknURG4" >}}
 
 Docker compose is a tool for running a set of container images — think an application and its database layer — at once and in order. It provides `docker compose up` — a single command to boot all containers.
 
