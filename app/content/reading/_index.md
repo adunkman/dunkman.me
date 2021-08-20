@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-20"
+    link: https://www.honeycomb.io/resources/the-future-of-observability/
   - date: "2021-08-12"
     link: https://zapier.com/blog/actual-impostors-dont-get-impostor-syndrome/
   - date: "2021-08-11"
