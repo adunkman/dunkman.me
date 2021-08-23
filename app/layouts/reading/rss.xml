@@ -16,7 +16,7 @@
     {{ range .Params.links }}
     <item>
       {{- with getJSON "http://metascraper:8080/expand?url=" .link -}}
-      <title>Today I’m reading{{ if .title }} “{{ .title | plainify | htmlUnescape | safeHTML }}”{{ end }}</title>
+      <title>Today I’m reading{{ if .title }}: {{ .title | plainify | htmlUnescape | safeHTML }}{{ end }}</title>
       {{ end }}
       <link>{{ .link }}</link>
       <pubDate>{{ (dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" .date) | safeHTML }}</pubDate>
