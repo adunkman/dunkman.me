@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-08-22"
+    link: https://en.m.wikipedia.org/wiki/Marchetti%27s_constant
+    title: Marchett's constant posits that people adapt their lives so that their average travel time to work is approximately 30 minutes.
   - date: "2021-08-17"
     link: https://github.com/LingDong-/fishdraw
     title: There’s a website which "generates all sorts of weird fishes."
