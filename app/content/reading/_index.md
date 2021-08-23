@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-23"
+    link: https://medium.com/atlassian-product-management-blog/how-to-influence-without-authority-4622ad7d52c9
   - date: "2021-08-20"
     link: https://www.honeycomb.io/resources/the-future-of-observability/
   - date: "2021-08-12"
