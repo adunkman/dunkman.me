@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-25"
+    link: https://ben.balter.com/2014/10/08/open-source-licensing-for-government-attorneys/
   - date: "2021-08-23"
     link: https://medium.com/atlassian-product-management-blog/how-to-influence-without-authority-4622ad7d52c9
   - date: "2021-08-20"
