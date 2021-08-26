@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-26"
+    link: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
   - date: "2021-08-25"
     link: https://ben.balter.com/2014/10/08/open-source-licensing-for-government-attorneys/
   - date: "2021-08-23"
