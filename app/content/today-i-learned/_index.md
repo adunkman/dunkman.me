@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-08-26"
+    link: https://en.wikipedia.org/wiki/Mycorrhizal_network
+    title: Some fungi form networks between plants to transfer water, carbon, and other nutrients and minerals to each other.
   - date: "2021-08-22"
     link: https://en.m.wikipedia.org/wiki/Marchetti%27s_constant
     title: Marchetti's constant posits that people adapt their lives so that their average travel time to work is approximately 30 minutes.
