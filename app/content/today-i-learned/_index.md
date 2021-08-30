@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-08-30"
+    link: https://en.wikipedia.org/wiki/Andon_(manufacturing)
+    title: The term andon refers to a system in which any individual in a process can raise an alarm when a processing or quality problem occurs. It gives individuals the ability and empowerment to stop and call for assistance.
   - date: "2021-08-26"
     link: https://en.wikipedia.org/wiki/Mycorrhizal_network
     title: Some fungi form networks between plants to transfer water, carbon, and other nutrients and minerals to each other.
