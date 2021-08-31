@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-08-31"
+    link: https://stripe.com/atlas/guides/survey-design-principles
   - date: "2021-08-26"
     link: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
   - date: "2021-08-25"
