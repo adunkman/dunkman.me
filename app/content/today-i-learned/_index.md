@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-09-02"
+    link: https://slack.com/help/articles/4403608802963-Open-conversations-in-split-view
+    title: You can open two channels at once side-by-side in Slack for Desktop.
   - date: "2021-08-30"
     link: https://en.wikipedia.org/wiki/Andon_(manufacturing)
     title: The term andon refers to a system in which any individual in a process can raise an alarm when a processing or quality problem occurs. It gives individuals the ability and empowerment to stop and call for assistance.
