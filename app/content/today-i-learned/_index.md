@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-09-07"
+    link: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms
+    title: GitHub is iterating on issue templates with issue forms which support single-line inputs, text areas, dropdowns, and checkboxes.
   - date: "2021-09-02"
     link: https://slack.com/help/articles/4403608802963-Open-conversations-in-split-view
     title: You can open two channels at once side-by-side in Slack for Desktop.
