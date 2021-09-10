@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-09-10"
+    link: https://en.wikipedia.org/wiki/Wikipedia:Non-breaking_hyphen
+    title: There’s a non-breaking hyphen character to prevent word breaks in hyphenated terms like "COVID‑19" or "I‑94."
   - date: "2021-09-07"
     link: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms
     title: GitHub is iterating on issue templates with issue forms which support single-line inputs, text areas, dropdowns, and checkboxes.
