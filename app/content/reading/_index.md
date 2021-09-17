@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-09-17"
+    link: https://lindsaybraman.com/sensation-feelings-wheel/
   - date: "2021-08-31"
     link: https://stripe.com/atlas/guides/survey-design-principles
   - date: "2021-08-26"
