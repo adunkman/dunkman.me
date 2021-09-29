@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-09-28"
+    link: https://restofworld.org/2021/refugees-machine-learning-big-tech/
   - date: "2021-09-17"
     link: https://lindsaybraman.com/sensation-feelings-wheel/
   - date: "2021-08-31"
