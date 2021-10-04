@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-10-04"
+    link: https://paulosman.me/2021/10/02/sociotechnical-lenses-into-software-systems/
   - date: "2021-09-28"
     link: https://restofworld.org/2021/refugees-machine-learning-big-tech/
   - date: "2021-09-17"
