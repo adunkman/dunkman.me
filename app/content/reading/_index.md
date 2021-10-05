@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-10-05"
+    link: https://candost.blog/dont-assume-consensus-in-the-absence-of-objection/
   - date: "2021-10-04"
     link: https://paulosman.me/2021/10/02/sociotechnical-lenses-into-software-systems/
   - date: "2021-09-28"
