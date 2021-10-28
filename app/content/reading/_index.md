@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-10-28"
+    link: https://www.vox.com/the-goods/22749123/onlyfans-influencers-sex-work-instagram-pornography
   - date: "2021-10-05"
     link: https://candost.blog/dont-assume-consensus-in-the-absence-of-objection/
   - date: "2021-10-04"
