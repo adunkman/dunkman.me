@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-11-16"
+    link: https://review.firstround.com/the-best-leaders-are-feedback-magnets-heres-how-to-become-one
   - date: "2021-10-28"
     link: https://www.vox.com/the-goods/22749123/onlyfans-influencers-sex-work-instagram-pornography
   - date: "2021-10-05"
