@@ -59,7 +59,7 @@ links:
   - date: "2021-05-28"
     link: https://bigthink.com/delancey-place/the-two-systems-of-cognitive-processes
   - date: "2021-05-27"
-    link: https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
+    link: https://web.archive.org/web/20210402033702/https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html
   - date: "2021-05-21"
     link: https://hbr.org/2019/04/research-why-managers-ignore-employees-ideas
   - date: "2021-05-16"
