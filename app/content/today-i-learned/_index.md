@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-11-23"
+    link: https://slsa.dev/
+    title: SLSA is a framework intended to codify and promote secure software supply-chain practices.
   - date: "2021-09-10"
     link: https://en.wikipedia.org/wiki/Wikipedia:Non-breaking_hyphen
     title: There’s a non-breaking hyphen character to prevent word breaks in hyphenated terms like "COVID‑19" or "I‑94."
