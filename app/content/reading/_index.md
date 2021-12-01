@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2021-12-01"
+    link: https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development
   - date: "2021-11-17"
     link: https://papers.governing.com/No-Wrong-Door-A-Holistic-Approach-to-Human-Services-73108.html
   - date: "2021-11-16"
