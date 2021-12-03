@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-12-03"
+    link: https://ags.hawaii.gov/
+    title: The State of Hawaii has a department that’s abbreviated DAGS (Department of Accounting & General Services).
   - date: "2021-11-23"
     link: https://slsa.dev/
     title: SLSA is a framework intended to codify and promote secure software supply-chain practices.
