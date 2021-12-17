@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2021-12-17"
+    link: https://www.youtube.com/watch?v=zpjklLt1qWk
+    title: When looking for a larger shell, hermit crabs will wait by a too-large shell in a size-ordered line to wait for the right-sized crab and collectively swap shells.
   - date: "2021-12-03"
     link: https://ags.hawaii.gov/
     title: The State of Hawaii has a department that’s abbreviated DAGS (Department of Accounting & General Services).
