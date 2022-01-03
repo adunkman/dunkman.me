@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-01-03"
+    link: https://medium.com/bigpanda-engineering/what-is-engineering-enablement-b5293a5838ce
   - date: "2021-12-01"
     link: https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development
   - date: "2021-11-17"
