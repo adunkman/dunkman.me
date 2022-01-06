@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-01-06"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/AbortController
+    title: In JavaScript, there’s an object which will allow cancelling one or many web requests when desired.
   - date: "2021-12-17"
     link: https://www.youtube.com/watch?v=zpjklLt1qWk
     title: When looking for a larger shell, hermit crabs will wait by a too-large shell in a size-ordered line to wait for the right-sized crab and collectively swap shells.
