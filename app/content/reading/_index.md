@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-01-13"
+    link: https://intenseminimalism.com/2015/a-framework-for-thinking-about-systems-change/
   - date: "2022-01-12"
     link: https://developerhood.com/blog/feedback-has-its-finger-on-three-triggers/
   - date: "2022-01-03"
