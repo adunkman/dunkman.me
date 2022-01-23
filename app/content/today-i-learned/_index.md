@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-01-23"
+    link: https://support.apple.com/guide/mac-help/change-the-alert-sounds-mchlp2207/mac
+    title: You can change the volume of notification sounds on macOS.
   - date: "2022-01-06"
     link: https://developer.mozilla.org/en-US/docs/Web/API/AbortController
     title: In JavaScript, there’s an object which will allow cancelling one or many web requests when desired.
