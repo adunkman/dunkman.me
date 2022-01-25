@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-01-25"
+    link: https://bellmar.medium.com/engineering-teams-are-just-networks-1fc16058879a
   - date: "2022-01-21"
     link: https://sre.google/sre-book/release-engineering/
   - date: "2022-01-13"
