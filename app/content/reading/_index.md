@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-02-06"
+    link: https://candost.blog/the-decision-making-pendulum/
   - date: "2022-02-04"
     link: https://noidea.dog/glue
   - date: "2022-01-25"
