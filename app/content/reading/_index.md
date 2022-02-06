@@ -119,7 +119,7 @@ links:
   - date: "2020-07-16"
     link: https://startsmallscalefast.com/agilebusiness/a-structure-for-continuous-innovation-pioneers-settlers-town-planners/
   - date: "2019-12-18"
-    link: https://madeofmetaphors.com/shapes
+    link: https://web.archive.org/web/20210202031136/https://madeofmetaphors.com/shapes
   - date: "2019-08-26"
     link: https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/
   - date: "2019-08-12"
