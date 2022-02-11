@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-02-11"
+    link: https://www.youtube.com/watch?v=rQ1EU7jeSsM
+    title: There’s a whole lovely song about banana bread.
   - date: "2022-01-23"
     link: https://support.apple.com/guide/mac-help/change-the-alert-sounds-mchlp2207/mac
     title: You can change the volume of notification sounds on macOS.
