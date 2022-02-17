@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-02-17"
+    link: https://www.palomamedina.com/biceps
   - date: "2022-02-08"
     link: https://www.jrothman.com/mpd/2021/05/healthy-organizational-cultures-focus-on-humanity-and-connection-not-your-whole-self/
   - date: "2022-02-06"
