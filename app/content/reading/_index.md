@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-02-22"
+    link: https://candost.blog/explicit-disagreement-is-better-than-implicit-misunderstanding/
   - date: "2022-02-17"
     link: https://www.palomamedina.com/biceps
   - date: "2022-02-08"
