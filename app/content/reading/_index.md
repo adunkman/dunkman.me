@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-03-17"
+    link: https://www.bustle.com/wellness/burnout-definition-what-we-get-wrong
   - date: "2022-03-14"
     link: https://hbr.org/2000/03/meeting-the-challenge-of-disruptive-change
   - date: "2022-02-28"
