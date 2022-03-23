@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-03-23"
+    link: https://checkin.daresay.io/
+    title: The Check-in Generator picks a random question to kick start a check-in — reflective, creative, or practical.
   - date: "2022-03-21"
     link: https://thedecider.app/
     title: The Decider app asks you a few questions to help you decide how to decide as a group.
