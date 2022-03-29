@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-03-29"
+    link: https://thesystemsthinker.com/the-ladder-of-inference/
   - date: "2022-03-28"
     link: https://medium.com/the-liberators/in-depth-stable-or-fluid-teams-what-does-the-science-say-95833b0b91a2
   - date: "2022-03-17"
