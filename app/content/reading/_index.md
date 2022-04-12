@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-04-12"
+    link: https://logicmag.io/clouds/agile-and-the-long-crisis-of-software/
   - date: "2022-03-31"
     link: https://medium.com/@sara_ann_marie/work-needs-to-stay-in-its-place-570005c2750a
   - date: "2022-03-29"
