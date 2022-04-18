@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-04-18"
+    link: https://en.wikipedia.org/wiki/Cat_gap
+    title: There’s a period of approximately 6 million years where cats were missing from North America.
   - date: "2022-03-23"
     link: https://checkin.daresay.io/
     title: The Check-in Generator picks a random question to kick start a check-in — reflective, creative, or practical.
