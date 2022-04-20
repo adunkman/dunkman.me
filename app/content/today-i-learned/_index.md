@@ -110,7 +110,7 @@ links:
     link: https://github.com/adunkman.keys
     title: GitHub shows public keys registered to a user if you append `.keys` to their profile URL.
   - date: "2021-04-27"
-    link: https://qwerty.dev/whitespace/
+    link: https://web.archive.org/web/20220321103728/https://qwerty.dev/whitespace/
     title: There are 11 characters for different kinds of spaces, including the word space (the one you get with the space bar), zero-width space, and em space.
   - date: "2021-04-23"
     link: https://docs.aws.amazon.com/pinpoint/latest/developerguide/validate-phone-numbers.html
