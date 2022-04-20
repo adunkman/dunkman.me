@@ -2,8 +2,8 @@ import got from 'got';
 import { JSDOM } from 'jsdom';
 
 const getPreviewUrl = (url) => {
-  const previewUrl = new URL('https://api.twitter.com/1/statuses/oembed.json');
-  previewUrl.searchParams.append('id', new URL(url).pathname.split('/').pop());
+  const previewUrl = new URL('https://publish.twitter.com/oembed.json');
+  previewUrl.searchParams.append('url', url);
   previewUrl.searchParams.append('dnt', 'true');
   return previewUrl.toString();
 };
