@@ -2,7 +2,7 @@
 # AWS017 — encryption not needed for public files
 # AWS077 — build files do not need to be versioned
 #
-# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077
+# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077 tfsec:ignore:aws-s3-block-public-acls tfsec:ignore:aws-s3-block-public-policy tfsec:ignore:aws-s3-ignore-public-acls tfsec:ignore:aws-s3-no-public-buckets tfsec:ignore:aws-s3-encryption-customer-key tfsec:ignore:aws-s3-specify-public-access-block
 resource "aws_s3_bucket" "redirect_to_dunkman_me" {
   bucket = "redirect.dunkman.me"
   acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
@@ -73,7 +73,7 @@ resource "aws_cloudfront_distribution" "redirect_to_dunkman_me" {
 
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.dunkman_me.arn
-    minimum_protocol_version = "TLSv1.2_2019"
+    minimum_protocol_version = "TLSv1.2_2021"
     ssl_support_method = "sni-only"
   }
 

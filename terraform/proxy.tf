@@ -50,7 +50,7 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
 
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.dunkman_me.arn
-    minimum_protocol_version = "TLSv1.2_2019"
+    minimum_protocol_version = "TLSv1.2_2021"
     ssl_support_method = "sni-only"
   }
 

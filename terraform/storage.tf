@@ -2,7 +2,7 @@
 # AWS017 — encryption not needed for public files
 # AWS077 — build files do not need to be versioned
 #
-# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077
+# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077 tfsec:ignore:aws-s3-block-public-acls tfsec:ignore:aws-s3-block-public-policy tfsec:ignore:aws-s3-ignore-public-acls tfsec:ignore:aws-s3-no-public-buckets tfsec:ignore:aws-s3-encryption-customer-key tfsec:ignore:aws-s3-specify-public-access-block
 resource "aws_s3_bucket" "dunkman_me" {
   bucket = "dunkman.me"
   acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
