@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-04-21"
+    link: https://hbr.org/2019/03/the-feedback-fallacy
   - date: "2022-04-20"
     link: https://hbr.org/2022/05/designing-work-that-people-love
   - date: "2022-04-12"
