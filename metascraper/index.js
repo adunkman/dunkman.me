@@ -28,15 +28,18 @@ app.get('/expand', async (req, res, next) => {
   let metadata;
 
   try {
-    const { body: html, url } = await got(req.query.url);
-    metadata = await parser({ html, url, validateUrl: false });
-
-    if (wikipedia.matches(req.query.url)) {
-      Object.assign(metadata, await wikipedia.preview(req.query.url));
-    }
-
+    // Twitter may return unpredictable status codes on their homepage; use the
+    // API exclusively.
     if (twitter.matches(req.query.url)) {
-      Object.assign(metadata, await twitter.preview(req.query.url));
+      metadata = await twitter.preview(req.query.url);
+    }
+    else {
+      const { body: html, url } = await got(req.query.url);
+      metadata = await parser({ html, url, validateUrl: false });
+
+      if (wikipedia.matches(req.query.url)) {
+        Object.assign(metadata, await wikipedia.preview(req.query.url));
+      }
     }
   }
   catch (err) {

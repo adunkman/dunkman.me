@@ -27,6 +27,8 @@ export default {
     return {
       description: extractTweet(response.html),
       title: `${response.author_name} (@${new URL(response.author_url).pathname.split('/').pop()})`,
+      logo: "https://abs.twimg.com/responsive-web/client-web-legacy/icon-ios.b1fc7276.png",
+      url
     };
   }
 };
