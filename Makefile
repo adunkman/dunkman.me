@@ -2,47 +2,47 @@
 
 .PHONY: start
 start: ## Runs the full application stack locally
-	@docker-compose up
+	@docker compose up
 
 .PHONY: test
 test: ## Run automated tests
-	@docker-compose run test
+	@docker compose run test
 
 .PHONY: build
 build: ## Generate compiled application files to prepare for a deployment
-	@docker-compose run hugo --
+	@docker compose run hugo --
 
 .PHONY: sh-metascraper
 sh-metascraper: ## Open a shell in the metascraper docker image
-	@docker-compose run --entrypoint sh metascraper
+	@docker compose run --entrypoint sh metascraper
 
 .PHONY: sh-hugo
 sh-hugo: ## Open a shell in the hugo docker image
-	@docker-compose run --entrypoint sh hugo
+	@docker compose run --entrypoint sh hugo
 
 .PHONY: sh-test
 sh-test: ## Open a shell in the test docker image
-	@docker-compose run --entrypoint sh test
+	@docker compose run --entrypoint sh test
 
 .PHONY: sh-terraform
 sh-terraform: ## Open a shell in the terraform docker image
-	@docker-compose run --entrypoint sh terraform
+	@docker compose run --entrypoint sh terraform
 
 .PHONY: docker-rebuild-hugo
 docker-rebuild-hugo: ## Rebuild docker image used for hugo
-	@docker-compose build hugo
+	@docker compose build hugo
 
 .PHONY: docker-rebuild-test
 docker-rebuild-test: ## Rebuild docker image used for test
-	@docker-compose build test
+	@docker compose build test
 
 .PHONY: docker-rebuild-metascraper
 docker-rebuild-metascraper: ## Rebuild docker image used for metascraper
-	@docker-compose build metascraper
+	@docker compose build metascraper
 
 .PHONY: docker-rebuild-terraform
 docker-rebuild-terraform: ## Rebuild docker image used for terraform
-	@docker-compose build terraform
+	@docker compose build terraform
 
 .PHONY: clean
 clean: ## Reset docker and clear temporary files
@@ -52,27 +52,27 @@ clean: ## Reset docker and clear temporary files
 	@rm -rf ./terraform/.terraform/
 	@rm -rf ./terraform/plan
 	@rm -rf ./test/node_modules/
-	@docker-compose down
+	@docker compose down
 
 .PHONY: tfsec
 tfsec: ## Runs tfsec to scan for security issues
-	@docker-compose run tfsec /terraform
+	@docker compose run tfsec /terraform
 
 .PHONY: deploy
 deploy: ## 🔒 Deploys compiled application files to static host
-	@docker-compose run hugo deploy --maxDeletes -1
+	@docker compose run hugo deploy --maxDeletes -1
 
 .PHONY: terraform-init
 terraform-init: ## 🔒 Runs terraform init
-	@docker-compose run terraform init
+	@docker compose run terraform init
 
 .PHONY: terraform-plan
 terraform-plan: ## 🔒 Runs terraform plan
-	@docker-compose run terraform plan -out=plan
+	@docker compose run terraform plan -out=plan
 
 .PHONY: terraform-apply
 terraform-apply: ## 🔒 Runs terraform apply
-	@docker-compose run terraform apply plan
+	@docker compose run terraform apply plan
 
 .PHONY: help
 help:

@@ -1,6 +1,5 @@
 ![Build status on the main branch](https://github.com/adunkman/dunkman.me/actions/workflows/release.yml/badge.svg?branch=main)
 
-
 This repository holds the application code and infrastructure for [dunkman.me](https://www.dunkman.me).
 
 ## Architecture
@@ -21,14 +20,14 @@ The domain is purchased through [Namecheap](https://www.namecheap.com/).
 
 - The site is built with [Hugo](https://gohugo.io/).
 - All infrastructure changes are automated with [Terraform](https://www.terraform.io/).
-- On code changes [CircleCI](https://circleci.com/) uses [Docker](https://www.docker.com/) to apply any infrastructure changes, build the site, and upload it.
+- On code changes [GitHub Actions](https://github.com/features/actions) uses [Docker](https://www.docker.com/) to apply any infrastructure changes, build the site, and upload it.
 
 ## Running locally
 
 To get started in development, you’ll need [Docker](https://www.docker.com/) installed. Then, run the following command in the project directory after it’s been cloned:
 
 ```bash
-docker-compose up hugo
+make start
 ```
 
 - The website will be accessible at [localhost:1313](http://localhost:1313/).
@@ -45,7 +44,7 @@ Running the application without Docker is not recommended. If you must, review t
 The site deploys automatically in CircleCI. To preview changes made by Terraform, use Docker.
 
 ```bash
-docker-compose run terraform plan
+make terraform-plan
 ```
 
 **Note:** This command requires access to the application’s AWS account. Credentials are configured through `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_DEFAULT_REGION` environment variables.
@@ -63,8 +62,10 @@ AWS_DEFAULT_REGION=us-east-1
 Rebuild the Docker images when versions of installed dependencies change:
 
 ```bash
-docker-compose build
+make docker-rebuild-[image]
 ```
+
+To see available commands, run `make` without any arguments.
 
 ## Contributing
 
