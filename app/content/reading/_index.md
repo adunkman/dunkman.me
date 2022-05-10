@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-05-10"
+    link: https://hbr.org/2022/05/managers-what-are-you-doing-about-change-exhaustion
   - date: "2022-04-25"
     link: https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec
   - date: "2022-04-21"
