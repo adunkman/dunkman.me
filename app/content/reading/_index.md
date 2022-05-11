@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-05-11"
+    link: https://medium.com/u-s-digital-response/strengths-and-weaknesses-of-low-code-no-code-tools-e3e3732b573e
   - date: "2022-05-10"
     link: https://hbr.org/2022/05/managers-what-are-you-doing-about-change-exhaustion
   - date: "2022-04-25"
