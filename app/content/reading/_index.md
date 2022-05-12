@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-05-12"
+    link: https://review.firstround.com/square-defangs-difficult-decisions-with-this-system-heres-how
   - date: "2022-05-11"
     link: https://medium.com/u-s-digital-response/strengths-and-weaknesses-of-low-code-no-code-tools-e3e3732b573e
   - date: "2022-05-10"
