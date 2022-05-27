@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-05-27"
+    link: https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
   - date: "2022-05-12"
     link: https://review.firstround.com/square-defangs-difficult-decisions-with-this-system-heres-how
   - date: "2022-05-11"
