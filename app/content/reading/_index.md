@@ -37,7 +37,7 @@ links:
   - date: "2022-02-17"
     link: https://www.palomamedina.com/biceps
   - date: "2022-02-08"
-    link: https://www.jrothman.com/mpd/2021/05/healthy-organizational-cultures-focus-on-humanity-and-connection-not-your-whole-self/
+    link: https://web.archive.org/web/20210622133555/https://www.jrothman.com/mpd/2021/05/healthy-organizational-cultures-focus-on-humanity-and-connection-not-your-whole-self/
   - date: "2022-02-06"
     link: https://candost.blog/the-decision-making-pendulum/
   - date: "2022-02-04"
