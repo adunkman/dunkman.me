@@ -125,7 +125,7 @@ links:
     link: https://spiffe.io/
     title: SPIFFE (Secure Production Identity Framework for Everyone) is a universal identity control plane for distributed systems, designed to authenticate services to each other.
   - date: "2021-04-14"
-    link: http://forreadingaddicts.co.uk/news/medieval-monk-cursed-cat-who-peed-on-his-manuscript/33035
+    link: https://web.archive.org/web/20210415100012/http://forreadingaddicts.co.uk/news/medieval-monk-cursed-cat-who-peed-on-his-manuscript/33035
     title: There’s a book written in 1420 with a blank spot in it because a cat peed on the page.
   - date: "2021-04-13"
     link: https://brentryanjohnson.com/developing-film-with-coffee/
