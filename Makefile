@@ -49,6 +49,7 @@ clean: ## Reset docker and clear temporary files
 	@rm -rf ./app/public/
 	@rm -rf ./app/resources/
 	@rm -rf ./metascraper/node_modules/
+	@rm -rf ./metascraper/cache/
 	@rm -rf ./terraform/.terraform/
 	@rm -rf ./terraform/plan
 	@rm -rf ./test/node_modules/
