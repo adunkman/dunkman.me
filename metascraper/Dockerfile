@@ -1,4 +1,5 @@
-FROM node:16-alpine3.11
+FROM node:18-alpine3.16
+RUN apk add --update python3 make g++
 
 WORKDIR /metascraper
 COPY package.json yarn.lock ./

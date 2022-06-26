@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:15.5.1
+FROM node:18-alpine3.16
 
 WORKDIR /test
 

@@ -14,7 +14,7 @@ build: ## Generate compiled application files to prepare for a deployment
 
 .PHONY: sh-metascraper
 sh-metascraper: ## Open a shell in the metascraper docker image
-	@docker compose run --entrypoint sh metascraper
+	@docker compose run --entrypoint sh metascraper --
 
 .PHONY: sh-hugo
 sh-hugo: ## Open a shell in the hugo docker image
