@@ -6,6 +6,7 @@ import title from 'metascraper-title';
 import url from 'metascraper-url';
 import got from 'got';
 import express from 'express';
+import { requestCache } from './lib/requestCache.js';
 import wikipedia from './rules/wikipedia.js';
 import twitter from './rules/twitter.js';
 
@@ -34,7 +35,7 @@ app.get('/expand', async (req, res, next) => {
       metadata = await twitter.preview(req.query.url);
     }
     else {
-      const { body: html, url } = await got(req.query.url);
+      const { body: html, url } = await got(req.query.url, { cache: requestCache });
       metadata = await parser({ html, url, validateUrl: false });
 
       if (wikipedia.matches(req.query.url)) {

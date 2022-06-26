@@ -1,5 +1,6 @@
 import got from 'got';
 import { JSDOM } from 'jsdom';
+import { requestCache } from '../lib/requestCache.js';
 
 const getPreviewUrl = (url) => {
   const previewUrl = new URL('https://publish.twitter.com/oembed.json');
@@ -20,6 +21,7 @@ export default {
   },
   preview: async (url) => {
     const response = await got(getPreviewUrl(url), {
+      cache: requestCache,
       resolveBodyOnly: true,
       responseType: 'json',
     });
