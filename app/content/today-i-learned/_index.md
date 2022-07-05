@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-07-06"
+    link: https://bjoernkarmann.dk/occlusion-grotesque
+    title: Occlusion Grotesque is an experimental typeface that is carved into the bark of a tree. Its digital version is updated annually.
   - date: "2022-04-18"
     link: https://en.wikipedia.org/wiki/Cat_gap
     title: There’s a period of approximately 6 million years where cats were missing from North America.
