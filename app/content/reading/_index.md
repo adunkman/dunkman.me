@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-07-08"
+    link: https://www.jrothman.com/mpd/2019/09/consider-product-options-with-minimum-outcomes/
   - date: "2022-06-27"
     link: https://federal-field-notes.ca/articles/2021-06-21-you-dont-need-a-platform-you-need-one-thing-that-works/
   - date: "2022-05-27"
