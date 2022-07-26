@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-07-26"
+    link: https://www.gidgetlab.com/
+    title: The Gidget (Gender Inclusive Design, Game, and Educational Technology) Lab is a research group devoted to educational technologies to increase participation in STEM.
   - date: "2022-07-06"
     link: https://bjoernkarmann.dk/occlusion-grotesque
     title: Occlusion Grotesque is an experimental typeface that is carved into the bark of a tree. Its digital version is updated annually.
