@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-07-27"
+    link: https://en.m.wikipedia.org/wiki/Cooperative_principle
+    title: The Gricean maxims describe specific hidden rules of conversation, called the cooperative principle.
   - date: "2022-07-26"
     link: https://www.gidgetlab.com/
     title: The Gidget (Gender Inclusive Design, Game, and Educational Technology) Lab is a research group devoted to educational technologies to increase participation in STEM.
