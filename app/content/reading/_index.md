@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-08-01"
+    link: https://github.blog/2021-03-10-measuring-enterprise-developer-productivity/
   - date: "2022-07-08"
     link: https://www.jrothman.com/mpd/2019/09/consider-product-options-with-minimum-outcomes/
   - date: "2022-06-27"
