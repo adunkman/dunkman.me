@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-08-01"
+    link: https://tjukanovt.github.io/notable-people
+    title: This "notable people" map shows birthplaces from the most notable people for each region around the world.
   - date: "2022-07-27"
     link: https://en.m.wikipedia.org/wiki/Cooperative_principle
     title: The Gricean maxims describe specific hidden rules of conversation, called the cooperative principle.
