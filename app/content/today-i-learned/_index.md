@@ -4,9 +4,12 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-08-10"
+    link: https://responsively.app/
+    title: Responsively is a modified web browser that allows you to view multiple browser viewports of different sizes simultaneously.
   - date: "2022-08-03"
     link: https://meet.new
-    title: The `meet.new` link drops you directly into a new ad-hoc Google Meet.
+    title: Typing `meet.new` into your browser drops you directly into a new ad-hoc Google Meet.
   - date: "2022-08-01"
     link: https://tjukanovt.github.io/notable-people
     title: This "notable people" map shows birthplaces from the most notable people for each region around the world.
