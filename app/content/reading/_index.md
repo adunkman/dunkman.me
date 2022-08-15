@@ -4,6 +4,12 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-08-15"
+    link: https://www.activeagileleadership.com/practice/organizationalagility-move-decisions-to-the-information/
+  - date: "2022-08-12"
+    link: https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture
+  - date: "2022-08-10"
+    link: https://jacobian.org/2021/oct/6/delegating-meeting-attendance/
   - date: "2022-08-01"
     link: https://github.blog/2021-03-10-measuring-enterprise-developer-productivity/
   - date: "2022-07-08"
