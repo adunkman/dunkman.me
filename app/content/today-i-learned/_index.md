@@ -17,7 +17,7 @@ links:
     link: https://en.m.wikipedia.org/wiki/Cooperative_principle
     title: The Gricean maxims describe specific hidden rules of conversation, called the cooperative principle.
   - date: "2022-07-26"
-    link: https://www.gidgetlab.com/
+    link: https://gidgetlab.com/
     title: The Gidget (Gender Inclusive Design, Game, and Educational Technology) Lab is a research group devoted to educational technologies to increase participation in STEM.
   - date: "2022-07-06"
     link: https://bjoernkarmann.dk/occlusion-grotesque
