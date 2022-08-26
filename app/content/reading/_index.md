@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-08-26"
+    link: https://trustedadvisor.com/why-trust-matters/understanding-trust/understanding-the-trust-equation
   - date: "2022-08-15"
     link: https://www.activeagileleadership.com/practice/organizationalagility-move-decisions-to-the-information/
   - date: "2022-08-12"
