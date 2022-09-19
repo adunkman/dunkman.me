@@ -6,6 +6,8 @@ type: reading
 links:
   - date: "2022-09-19"
     link: https://textbook.cs161.org/
+  - date: "2022-09-18"
+    link: https://swagitda.com/blog/posts/securing-the-supply-chain-of-nothing/
   - date: "2022-08-26"
     link: https://trustedadvisor.com/why-trust-matters/understanding-trust/understanding-the-trust-equation
   - date: "2022-08-15"
