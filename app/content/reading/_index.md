@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-10-03"
+    link: https://betterprogramming.pub/building-a-data-driven-hiring-machine-f9cbb036e91b
   - date: "2022-09-19"
     link: https://textbook.cs161.org/
   - date: "2022-09-18"
