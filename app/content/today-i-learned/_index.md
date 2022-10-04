@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-10-04"
+    link: https://en.wikipedia.org/wiki/Passementerie
+    title: Passementerie is ornamental edging like tassels, braids, and cords.
   - date: "2022-08-10"
     link: https://responsively.app/
     title: Responsively is a modified web browser that allows you to view multiple browser viewports of different sizes simultaneously.
