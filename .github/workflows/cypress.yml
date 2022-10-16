@@ -1,0 +1,20 @@
+name: cypress
+
+on:
+  workflow_call:
+
+jobs:
+  run:
+    name: run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - uses: actions/cache@v3
+        with:
+          path: metascraper/cache
+          key: v1-${{ hashFiles('metascraper/yarn.lock') }}
+
+      - name: Run cypress
+        run: docker compose run cypress

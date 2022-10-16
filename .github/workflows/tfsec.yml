@@ -1,0 +1,15 @@
+name: tfsec
+
+on:
+  workflow_call:
+
+jobs:
+  scan:
+    name: scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Scan for security issues in infrastructure configuration
+        run: docker compose run tfsec terraform

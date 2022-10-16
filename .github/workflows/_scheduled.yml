@@ -1,0 +1,25 @@
+name: Scheduled
+
+on:
+  schedule:
+    - cron: "0 16 * * 0" # Weekly on Sundays around noon Eastern https://crontab.guru/#0_16_*_*_0
+
+jobs:
+  cypress:
+    name: yarn
+    uses: ./.github/workflows/yarn.yml
+    with:
+      script: cypress
+
+  tfsec:
+    uses: ./.github/workflows/tfsec.yml
+
+  terraform:
+    if: github.ref != 'refs/heads/main'
+    uses: ./.github/workflows/terraform.yml
+    with:
+      apply_changes: false
+      fail-if-different: true
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

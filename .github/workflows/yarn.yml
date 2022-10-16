@@ -1,0 +1,29 @@
+name: yarn
+
+on:
+  workflow_call:
+    inputs:
+      script:
+        required: true
+        type: string
+      skip_dependent_docker_images:
+        required: false
+        default: false
+        type: string
+
+jobs:
+  run:
+    name: run ${{ inputs.script }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - uses: actions/cache@v3
+        if: "!inputs.skip_dependent_docker_images"
+        with:
+          path: metascraper/cache
+          key: v1-${{ hashFiles('metascraper/yarn.lock') }}
+
+      - name: Run ${{ inputs.script }} ${{ inputs.skip_dependent_docker_images && '--no-deps' || '' }}
+        run: docker compose run test ${{ inputs.script }} ${{ inputs.skip_dependent_docker_images && '--no-deps' || '' }}

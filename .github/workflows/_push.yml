@@ -1,0 +1,34 @@
+name: Push
+
+on:
+  push:
+
+jobs:
+  cypress:
+    name: cypress
+    uses: ./.github/workflows/cypress.yml
+
+  test:
+    name: yarn
+    uses: ./.github/workflows/yarn.yml
+    with:
+      script: test
+
+  lint:
+    name: yarn
+    uses: ./.github/workflows/yarn.yml
+    with:
+      script: lint
+      skip_dependent_docker_images: true
+
+  tfsec:
+    uses: ./.github/workflows/tfsec.yml
+
+  terraform:
+    if: github.ref != 'refs/heads/main'
+    uses: ./.github/workflows/terraform.yml
+    with:
+      apply_changes: false
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

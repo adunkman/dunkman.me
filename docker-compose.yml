@@ -34,8 +34,8 @@ services:
       - utilities
     build: ./test
     volumes:
-      - ./test:/test
-      - /test/node_modules
+      - ./:/app
+      - /app/test/node_modules
     depends_on:
       - hugo
     environment:
@@ -57,3 +57,14 @@ services:
     image: aquasec/tfsec:v1.28.0
     volumes:
       - ./terraform:/terraform
+
+  cypress:
+    profiles:
+      - utilities
+    build: ./e2e
+    volumes:
+      - ./e2e:/e2e
+    depends_on:
+      - hugo
+    environment:
+      CYPRESS_baseUrl: http://hugo:1313
