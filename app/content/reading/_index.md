@@ -105,7 +105,7 @@ links:
   - date: "2021-08-02"
     link: https://alexschroeder.ch/wiki/Optimistic_Merging
   - date: "2021-07-15"
-    link: https://www.fastcompany.com/90649969/the-most-popular-design-thinking-strategy-is-bs
+    link: https://web.archive.org/web/20220326174125/https://www.fastcompany.com/90649969/the-most-popular-design-thinking-strategy-is-bs
   - date: "2021-07-14"
     link: https://codesubmit.io/blog/guide-to-onboarding-developers/
   - date: "2021-07-12"
