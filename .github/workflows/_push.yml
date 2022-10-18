@@ -19,7 +19,6 @@ jobs:
     uses: ./.github/workflows/yarn.yml
     with:
       script: lint
-      skip_dependent_docker_images: true
 
   tfsec:
     uses: ./.github/workflows/tfsec.yml

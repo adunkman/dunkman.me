@@ -30,7 +30,7 @@
         <ul class="today-i-learned-list">
           {{- range ( .Params.links | first 2 ) -}}
             <li class="learning">
-              <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time></td>
+              <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .date }}">{{ dateFormat "January 2, 2006" .date }}</time>
               <span class="description">{{ .title | markdownify }}</span>
               {{ partial "shortcodes/unfurl.html" .link }}
             </li>
