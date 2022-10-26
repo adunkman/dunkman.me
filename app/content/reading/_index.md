@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-10-26"
+    link: https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac
   - date: "2022-10-03"
     link: https://betterprogramming.pub/building-a-data-driven-hiring-machine-f9cbb036e91b
   - date: "2022-09-19"
