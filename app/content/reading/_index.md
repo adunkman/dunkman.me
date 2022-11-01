@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-11-01"
+    link: https://www.forbes.com/sites/ericpliner/2022/04/04/easing-group-decision-making-a-view-a-voice-a-vote-or-a-veto/
   - date: "2022-10-26"
     link: https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac
   - date: "2022-10-03"
