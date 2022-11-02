@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-11-02"
+    link: https://medium.com/minority-reports/masmanaging-fear-of-change-6e67988bd287
   - date: "2022-11-01"
     link: https://www.forbes.com/sites/ericpliner/2022/04/04/easing-group-decision-making-a-view-a-voice-a-vote-or-a-veto/
   - date: "2022-10-26"
