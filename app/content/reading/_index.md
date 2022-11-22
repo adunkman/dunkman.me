@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2022-11-22"
+    link: https://ilya.grigorik.com/the-principal-engineers-handbook/
   - date: "2022-11-21"
     link: https://aworkinglibrary.com/writing/out-of-time
   - date: "2022-11-02"
