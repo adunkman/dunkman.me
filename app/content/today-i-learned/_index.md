@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2022-11-23"
+    link: https://en.wikipedia.org/wiki/Snowclone
+    title: A clichéd prase template like "X is the new Y" is called a snowclone.
   - date: "2022-10-04"
     link: https://en.wikipedia.org/wiki/Passementerie
     title: Passementerie is ornamental edging like tassels, braids, and cords.
