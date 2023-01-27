@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2023-01-27"
+    link: https://twinery.org/
+    title: Twine is a non-linear engine used in prototyping Firewatch.
   - date: "2022-11-23"
     link: https://en.wikipedia.org/wiki/Snowclone
     title: A clichéd prase template like "X is the new Y" is called a snowclone.
