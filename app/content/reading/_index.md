@@ -4,6 +4,10 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2023-03-08"
+    link: https://apenwarr.ca/log/20190926
+  - date: "2023-03-07"
+    link: https://hbr.org/1991/05/teaching-smart-people-how-to-learn
   - date: "2023-01-19"
     link: https://www.forbes.com/sites/carltonreid/2022/02/04/lifetime-cost-of-small-car-689000-society-subsidises-this-ownership-with-275000/?sh=4878c4296398
   - date: "2022-12-02"
