@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2023-03-15"
+    link: https://en.wikipedia.org/wiki/Benford%27s_law
+    title: Benford's law observes the distribution of the first digits of numbers in real data sets follow a logarithmic scale.
   - date: "2023-01-27"
     link: https://twinery.org/
     title: Twine is a non-linear engine used in prototyping Firewatch.
