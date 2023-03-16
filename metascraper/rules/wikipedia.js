@@ -20,7 +20,7 @@ export default {
 
     return {
       description: response.extract,
-      title: response.displaytitle,
+      title: response.title,
       image: response.thumbnail?.source || null,
     };
   }
