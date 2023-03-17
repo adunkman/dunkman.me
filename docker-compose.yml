@@ -54,6 +54,6 @@ services:
   tfsec:
     profiles:
       - utilities
-    image: aquasec/tfsec:v1.28.0
+    image: aquasec/tfsec:v1.28.1
     volumes:
       - ./terraform:/terraform
