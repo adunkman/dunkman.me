@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2023-08-29"
+    link: https://hakibenita.com/postgresql-unknown-features
+    title: PostgreSQL has native upsert support.
   - date: "2023-03-15"
     link: https://en.wikipedia.org/wiki/Benford%27s_law
     title: Benford's law observes the distribution of the first digits of numbers in real data sets follow a logarithmic scale.
