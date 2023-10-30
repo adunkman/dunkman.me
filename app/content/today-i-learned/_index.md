@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2023-10-30"
+    link: https://en.wikipedia.org/wiki/Weltschmerz
+    title: Weltschmerz describes the feeling of world-weariness.
   - date: "2023-08-29"
     link: https://hakibenita.com/postgresql-unknown-features
     title: PostgreSQL has native upsert support.
