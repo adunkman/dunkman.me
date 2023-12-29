@@ -1,0 +1,35 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      <article class="article">
+        <header>
+          <p class="byline">{{ partial "blog/byline.html" . }}</p>
+          <h1 class="title">Hello friends and family!</h1>
+          {{ if .Summary }}
+            <p class="lede">{{ .Summary }}</p>
+          {{ end }}
+        </header>
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </main>
+  <div class="page-section">
+    <div class="grid-container">
+
+      <div class="button-group">
+        {{ if .PrevInSection }}
+          <a class="button" href="{{ .PrevInSection.Permalink }}">
+            ← Read the previous letter from {{ .PrevInSection.Title }}
+          </a>
+        {{ end }}
+        <a class="button button-link" href="{{ relref . "/christmas-letters/" }}">
+          See all letters
+        </a>
+      </div>
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}

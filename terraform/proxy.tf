@@ -48,6 +48,29 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
     compress = true
   }
 
+  ordered_cache_behavior {
+    path_pattern     = "/christmas-letters/*"
+    allowed_methods = ["GET", "HEAD", "OPTIONS"]
+    cached_methods = ["GET", "HEAD", "OPTIONS"]
+    target_origin_id = local.s3_origin_id
+
+    forwarded_values {
+      query_string = false
+
+      cookies {
+        forward = "none"
+      }
+    }
+
+    viewer_protocol_policy = "redirect-to-https"
+    compress = true
+
+    lambda_function_association {
+      event_type = "viewer-request"
+      lambda_arn = aws_lambda_function.authenticator.qualified_arn
+    }
+  }
+
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.dunkman_me.arn
     minimum_protocol_version = "TLSv1.2_2021"

@@ -1,0 +1,17 @@
+<figure class="{{.Get "class"}}">
+  <div class="embed is-{{ .Get "format" }}">
+    <iframe src="{{ .Get "src" }}" title="Embedded video of {{ .Get "src" }}" allowfullscreen></iframe>
+  </div>
+  {{ if .Get "caption" }}
+    <figcaption>
+      <p>
+        {{- .Get "caption" | markdownify -}}
+        {{- with .Get "attrlink" }}
+            <a href="{{ . }}">
+        {{- end -}}
+        {{- .Get "attr" | markdownify -}}
+        {{- if .Get "attrlink" }}</a>{{ end }}
+      </p>
+    </figcaption>
+  {{ end }}
+</figure>

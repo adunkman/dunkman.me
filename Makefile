@@ -12,6 +12,14 @@ test: ## Run automated tests
 build: ## Generate compiled application files to prepare for a deployment
 	@docker compose run hugo --
 
+.PHONY: decrypt
+decrypt: ## 🔒 Decrypts secret files to disk using SOPS
+	@docker compose run --entrypoint sh sops -c "find /app/content/christmas-letters -type f -exec sops --decrypt --in-place {} \;"
+
+.PHONY: encrypt
+encrypt: ## 🔒 Encrypts secret files to disk using SOPS
+	@docker compose run --entrypoint sh sops -c "find /app/content/christmas-letters -type f -exec sops --encrypt --in-place {} \;"
+
 .PHONY: sh-metascraper
 sh-metascraper: ## Open a shell in the metascraper docker image
 	@docker compose run --entrypoint sh metascraper --
@@ -27,6 +35,10 @@ sh-test: ## Open a shell in the test docker image
 .PHONY: sh-terraform
 sh-terraform: ## Open a shell in the terraform docker image
 	@docker compose run --entrypoint sh terraform
+
+.PHONY: sh-sops
+sh-sops: ## Open a shell in the sops docker image
+	@docker compose run --entrypoint sh sops
 
 .PHONY: docker-rebuild-hugo
 docker-rebuild-hugo: ## Rebuild docker image used for hugo
@@ -44,6 +56,9 @@ docker-rebuild-metascraper: ## Rebuild docker image used for metascraper
 docker-rebuild-terraform: ## Rebuild docker image used for terraform
 	@docker compose build terraform
 
+.PHONY: docker-rebuild-sops
+docker-rebuild-sops: ## Rebuild docker image used for sops
+	@docker compose build sops
 .PHONY: clean
 clean: ## Reset docker and clear temporary files
 	@rm -rf ./app/public/

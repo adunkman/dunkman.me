@@ -6,8 +6,10 @@
   }
 
   img {
-    max-width: 100%;
     height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 95vh;
 
     @media (prefers-color-scheme: dark) {
       opacity: 0.8;
@@ -16,6 +18,13 @@
 
   figure {
     margin: 1em 0;
+
+    @include min-width-tablet {
+      &.float-right {
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+      }
+    }
   }
 
   figcaption {

@@ -18,7 +18,7 @@ The [slides](https://speakerdeck.com/adunkman/writing-party-games-with-google-ca
 
 The best way to get started in my opinion is to follow the official [Getting Started guides](https://developers.google.com/cast/docs/developers), specifically the [Custom Receiver guide](https://developers.google.com/cast/docs/custom_receiver).
 
-{{<video-frame format="widescreen" src="https://www.youtube.com/embed/QZ6scX0NPDk?rel=0&amp;showinfo=0">}}
+{{<figure-video format="widescreen" src="https://www.youtube.com/embed/QZ6scX0NPDk?rel=0&amp;showinfo=0">}}
 
 Don’t forget to register your account, devices, and applications in the [Google Cast SDK Developer Console](https://cast.google.com/publish/) early!
 

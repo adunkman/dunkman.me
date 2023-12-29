@@ -50,6 +50,7 @@ services:
     environment:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+      TF_VAR_friends_and_family_passcode: "${FRIENDS_AND_FAMILY_PASSCODE}"
 
   tfsec:
     profiles:
@@ -57,3 +58,14 @@ services:
     image: aquasec/tfsec:v1.28.4
     volumes:
       - ./terraform:/terraform
+
+  sops:
+    profiles:
+      - utilities
+    image: ghcr.io/getsops/sops:v3.8.1-alpine
+    volumes:
+      - ./app:/app
+    environment:
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+      SOPS_KMS_ARN: "${SOPS_KMS_ARN}"
