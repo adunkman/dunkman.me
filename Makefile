@@ -67,6 +67,7 @@ clean: ## Reset docker and clear temporary files
 	@rm -rf ./metascraper/cache/
 	@rm -rf ./terraform/.terraform/
 	@rm -rf ./terraform/plan
+	@rm -rf ./terraform/authenticator.zip
 	@rm -rf ./test/node_modules/
 	@docker compose down
 

@@ -14,7 +14,7 @@ exports.handler = async (event) => {
         status: "302",
         headers: {
           "location": [{ value: request.uri }],
-          "set-cookie": [{ value: `${cookieName}=${encodedPasscode}; HttpOnly` }]
+          "set-cookie": [{ value: `${cookieName}=${encodedPasscode}; HttpOnly; Path=/` }]
         }
       };
     }
