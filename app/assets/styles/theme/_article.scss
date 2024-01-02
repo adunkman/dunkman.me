@@ -22,6 +22,7 @@
     @include min-width-tablet {
       &.float-right {
         float: right;
+        max-width: 50%;
         margin: 0 0 1rem 1.5rem;
       }
     }
