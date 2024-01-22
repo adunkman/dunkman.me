@@ -18,12 +18,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: terraform/.terraform
           key: v1-${{ hashFiles('terraform/.terraform.lock.hcl') }}
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: metascraper/cache
           key: v1-${{ hashFiles('metascraper/yarn.lock') }}
