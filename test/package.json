@@ -6,7 +6,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
-    "@types/jest": "^29.1.2",
+    "@types/jest": "^29.5.12",
     "@types/jest-axe": "^3.5.1",
     "@types/node": "^20.10.6",
     "@types/node-fetch": "^2.5.7",
