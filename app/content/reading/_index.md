@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2024-10-15"
+    link: https://medium.com/design-bootcamp/build-simple-competency-ladders-to-simplify-product-engagement-78a08ac02129
   - date: "2024-03-15"
     link: https://peknet.com/2022/09/15/civic-chill/
   - date: "2023-03-08"
