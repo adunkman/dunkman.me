@@ -34,7 +34,9 @@ app.get('/expand', async (req, res, next) => {
       metadata = await twitter.preview(req.query.url);
     }
     else {
-      const { body: html, url } = await got(req.query.url);
+      const { body: html, url } = await got(req.query.url, {
+        timeout: { request: 30000 },
+      });
       metadata = await parser({ html, url, validateUrl: false });
 
       if (wikipedia.matches(req.query.url)) {
