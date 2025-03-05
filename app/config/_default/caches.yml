@@ -1,0 +1,3 @@
+getresource:
+  dir: :cacheDir/:project
+  maxAge: -1

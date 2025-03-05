@@ -3,7 +3,9 @@
     <p class="hide-on-mobile">This site and its infrastructure are open source.</p>
     <div class="secondary-navigation">
       <a href="https://github.com/adunkman/dunkman.me" class="button button-link">View <span class="show-on-mobile">this site </span>on GitHub</a>
-      <a href="https://github.com/adunkman/dunkman.me/edit/main/app/content/{{ .File.Path }}" class="button">Edit this page</a>
+      {{ with .File -}}
+        <a href="https://github.com/adunkman/dunkman.me/edit/main/app/content/{{ .Path }}" class="button">Edit this page</a>
+      {{- end }}
     </div>
   </div>
 </footer>

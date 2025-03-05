@@ -1,20 +1,27 @@
-{{- with getJSON "http://metascraper:8080/expand?url=" . -}}
-  <blockquote class="link-preview">
-    <div class="metadata">
-      {{ if isset . "logo" }}<img src="{{ .logo }}" class="favicon" alt="">{{ end }}
-      <span>{{ (urls.Parse .url).Host }}</span>
-    </div>
-    <div>
-      <a href="{{ .url }}" target="_blank" rel="noopener">
-        {{ if .title }}
-          <strong>{{ .title }}</strong>
-        {{ else }}
-          <strong class="url">{{ .url }}</strong>
-        {{ end }}
-      </a>
-    </div>
-    <div>
-      {{ if isset . "description" }}<p>{{ .description | safeHTML }}</p>{{ end }}
-    </div>
-  </blockquote>
+{{- $url := . -}}
+{{- with try (resources.GetRemote (printf "http://metascraper:8080/expand?url=%s" $url)) -}}
+  {{- with .Value -}}
+    {{- with . | transform.Unmarshal -}}
+      <blockquote class="link-preview">
+        <div class="metadata">
+          {{ if isset . "logo" }}<img src="{{ .logo }}" class="favicon" alt="">{{ end }}
+          <span>{{ (urls.Parse .url).Host }}</span>
+        </div>
+        <div>
+          <a href="{{ .url }}" target="_blank" rel="noopener">
+            {{ if .title }}
+              <strong>{{ .title }}</strong>
+            {{ else }}
+              <strong class="url">{{ .url }}</strong>
+            {{ end }}
+          </a>
+        </div>
+        <div>
+          {{ if isset . "description" }}<p>{{ .description | safeHTML }}</p>{{ end }}
+        </div>
+      </blockquote>
+    {{- end -}}
+  {{- else -}}
+    {{ warnf "Unable to unfurl %q, skipping rendered preview." $url }}
+  {{- end -}}
 {{- end -}}
