@@ -7,7 +7,7 @@
     {{ partial "head/stylesheet.html" "styles/fonts.scss" }}
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
   </head>
   <body>
     {{ block "body" . -}}{{- end }}
