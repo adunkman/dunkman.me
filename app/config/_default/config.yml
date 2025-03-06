@@ -4,7 +4,7 @@ title: Andrew Dunkman
 baseURL: https://www.dunkman.me
 relativeURLs: true
 enableEmoji: true
-timeout: 1m
+timeout: 5m
 
 ignoreFiles:
   - .gitignore
