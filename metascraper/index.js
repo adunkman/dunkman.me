@@ -37,7 +37,7 @@ app.get('/expand', async (req, res, next) => {
     }
     else {
       const { body: html, url } = await got(req.query.url, {
-        timeout: { request: 3000 },
+        timeout: { request: 10000 },
       });
       metadata = await parser({ html, url, validateUrl: false });
 

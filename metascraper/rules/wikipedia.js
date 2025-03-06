@@ -14,7 +14,7 @@ export default {
     const response = await got(getPreviewUrl(url), {
       resolveBodyOnly: true,
       responseType: 'json',
-      timeout: { request: 3000 },
+      timeout: { request: 10000 },
     });
 
     return {
