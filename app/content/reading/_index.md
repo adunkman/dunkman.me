@@ -149,7 +149,7 @@ links:
   - date: "2021-06-03"
     link: https://web.archive.org/web/20210505210034/https://www.sciencedirect.com/science/article/abs/pii/S016412120700194X
   - date: "2021-06-02"
-    link: https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/
+    link: https://web.archive.org/web/20250226233551/https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/
   - date: "2021-05-28"
     link: https://bigthink.com/delancey-place/the-two-systems-of-cognitive-processes
   - date: "2021-05-27"
@@ -199,7 +199,7 @@ links:
   - date: "2019-12-18"
     link: https://web.archive.org/web/20210202031136/https://madeofmetaphors.com/shapes
   - date: "2019-08-26"
-    link: https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/
+    link: https://web.archive.org/web/20250301082321/https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/
   - date: "2019-08-12"
     link: https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/
 

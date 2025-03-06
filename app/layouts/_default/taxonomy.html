@@ -1,0 +1,19 @@
+{{ define "body" }}
+  {{ partial "header/banner.html" . }}
+  <main class="page-section">
+    <div class="grid-container">
+      <article class="article">
+        <header>
+          <h1 class="title">{{ .Title }}</h1>
+        </header>
+        <div class="content">
+          {{ .Content }}
+          {{ range .Pages }}
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          {{ end }}
+        </div>
+      </article>
+    </div>
+  </main>
+  {{ partial "footer/oss.html" . }}
+{{ end }}

@@ -27,6 +27,8 @@ app.get('/', (req, res) => {
 app.get('/expand', async (req, res, next) => {
   let metadata;
 
+  console.log(`Fetching ${req.query.url} to unfurl…`);
+
   try {
     // Twitter may return unpredictable status codes on their homepage; use the
     // API exclusively.
@@ -35,7 +37,7 @@ app.get('/expand', async (req, res, next) => {
     }
     else {
       const { body: html, url } = await got(req.query.url, {
-        timeout: { request: 30000 },
+        timeout: { request: 3000 },
       });
       metadata = await parser({ html, url, validateUrl: false });
 
@@ -52,7 +54,9 @@ app.get('/expand', async (req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-  res.status(500).send({
+  // Hugo resource.GetRemote has exponential backoff logic which responds to
+  // many status codes. It does not take effect with 422 responses.
+  res.status(422).send({
     name: err.name,
     message: err.message,
     code: err.code,
@@ -61,5 +65,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`listening on ${process.env.PORT}`)
+  console.log(`Listening on port ${process.env.PORT}`)
 });

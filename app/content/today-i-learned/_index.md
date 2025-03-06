@@ -38,7 +38,7 @@ links:
     link: https://gidgetlab.com/
     title: The Gidget (Gender Inclusive Design, Game, and Educational Technology) Lab is a research group devoted to educational technologies to increase participation in STEM.
   - date: "2022-07-06"
-    link: https://bjoernkarmann.dk/occlusion-grotesque
+    link: https://bjoernkarmann.dk/project/occlution_grotesque
     title: Occlusion Grotesque is an experimental typeface that is carved into the bark of a tree. Its digital version is updated annually.
   - date: "2022-04-18"
     link: https://en.wikipedia.org/wiki/Cat_gap
@@ -125,7 +125,7 @@ links:
     link: https://en.m.wikipedia.org/wiki/Dice
     title: Dice have dots on them because they predate Arabic numerals.
   - date: "2021-05-27"
-    link: https://twitter.com/Kristy_Viers/status/1287189581926981634
+    link: https://support.apple.com/en-us/101637
     title: There is a braille keyboard on iPhone.
   - date: "2021-05-24"
     link: https://en.wikipedia.org/wiki/Numeronym

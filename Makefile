@@ -12,6 +12,10 @@ test: ## Run automated tests
 build: ## Generate compiled application files to prepare for a deployment
 	@docker compose run hugo --
 
+.PHONY: build-verbose
+build-verbose: ## Generate compiled application files to prepare for a deployment
+	@docker compose run hugo --logLevel debug
+
 .PHONY: decrypt
 decrypt: ## 🔒 Decrypts secret files to disk using SOPS
 	@docker compose run --entrypoint sh sops -c "find /app/content/christmas-letters -type f -exec sops --decrypt --in-place {} \;"
