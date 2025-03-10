@@ -1406,10 +1406,10 @@ metascraper-image@^5.46.5:
   dependencies:
     "@metascraper/helpers" "5.46.5"
 
-metascraper-logo-favicon@^5.46.8:
-  version "5.46.8"
-  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.46.8.tgz#4bc76becd5e84ef1140f7392faa91279306b45fd"
-  integrity sha512-Inca7SFeo758hLvCQP7KHpZF3xP0zmTePddv+ScyiQBxWg6WLOEjnNbbEQtbQR69TBrxlZasTsz6KJ/XGDjiOw==
+metascraper-logo-favicon@^5.46.9:
+  version "5.46.9"
+  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.46.9.tgz#3d86a1f51fe0d65ce31d2e4b0fd910dd3f77c744"
+  integrity sha512-EC3PtszKMizqFeKVVjj9Dbn+yEFBDvd6TMUEqnVtWO59OyTdFypWO+WRW2oBdUAexa/Hd7eG3xeUhRpoMTtRSA==
   dependencies:
     "@keyvhq/memoize" "~2.1.5"
     "@metascraper/helpers" "5.46.5"
