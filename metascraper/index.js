@@ -4,7 +4,7 @@ import image from 'metascraper-image';
 import favicon from 'metascraper-logo-favicon';
 import title from 'metascraper-title';
 import url from 'metascraper-url';
-import ky from 'ky';
+import got from 'got';
 import express from 'express';
 import requestOptions from './requestOptions.js';
 import wikipedia from './rules/wikipedia.js';
@@ -37,8 +37,7 @@ app.get('/expand', async (req, res, next) => {
       metadata = await twitter.preview(req.query.url);
     }
     else {
-
-      const { body: html, url } = await ky(req.query.url, requestOptions);
+      const { body: html, url } = await got(req.query.url, requestOptions);
       metadata = await parser({ html, url, validateUrl: false });
 
       if (wikipedia.matches(req.query.url)) {

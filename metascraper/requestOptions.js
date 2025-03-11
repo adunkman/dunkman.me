@@ -1,3 +1,5 @@
 export default {
-  timeout: 10000
+  timeout: {
+    request: 10000
+  }
 };

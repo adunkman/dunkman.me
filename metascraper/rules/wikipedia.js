@@ -1,4 +1,4 @@
-import ky from 'ky';
+import got from 'got';
 import requestOptions from '../requestOptions.js';
 
 const getPreviewUrl = (url) => {
@@ -12,7 +12,10 @@ export default {
     return new URL(url).host.includes('wikipedia.org');
   },
   preview: async (url) => {
-    const response = await ky(getPreviewUrl(url), requestOptions).json();
+    const response = await got(getPreviewUrl(url), Object.assign({}, requestOptions, {
+      resolveBodyOnly: true,
+      responseType: 'json',
+    }));
 
     return {
       description: response.extract,

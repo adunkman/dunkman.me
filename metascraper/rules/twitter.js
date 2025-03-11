@@ -1,4 +1,4 @@
-import ky from 'ky';
+import got from 'got';
 import { JSDOM } from 'jsdom';
 import requestOptions from '../requestOptions.js';
 
@@ -20,7 +20,10 @@ export default {
     return host.includes('twitter.com') && pathname.includes('/status/');
   },
   preview: async (url) => {
-    const response = await ky(getPreviewUrl(url), requestOptions).json();
+    const response = await got(getPreviewUrl(url), Object.assign({}, requestOptions, {
+      resolveBodyOnly: true,
+      responseType: 'json',
+    }));
 
     return {
       description: extractTweet(response.html),
