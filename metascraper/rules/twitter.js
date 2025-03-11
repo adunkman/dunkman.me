@@ -1,5 +1,6 @@
-import got from 'got';
+import ky from 'ky';
 import { JSDOM } from 'jsdom';
+import requestOptions from '../requestOptions.js';
 
 const getPreviewUrl = (url) => {
   const previewUrl = new URL('https://publish.twitter.com/oembed.json');
@@ -19,11 +20,7 @@ export default {
     return host.includes('twitter.com') && pathname.includes('/status/');
   },
   preview: async (url) => {
-    const response = await got(getPreviewUrl(url), {
-      resolveBodyOnly: true,
-      responseType: 'json',
-      timeout: { request: 10000 },
-    });
+    const response = await ky(getPreviewUrl(url), requestOptions).json();
 
     return {
       description: extractTweet(response.html),
