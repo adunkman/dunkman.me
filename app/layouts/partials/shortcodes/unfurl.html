@@ -23,5 +23,15 @@
     {{- end -}}
   {{- else -}}
     {{ warnf "Unable to unfurl %q, skipping rendered preview." $url }}
+    <blockquote class="link-preview link-preview-missing">
+      <div class="metadata">
+        <span>{{ (urls.Parse $url).Host }}</span>
+      </div>
+      <div>
+        <a href="{{ .url }}" target="_blank" rel="noopener">
+          <strong class="url">{{ .url }}</strong>
+        </a>
+      </div>
+    </blockquote>
   {{- end -}}
 {{- end -}}
