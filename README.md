@@ -39,9 +39,23 @@ To quit the command, hit <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
 Running the application without Docker is not recommended. If you must, review the [app Dockerfile](app/Dockerfile) to see what dependencies are needed, manually install those specific versions locally, and run the application as the Dockerfile describes.
 
+### Encrypted pages
+
+This site includes a number of pages which are protected behind a "friends and family" passcode. The pages are [present in this repository](./app/content/christmas-letters/), encrypted using [SOPS](https://github.com/getsops/sops). 
+
+The site will build without these pages by default. To build the protected pages locally, decrypt their contents using the below command and re-run the build.
+
+```bash
+make decrypt
+```
+
+SOPS uses an encryption key configured through Terraform, specified through the environmental variable `SOPS_KMS_ARN`. To get the value of this variable, run `docker compose run terraform output sops_kms_arn`. 
+
+During deploy, these pages are decrypted, built, deployed, and protected by a [simple authenticator](./terraform/auth.js) [AWS Lambda](https://aws.amazon.com/lambda/) function.
+
 ## Deploying
 
-The site deploys automatically in CircleCI. To preview changes made by Terraform, use Docker.
+The site deploys automatically in GitHub Actions. To preview changes made by Terraform, use Docker.
 
 ```bash
 make terraform-plan
