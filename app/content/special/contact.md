@@ -17,7 +17,7 @@ My general approach to digital communication is similar to that of standard mail
 If you're looking to send money my way for a group collection (dining out, etc), here are my various repayment methods. Be sure to note what you're paying for in the memo field if it's not obvious.
 
 <div class="button-group">
-  <a href="https://account.venmo.com/payment-link?recipients=adunkman&txn=pay" class="button button-primary" target="_blank" rel="noopener">Venmo</a>
+  <a href="https://venmo.com/adunkman?txn=pay" class="button button-primary" target="_blank" rel="noopener">Venmo</a>
   <a href="https://paypal.me/adunkman" class="button" target="_blank" rel="noopener">Paypal</a>
   <a href="https://cash.app/$adunkman" class="button" target="_blank" rel="noopener">Cash App</a>
 </div>
