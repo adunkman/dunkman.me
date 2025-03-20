@@ -1,0 +1,26 @@
+.button-brand, a.button-brand {
+  text-shadow: 0 0 3px rgba(#000, 0.2);
+
+  &::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.2ch;
+    width: 16px;
+    height: 16px;
+    margin-right: .6rem;
+    background-color: #fff;
+    top: calc(50% - 16px /  2);
+    left: .7rem;
+    content: "";
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: 50% 50%;
+  }
+
+  &.button-brand-signal { background-color: #3A4CF4; }
+  &.button-brand-bluesky { background-color: #3686F7; }
+  &.button-brand-venmo { background-color: #398DF7; }
+  &.button-brand-paypal { background-color: #082C8C; }
+  &.button-brand-cashapp { background-color: #5ECC4D; }
+  &.button-brand-keybase { background-color: #5A8FF7; }
+}

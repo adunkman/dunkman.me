@@ -14,8 +14,30 @@
 @import "pages/home";
 @import "pages/talks";
 @import "pages/today_i_learned";
+@import "pages/contact";
 
 // Resource resolution helpers do not work in Sass imports.
 .page-home .andrew-image {
   background-image: url('{{ ((resources.Get "images/IMG_2282.jpeg").Resize "1500x" | fingerprint "sha512").Permalink }}');
+}
+
+.button-brand, a.button-brand {
+  &.button-brand-signal::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/signal.svg").Content | base64Encode }}');
+  }
+  &.button-brand-bluesky::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/bluesky.svg").Content | base64Encode }}');
+  }
+  &.button-brand-venmo::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/venmo.svg").Content | base64Encode }}');
+  }
+  &.button-brand-cashapp::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/cashapp.svg").Content | base64Encode }}');
+  }
+  &.button-brand-keybase::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/keybase.svg").Content | base64Encode }}');
+  }
+  &.button-brand-paypal::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/paypal.svg").Content | base64Encode }}');
+  }
 }
