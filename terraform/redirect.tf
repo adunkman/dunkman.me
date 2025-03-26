@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "redirect_to_dunkman_me" {
 }
 
 resource "aws_s3_bucket_website_configuration" "redirect_to_dunkman_me" {
-  bucket = aws_s3_bucket.dunkman_me.id
+  bucket = aws_s3_bucket.redirect_to_dunkman_me.id
 
   redirect_all_requests_to {
     host_name = "www.dunkman.me"

@@ -10,7 +10,7 @@ terraform {
     bucket = "dunkman.me-terraform"
     key = "state"
     region = "us-east-1"
-    dynamodb_table = "terraform"
+    use_lockfile = true
   }
 }
 
