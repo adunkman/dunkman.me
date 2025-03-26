@@ -21,12 +21,12 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: terraform/.terraform
-          key: v1-${{ hashFiles('terraform/.terraform.lock.hcl') }}
+          key: terraform-v1-${{ hashFiles('terraform/.terraform.lock.hcl') }}
 
       - uses: actions/cache@v4
         with:
           path: app/resources
-          key: v1-${{ hashFiles('app/Dockerfile') }}
+          key: app-v1-${{ hashFiles('app/Dockerfile') }}
 
       - name: Decrypt private contents
         run: make decrypt
