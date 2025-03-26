@@ -5,10 +5,14 @@
 # tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077 tfsec:ignore:aws-s3-block-public-acls tfsec:ignore:aws-s3-block-public-policy tfsec:ignore:aws-s3-ignore-public-acls tfsec:ignore:aws-s3-no-public-buckets tfsec:ignore:aws-s3-encryption-customer-key tfsec:ignore:aws-s3-specify-public-access-block
 resource "aws_s3_bucket" "redirect_to_dunkman_me" {
   bucket = "redirect.dunkman.me"
-  acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
+}
 
-  website {
-    redirect_all_requests_to = "https://www.dunkman.me"
+resource "aws_s3_bucket_website_configuration" "redirect_to_dunkman_me" {
+  bucket = aws_s3_bucket.dunkman_me.id
+
+  redirect_all_requests_to {
+    host_name = "www.dunkman.me"
+    protocol = "https"
   }
 }
 
@@ -43,7 +47,7 @@ resource "aws_cloudfront_distribution" "redirect_to_dunkman_me" {
   aliases = [ "dunkman.me" ]
 
   origin {
-    domain_name = aws_s3_bucket.redirect_to_dunkman_me.website_endpoint
+    domain_name = aws_s3_bucket_website_configuration.redirect_to_dunkman_me.website_endpoint
     origin_id = local.redirect_s3_origin_id
 
     custom_origin_config {
