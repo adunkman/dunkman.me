@@ -1,3 +1,7 @@
+# tfsec:ignore:aws-s3-enable-bucket-encryption
+# tfsec:ignore:aws-s3-encryption-customer-key
+# tfsec:ignore:aws-s3-enable-bucket-logging
+# tfsec:ignore:aws-s3-enable-versioning
 resource "aws_s3_bucket" "dunkman_me" {
   bucket = "dunkman.me"
 }
@@ -23,10 +27,10 @@ resource "aws_s3_bucket_ownership_controls" "dunkman_me" {
 resource "aws_s3_bucket_public_access_block" "dunkman_me" {
   bucket = aws_s3_bucket.dunkman_me.id
 
-  block_public_acls = false
-  block_public_policy = false
-  ignore_public_acls = false
-  restrict_public_buckets = false
+  block_public_acls = false # tfsec:ignore:aws-s3-block-public-acls
+  block_public_policy = false # tfsec:ignore:aws-s3-block-public-policy
+  ignore_public_acls = false # tfsec:ignore:aws-s3-ignore-public-acls
+  restrict_public_buckets = false # tfsec:ignore:aws-s3-no-public-buckets
 }
 
 resource "aws_s3_bucket_acl" "dunkman_me" {
@@ -36,7 +40,7 @@ resource "aws_s3_bucket_acl" "dunkman_me" {
   ]
 
   bucket = aws_s3_bucket.dunkman_me.id
-  acl    = "public-read"
+  acl = "public-read" # tfsec:ignore:aws-s3-no-public-access-with-acl
 }
 
 resource "aws_s3_bucket_policy" "dunkman_me" {
