@@ -1,16 +1,42 @@
-# AWS002 — logging is not required for public files
-# AWS017 — encryption not needed for public files
-# AWS077 — build files do not need to be versioned
-#
-# tfsec:ignore:AWS002 tfsec:ignore:AWS017 tfsec:ignore:AWS077 tfsec:ignore:aws-s3-block-public-acls tfsec:ignore:aws-s3-block-public-policy tfsec:ignore:aws-s3-ignore-public-acls tfsec:ignore:aws-s3-no-public-buckets tfsec:ignore:aws-s3-encryption-customer-key tfsec:ignore:aws-s3-specify-public-access-block
 resource "aws_s3_bucket" "dunkman_me" {
   bucket = "dunkman.me"
-  acl = "public-read" # tfsec:ignore:AWS001 — public read is okay for public files
+}
 
-  website {
-    index_document = "index.html"
-    error_document = "404.html"
+resource "aws_s3_bucket_website_configuration" "dunkman_me" {
+  bucket = aws_s3_bucket.dunkman_me.id
+  index_document {
+    suffix = "index.html"
   }
+
+  error_document {
+    key = "404.html"
+  }
+}
+
+resource "aws_s3_bucket_ownership_controls" "dunkman_me" {
+  bucket = aws_s3_bucket.dunkman_me.id
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "dunkman_me" {
+  bucket = aws_s3_bucket.dunkman_me.id
+
+  block_public_acls = false
+  block_public_policy = false
+  ignore_public_acls = false
+  restrict_public_buckets = false
+}
+
+resource "aws_s3_bucket_acl" "dunkman_me" {
+  depends_on = [
+    aws_s3_bucket_ownership_controls.dunkman_me,
+    aws_s3_bucket_public_access_block.dunkman_me,
+  ]
+
+  bucket = aws_s3_bucket.dunkman_me.id
+  acl    = "public-read"
 }
 
 resource "aws_s3_bucket_policy" "dunkman_me" {

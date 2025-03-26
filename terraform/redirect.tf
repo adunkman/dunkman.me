@@ -16,6 +16,32 @@ resource "aws_s3_bucket_website_configuration" "redirect_to_dunkman_me" {
   }
 }
 
+resource "aws_s3_bucket_ownership_controls" "redirect_to_dunkman_me" {
+  bucket = aws_s3_bucket.redirect_to_dunkman_me.id
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "redirect_to_dunkman_me" {
+  bucket = aws_s3_bucket.redirect_to_dunkman_me.id
+
+  block_public_acls = false
+  block_public_policy = false
+  ignore_public_acls = false
+  restrict_public_buckets = false
+}
+
+resource "aws_s3_bucket_acl" "redirect_to_dunkman_me" {
+  depends_on = [
+    aws_s3_bucket_ownership_controls.redirect_to_dunkman_me,
+    aws_s3_bucket_public_access_block.redirect_to_dunkman_me,
+  ]
+
+  bucket = aws_s3_bucket.redirect_to_dunkman_me.id
+  acl    = "public-read"
+}
+
 resource "aws_s3_bucket_policy" "redirect_to_dunkman_me" {
   bucket = aws_s3_bucket.redirect_to_dunkman_me.id
   policy = data.aws_iam_policy_document.allow_public_read_for_redirect_to_dunkman_me.json
