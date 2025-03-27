@@ -20,9 +20,15 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
   }
 
   origin {
-    domain_name = aws_s3_bucket.dunkman_me.bucket_regional_domain_name
-    origin_access_control_id = aws_cloudfront_origin_access_control.dunkman_me.id
+    domain_name = aws_s3_bucket_website_configuration.dunkman_me.website_endpoint
     origin_id = local.s3_origin_id
+
+    custom_origin_config {
+      http_port = 80
+      https_port = 443
+      origin_protocol_policy = "http-only"
+      origin_ssl_protocols = ["TLSv1.2"]
+    }
   }
 
   default_cache_behavior {
@@ -76,11 +82,4 @@ resource "aws_cloudfront_distribution" "dunkman_me" {
       restriction_type = "none"
     }
   }
-}
-
-resource "aws_cloudfront_origin_access_control" "dunkman_me" {
-  name = aws_s3_bucket.dunkman_me.bucket
-  origin_access_control_origin_type = "s3"
-  signing_behavior = "always"
-  signing_protocol = "sigv4"
 }
