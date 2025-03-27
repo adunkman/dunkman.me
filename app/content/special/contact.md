@@ -2,6 +2,8 @@
 title: Contact
 summary: I appreciate hearing from folks who I have previously met, have been impacted by my work, and people in the DC tech community or are engaged in service to the public.
 url: /contact
+aliases:
+  - /pay
 ---
 
 My general approach to digital communication is similar to that of standard mail — please do not be offended if I don’t return your message. I’m most responsive on Signal for quick touch communication, and feel free to ask a question publicly or send me an email.
