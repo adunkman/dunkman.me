@@ -13,7 +13,7 @@
     "metascraper-image": "^5.46.5",
     "metascraper-logo": "^5.46.5",
     "metascraper-logo-favicon": "^5.46.9",
-    "metascraper-title": "^5.46.5",
+    "metascraper-title": "^5.46.11",
     "metascraper-url": "^5.46.5"
   },
   "scripts": {
