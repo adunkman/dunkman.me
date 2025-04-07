@@ -89,6 +89,36 @@
   resolved "https://registry.yarnpkg.com/@kikobeats/time-span/-/time-span-1.0.5.tgz#9f7c5d48b08da02115dbf3d85ca11a6a6f8bfdeb"
   integrity sha512-txRAdmi35N1wnsLS1AO5mTlbY5Cv5/61WXqek2y3L9Q7u4mgdUVq819so5xe753hL5gYeLzlWoJ/VJfXg9nx8g==
 
+"@metascraper/helpers@5.46.11":
+  version "5.46.11"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.46.11.tgz#d55f77623227887a1ee52be3f4ea20174c36ec72"
+  integrity sha512-NmuJBy84CuXDeRT0PlKyM2To++jEHlqDTX8YajoL+S0FQpwvrB8kB3gsSaLzTgCzrZh0SABiicK1GVxtXFdrVA==
+  dependencies:
+    audio-extensions "0.0.0"
+    chrono-node "~2.7.9"
+    condense-whitespace "~2.0.0"
+    data-uri-utils "~1.0.8"
+    debug-logfmt "~1.2.3"
+    entities "~6.0.0"
+    file-extension "~4.0.5"
+    has-values "~2.0.1"
+    image-extensions "~1.1.0"
+    is-relative-url "~3.0.0"
+    is-uri "~1.2.7"
+    iso-639-3 "~2.2.0"
+    isostring "0.0.1"
+    jsdom "~26.0.0"
+    lodash "~4.17.21"
+    memoize-one "~6.0.0"
+    microsoft-capitalize "~1.0.5"
+    mime "3"
+    normalize-url "~6.1.0"
+    re2 "~1.21.4"
+    smartquotes "~2.3.2"
+    tldts "~6.1.85"
+    url-regex-safe "~4.0.0"
+    video-extensions "1"
+
 "@metascraper/helpers@5.46.5":
   version "5.46.5"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.46.5.tgz#db9db60835495d2865af1c99f758d32b8aac8f10"
@@ -418,6 +448,13 @@ chrono-node@~2.7.7:
   version "2.7.8"
   resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.7.8.tgz#629a96b955ea20b1fba9811328c69cbc932c8e39"
   integrity sha512-pzxemrTKu6jFVyAfkNxUckp9nlrmRFtr5lGrEJcVKyeKV9WSeGT78Oysazlzd/H0BdMv7EzACtJrw0pi2KODBQ==
+  dependencies:
+    dayjs "^1.10.0"
+
+chrono-node@~2.7.9:
+  version "2.7.9"
+  resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.7.9.tgz#198c1360558b7a8913f3d3788ed5ee90b69c65b1"
+  integrity sha512-PW3tzuztH7OFbwdCCwv1k8F6ALFs5Yet1Neh5JJBL1GGj8zsLj3ZgZU6StUyM6gSsVRMv8EE6LqpTjM52Mshrw==
   dependencies:
     dayjs "^1.10.0"
 
@@ -1227,6 +1264,14 @@ is-uri@~1.2.6:
     parse-uri "~1.0.3"
     punycode2 "~1.0.0"
 
+is-uri@~1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/is-uri/-/is-uri-1.2.7.tgz#cfb25d3123ff859a044ef54797551a911a450821"
+  integrity sha512-drze7nnbh2ZTHU0InyskqNcyCRH7G6SpC/2F3yFXTa38IL+aeUmYvz/9TRfR1Z4tuMzFGos1tolX8QJmgKEiqA==
+  dependencies:
+    parse-uri "~1.0.3"
+    punycode2 "~1.0.0"
+
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
@@ -1261,7 +1306,7 @@ jsbn@1.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-1.1.0.tgz#b01307cb29b618a1ed26ec79e911f803c4da0040"
   integrity sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==
 
-jsdom@^26.0.0:
+jsdom@^26.0.0, jsdom@~26.0.0:
   version "26.0.0"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-26.0.0.tgz#446dd1ad8cfc50df7e714e58f1f972c1763b354c"
   integrity sha512-BZYDGVAIriBWTpIxYzrXjv3E/4u8+/pSG5bQdIYCbNCGOvsPkDQfTVLAIXAf9ETdCpduCVTkDe2NNZ8NIwUVzw==
@@ -1443,12 +1488,12 @@ metascraper-logo@^5.46.5:
     "@metascraper/helpers" "5.46.5"
     lodash "~4.17.21"
 
-metascraper-title@^5.46.5:
-  version "5.46.5"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.46.5.tgz#b1a5027b3d051cba5a3cefcbb97a58bdfb0c00f5"
-  integrity sha512-AciK4SgOCdkRgXQ6isYcV/JzxomUd7hJ7BrikXqIfZME+UK6OHUtjQV3gtdB0SHBbIBE7Q+h1X5r8j5nWwBALg==
+metascraper-title@^5.46.11:
+  version "5.46.11"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.46.11.tgz#bedd7f891ed56697f1ddf48f5bd286997e430e95"
+  integrity sha512-xb/A5EvvSTh4Ux+VoLpF7Q4/7Yy6PpWq6RCH8QhuzxUXAFQIdCbAK0UUkgWtpmUarbxGK0UK6koX0fFKGu4CXQ==
   dependencies:
-    "@metascraper/helpers" "5.46.5"
+    "@metascraper/helpers" "5.46.11"
 
 metascraper-url@^5.46.5:
   version "5.46.5"
@@ -2136,12 +2181,24 @@ tldts-core@^6.1.84:
   resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.84.tgz#f8ac2af9969bf9c2f7a99fa05d9c667b5e5b768c"
   integrity sha512-NaQa1W76W2aCGjXybvnMYzGSM4x8fvG2AN/pla7qxcg0ZHbooOPhA8kctmOZUDfZyhDL27OGNbwAeig8P4p1vg==
 
+tldts-core@^6.1.85:
+  version "6.1.85"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.85.tgz#6f6b795468c0b5f7660a11c7306ff2766ceaea7e"
+  integrity sha512-DTjUVvxckL1fIoPSb3KE7ISNtkWSawZdpfxGxwiIrZoO6EbHVDXXUIlIuWympPaeS+BLGyggozX/HTMsRAdsoA==
+
 tldts@^6.1.32, tldts@~6.1.70:
   version "6.1.84"
   resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.84.tgz#fb58b1ceb70972a1ecd683606cea3d06c78f7238"
   integrity sha512-aRGIbCIF3teodtUFAYSdQONVmDRy21REM3o6JnqWn5ZkQBJJ4gHxhw6OfwQ+WkSAi3ASamrS4N4nyazWx6uTYg==
   dependencies:
     tldts-core "^6.1.84"
+
+tldts@~6.1.85:
+  version "6.1.85"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.85.tgz#c7636ad5ec2f02591264360da51c6b584ef6f7bb"
+  integrity sha512-gBdZ1RjCSevRPFix/hpaUWeak2/RNUZB4/8frF1r5uYMHjFptkiT0JXIebWvgI/0ZHXvxaUDDJshiA0j6GdL3w==
+  dependencies:
+    tldts-core "^6.1.85"
 
 toidentifier@1.0.1:
   version "1.0.1"
