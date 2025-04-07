@@ -5,16 +5,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2",
-    "got": "^14.4.6",
+    "express": "^5.1.0",
+    "got": "^14.4.7",
     "jsdom": "^26.0.0",
-    "metascraper": "^5.46.7",
-    "metascraper-description": "^5.46.5",
-    "metascraper-image": "^5.46.5",
-    "metascraper-logo": "^5.46.5",
-    "metascraper-logo-favicon": "^5.46.9",
-    "metascraper-title": "^5.46.5",
-    "metascraper-url": "^5.46.5"
+    "metascraper": "^5.46.11",
+    "metascraper-description": "^5.46.11",
+    "metascraper-image": "^5.46.11",
+    "metascraper-logo": "^5.46.11",
+    "metascraper-logo-favicon": "^5.46.11",
+    "metascraper-title": "^5.46.11",
+    "metascraper-url": "^5.46.11"
   },
   "scripts": {
     "start": "node index.js"
