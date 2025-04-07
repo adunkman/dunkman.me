@@ -31,15 +31,6 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: ./docker-compose.yml
-          push: false
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
       - name: Decrypt private contents
         run: make decrypt
         env:
