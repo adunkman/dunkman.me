@@ -1502,12 +1502,12 @@ metascraper-url@^5.46.11:
   dependencies:
     "@metascraper/helpers" "5.46.11"
 
-metascraper@^5.46.7:
-  version "5.46.9"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.46.9.tgz#e7e7c57cdb8df4c5c71f2855bd3dc59d4c5536e3"
-  integrity sha512-ptoOBApP3Ov+ugbmLW0aIkE6pfrEQ+aNXXYvKKYJaHkI7OTQjvf5SetBhuBKdE3SwRDrMxLE6zThhZ6daE7D7w==
+metascraper@^5.46.11:
+  version "5.46.11"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.46.11.tgz#ee63bdbc94440c33d714b006e50a1712e2f2c25d"
+  integrity sha512-EdwpSK+P5l+oS5X7yRjnFhVq6s0m7f9mWfRykZKCHEeoLFmNVpUrA94S4q5PG6jAla5YMh2PAGGPS5EYyZ4YrQ==
   dependencies:
-    "@metascraper/helpers" "5.46.5"
+    "@metascraper/helpers" "5.46.11"
     cheerio "~1.0.0"
     debug-logfmt "~1.2.3"
     lodash "~4.17.21"
