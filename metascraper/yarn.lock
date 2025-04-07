@@ -1495,12 +1495,12 @@ metascraper-title@^5.46.11:
   dependencies:
     "@metascraper/helpers" "5.46.11"
 
-metascraper-url@^5.46.5:
-  version "5.46.5"
-  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.46.5.tgz#8673db754a613951b9a870c3533ee3a4fee04d22"
-  integrity sha512-DsF80xrH3qoyhxsZISbGQ6krs+BQO+3c19FA3oGfs88cjhpGSr0gMr662xL5NBveFatHSCCaaKYl2/OTb3N1VQ==
+metascraper-url@^5.46.11:
+  version "5.46.11"
+  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.46.11.tgz#23fd921b7ea063e4cb52d14e36b3b8a3fd5fc62c"
+  integrity sha512-EHs+lKR1LYASN0dNq5dSfUXWGqI2kNRfKIe0XySdFFZfcODGkEjgm0+T8jUDuf+qQVGsrJrwG83Hs9w6p0G7+A==
   dependencies:
-    "@metascraper/helpers" "5.46.5"
+    "@metascraper/helpers" "5.46.11"
 
 metascraper@^5.46.7:
   version "5.46.9"
