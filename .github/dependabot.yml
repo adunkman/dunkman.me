@@ -9,19 +9,39 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      ci:
+        patterns:
+          - "*"
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/metascraper" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      build:
+        patterns:
+          - "*"
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/test" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      build:
+        patterns:
+          - "*"
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/terraform" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      ci:
+        patterns:
+          - "*"
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      build:
+        patterns:
+          - "*"
