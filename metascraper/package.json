@@ -9,7 +9,7 @@
     "got": "^14.4.7",
     "jsdom": "^26.0.0",
     "metascraper": "^5.46.7",
-    "metascraper-description": "^5.46.5",
+    "metascraper-description": "^5.46.11",
     "metascraper-image": "^5.46.5",
     "metascraper-logo": "^5.46.5",
     "metascraper-logo-favicon": "^5.46.9",

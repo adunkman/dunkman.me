@@ -1456,12 +1456,12 @@ merge-descriptors@1.0.3:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.3.tgz#d80319a65f3c7935351e5cfdac8f9318504dbed5"
   integrity sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ==
 
-metascraper-description@^5.46.5:
-  version "5.46.5"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.46.5.tgz#10c74065e8c6227a2e19bcbfb498fd117dd0b7a9"
-  integrity sha512-RJKfwVPXRy8+w7mSjJM+6oe1ws3AtPA5CspcJty1fdKD1S4jF0nFzgwtrTgOCtggMK8iHG01/qAunPobFEbs+w==
+metascraper-description@^5.46.11:
+  version "5.46.11"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.46.11.tgz#ab5df1ec24b9f662618f496ea19d5ade6669e35e"
+  integrity sha512-kJ9Er7XptGiZ502l3uCaMXVkaAKB//7FDylOHs+Dx4Irzp8SrWzKQgWX2XLg99oXdy7F/reNLdpPuV877Cw43Q==
   dependencies:
-    "@metascraper/helpers" "5.46.5"
+    "@metascraper/helpers" "5.46.11"
 
 metascraper-image@^5.46.5:
   version "5.46.5"
