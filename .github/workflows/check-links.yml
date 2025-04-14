@@ -1,0 +1,47 @@
+name: Link Checker
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 18 * * *"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - uses: actions/cache@v4
+        with:
+          path: app/resources
+          key: app-v1-${{ hashFiles('app/Dockerfile') }}
+
+      - name: Decrypt private contents
+        run: make decrypt
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          SOPS_KMS_ARN: "${{ secrets.SOPS_KMS_ARN }}"
+
+      - name: Build site
+        run: make build
+
+      - name: Run lychee to check for broken links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: 'app/public/**/*.html'
+          fail: false
+          failIfEmpty: true
+
+      - name: Create issues for broken links
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue

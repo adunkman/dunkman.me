@@ -68,3 +68,10 @@ services:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       SOPS_KMS_ARN: "${SOPS_KMS_ARN}"
+
+  lychee:
+    profiles:
+      - utilities
+    image: lycheeverse/lychee:sha-e185e90-alpine
+    volumes:
+      - ./app:/app

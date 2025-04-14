@@ -8,6 +8,10 @@ start: ## Runs the full application stack locally
 test: ## Run automated tests
 	@docker compose run test
 
+.PHONY: check-links
+check-links: ## Check built site for broken links
+	@docker compose run lychee 'app/public/**/*.html'
+
 .PHONY: build
 build: ## Generate compiled application files to prepare for a deployment
 	@docker compose run hugo --
