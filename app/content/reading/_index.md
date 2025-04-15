@@ -139,7 +139,7 @@ links:
   - date: "2021-06-29"
     link: https://www.michaelnygard.com/blog/2021/06/counterfactuals-are-not-causality/
   - date: "2021-06-15"
-    link: http://zenhabits.com/ah/
+    link: https://web.archive.org/web/20240912124250/http://zenhabits.com/ah/
   - date: "2021-06-11"
     link: https://randsinrepose.com/archives/ninety-days/
   - date: "2021-06-07"
@@ -161,7 +161,7 @@ links:
   - date: "2021-05-06"
     link: https://www.usenix.org/publications/loginonline/seeing-sre-site-reliability-engineering-high-modernism
   - date: "2021-04-14"
-    link: https://smallbigideas.substack.com/p/understanding-bandwidth-f29119e7eb83
+    link: https://archive.is/tOaSj # https://smallbigideas.substack.com/p/understanding-bandwidth-f29119e7eb83
   - date: "2021-03-31"
     link: https://www.theatlantic.com/politics/archive/2021/03/how-tell-if-you-have-burnout/618250/
   - date: "2021-03-31"
