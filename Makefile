@@ -10,7 +10,7 @@ test: ## Run automated tests
 
 .PHONY: check-links
 check-links: ## Check built site for broken links
-	@docker compose run lychee --output app/resources/link-report.md --format markdown 'app/public/**/*.html'
+	@docker compose run lychee --output /app/resources/link-report.md --format markdown '/app/public/**/*.html'
 
 .PHONY: build
 build: ## Generate compiled application files to prepare for a deployment
