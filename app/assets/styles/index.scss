@@ -40,4 +40,7 @@
   &.button-brand-paypal::before {
     mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/paypal.svg").Content | base64Encode }}');
   }
+  &.button-brand-linkedin::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/linkedin.svg").Content | base64Encode }}');
+  }
 }

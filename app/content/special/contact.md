@@ -11,6 +11,7 @@ My general approach to digital communication is similar to that of standard mail
 <div class="button-group">
   <a href="https://signal.me/#eu/vikdo24eYt-S6ga5ZyIh8ycnYq_myMH79Mc8MKdBUmV1nAMdd6dC6onh_Pe5uzB1" class="button button-brand button-brand-signal" target="_blank" rel="noopener">Signal</a>
   <a href="https://bsky.app/profile/dunkman.me" class="button button-brand button-brand-bluesky" target="_blank" rel="noopener">Bluesky</a>
+  <a href="https://www.linkedin.com/in/andrew-dunkman/" class="button button-brand button-brand-linkedin" target="_blank" rel="noopener">LinkedIn</a>
   <a href="mailto:adunkman@gmail.com" class="button button-link">adunkman@gmail.com</a>
 </div>
 
