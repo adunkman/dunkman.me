@@ -15,5 +15,6 @@
       </article>
     </section>
   </main>
+  <script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
   {{ partial "footer/oss.html" . }}
 {{- end -}}
