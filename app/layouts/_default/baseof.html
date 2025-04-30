@@ -7,7 +7,8 @@
     {{ partial "head/stylesheet.html" "styles/fonts.scss" }}
     {{ partial "head/stylesheet.html" "styles/index.scss" }}
     {{ partial "head/script.html" "scripts/index.js" }}
-    {{ template "_internal/google_analytics.html" . }}
+    <script defer data-domain="dunkman.me" src="https://plausible.io/js/script.outbound-links.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   </head>
   <body>
     {{ block "body" . -}}{{- end }}
