@@ -1,0 +1,74 @@
+.workplaces {
+  margin: 0;
+  padding: 0;
+
+  > li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: [gutter] 5rem [list] 1fr;
+    gap: 1rem;
+  }
+
+  .workplace-logo {
+    margin: 0;
+  }
+
+  .workplace-details {
+    h3, h4 {
+      margin: 0;
+    }
+
+    .summary {
+      margin-top: 0;
+    }
+  }
+}
+
+.positions {
+  margin: 0;
+  margin-top: 1.5rem;
+  padding: 0;
+
+  > li {
+    list-style-type: none;
+    margin-left: -3.7rem;
+    padding-left: 3.5rem;
+    padding-bottom: 1.5rem;
+    border-left: .2rem rgba(var(--theme-foreground-color), 0.2) solid;
+
+    &:before {
+      content: "";
+      box-sizing: content-box;
+      border-radius: 50%;
+      background-color: rgba(var(--theme-foreground-color), 0.8);
+      border: .6rem rgba(var(--theme-background-color), 1) solid;
+      display: block;
+      width: .6rem;
+      height: .6rem;
+      position: absolute;
+      margin-left: -3.6rem;
+      transform: translateX(-50%);
+    }
+
+    &:last-of-type {
+      border-left-color: transparent;
+    }
+
+    &:first-of-type:last-of-type:before {
+      background-color: transparent;
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .byline + p {
+    margin-top: .5rem;
+  }
+}
