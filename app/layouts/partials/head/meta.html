@@ -6,9 +6,14 @@
 <base href="{{ .Permalink }}">
 <meta name="description" content="{{ .Summary }}">
 <link rel="shortcut icon" href="{{ (resources.Get "images/favicon.png" | fingerprint "sha512").Permalink }}">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
 {{ if .Params.norobots }}
   <meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
 
 <!-- https://ogp.me/ -->
