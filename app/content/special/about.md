@@ -1,6 +1,6 @@
 ---
 title: About
-summary: 👋 Hi, I'm Andrew, an technology leader and software engineer with 20 years of diverse experience living in Washington, DC.
+summary: 👋 Hi, I'm Andrew, a mission-driven technology leader and software engineer with 20 years of diverse experience living in Washington, DC.
 url: /about
 aliases:
   - /resume
@@ -38,7 +38,7 @@ While currently in government as a non-partisan civil servant, my career has bri
             <span class="byline-item"><time datetime="2022-10-01">Oct 2022</time> – <time datetime="2023-05-01">May 2023</time></span>
             <span class="byline-item">8 months</span>
           </div>
-          <p>Lead team of 9 supervisors and 36 engineers, supporting performance management, coaching, and training. Hired 51 engineers to join the federal workforce (including 17 at 18F) and refined equitable hiring guides.</p>
+          <p>Led team of 9 supervisors and 36 engineers, supporting performance management, coaching, and training. Hired 51 engineers to join the federal workforce (including 17 at 18F) and refined equitable hiring guides.</p>
         </li>
         <li>
           <h4>Engineering Supervisor</h4>
@@ -98,7 +98,7 @@ While currently in government as a non-partisan civil servant, my career has bri
             <span class="byline-item"><time datetime="2010-05-01">May 2010</time> – <time datetime="2013-05-01">May 2013</time></span>
             <span class="byline-item">3 years, 1 month</span>
           </div>
-          <p>Worked directly with radiologists on-site at University of Tennessee to design and develop an application to track incidental findings within radiology exams using iterative research and design. Lead charge to transition to automated puppet deployments of products. Globalized and assisted in localization of software into French and English. Participated in on-call rotation for maintaining software and hardware installations within 15 hospitals.</p>
+          <p>Worked directly with radiologists on-site at University of Tennessee to design and develop an application to track incidental findings within radiology exams using iterative research and design. Led charge to transition to automated puppet deployments of products. Globalized and assisted in localization of software into French and English. Participated in on-call rotation for maintaining software and hardware installations within 15 hospitals.</p>
         </li>
       </ol>
     </div>
