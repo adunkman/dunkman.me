@@ -30,6 +30,9 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOPS_KMS_ARN: "${{ secrets.SOPS_KMS_ARN }}"
 
+      - name: Create output directory to prevent permission issues
+        run: mkdir -p app/resources
+
       - name: Build site
         run: make build
 
