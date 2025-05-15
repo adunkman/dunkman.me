@@ -73,5 +73,6 @@ services:
     profiles:
       - utilities
     image: lycheeverse/lychee:sha-e185e90-alpine
+    user: root
     volumes:
       - ./app:/app

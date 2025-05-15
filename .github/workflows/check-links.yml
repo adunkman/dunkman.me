@@ -35,7 +35,7 @@ jobs:
 
       - name: Run lychee to check for broken links
         id: lychee
-        run: sudo make check-links
+        run: make check-links
         continue-on-error: true
 
       - name: Create issues for broken links
