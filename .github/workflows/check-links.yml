@@ -30,15 +30,12 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOPS_KMS_ARN: "${{ secrets.SOPS_KMS_ARN }}"
 
-      - name: Create output directory to prevent permission issues
-        run: mkdir -pm 777 app/resources
-
       - name: Build site
         run: make build
 
       - name: Run lychee to check for broken links
         id: lychee
-        run: make check-links
+        run: sudo make check-links
         continue-on-error: true
 
       - name: Create issues for broken links
