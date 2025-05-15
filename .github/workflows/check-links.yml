@@ -31,7 +31,7 @@ jobs:
           SOPS_KMS_ARN: "${{ secrets.SOPS_KMS_ARN }}"
 
       - name: Create output directory to prevent permission issues
-        run: mkdir -p app/resources
+        run: mkdir -pm 777 app/resources
 
       - name: Build site
         run: make build
