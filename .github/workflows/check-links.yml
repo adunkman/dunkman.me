@@ -41,8 +41,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create issues for broken links
-        if: failure()
+        if: hashFiles('app/resources/link-report.md') != ''
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Broken links found by automated link checker
-          content-filepath: ./app/resources/link-report.md
+          content-filepath: app/resources/link-report.md
