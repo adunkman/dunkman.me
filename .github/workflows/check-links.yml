@@ -37,6 +37,8 @@ jobs:
         id: lychee
         run: make check-links
         continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create issues for broken links
         if: steps.lychee.outputs.exit_code != 0
