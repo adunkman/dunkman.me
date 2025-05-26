@@ -8,13 +8,13 @@
     "express": "^5.1.0",
     "got": "^14.4.7",
     "jsdom": "^26.1.0",
-    "metascraper": "^5.46.15",
-    "metascraper-description": "^5.46.15",
-    "metascraper-image": "^5.46.15",
-    "metascraper-logo": "^5.46.15",
-    "metascraper-logo-favicon": "^5.46.15",
-    "metascraper-title": "^5.46.15",
-    "metascraper-url": "^5.46.15"
+    "metascraper": "^5.46.18",
+    "metascraper-description": "^5.46.18",
+    "metascraper-image": "^5.46.18",
+    "metascraper-logo": "^5.46.18",
+    "metascraper-logo-favicon": "^5.46.18",
+    "metascraper-title": "^5.46.18",
+    "metascraper-url": "^5.46.18"
   },
   "scripts": {
     "start": "node index.js"
