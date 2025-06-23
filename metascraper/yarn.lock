@@ -86,10 +86,10 @@
   resolved "https://registry.yarnpkg.com/@kikobeats/time-span/-/time-span-1.0.5.tgz#9f7c5d48b08da02115dbf3d85ca11a6a6f8bfdeb"
   integrity sha512-txRAdmi35N1wnsLS1AO5mTlbY5Cv5/61WXqek2y3L9Q7u4mgdUVq819so5xe753hL5gYeLzlWoJ/VJfXg9nx8g==
 
-"@metascraper/helpers@5.46.18":
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.46.18.tgz#9c4617805bec0aa32008bf4dabe1d419c4816e98"
-  integrity sha512-OBF7zyyIWmvMYmScPw9jcoxAReeHFMmZOQ1uvVQHKbXw1HMilwUcfoCFfySpLUny50C0uQuGoecwfP8qu4wIzg==
+"@metascraper/helpers@5.47.1":
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.47.1.tgz#a834e81067fe6c3ab1bcbff40d9b8af4dd12b57c"
+  integrity sha512-XKbkMBjFGDSV4IFKWVfIh0Ewe0KMlLB/GkBn03NU62HaC7QEPwG90CgA1XsbizHX5Zsq8OE5UKJk4PoG8YGnPA==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.8.0"
@@ -1270,58 +1270,58 @@ merge-descriptors@^2.0.0:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-2.0.0.tgz#ea922f660635a2249ee565e0449f951e6b603808"
   integrity sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww22l9Q3g==
 
-metascraper-description@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.46.18.tgz#56c4851a141c1e748db49113455baa7345a5145c"
-  integrity sha512-J/YVQFQpGDkPMvUxlmx1UVdUB7Ft0jlL40npKk/89KazF9uyW4IY6CdnIYCRmRO6qEBgab3pA0nGh0aYDrWBUg==
+metascraper-description@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.47.1.tgz#a61710afce334607488667f4086806c30c1c5d9c"
+  integrity sha512-ifggUx56xu7HnNEYuT8uGPB2OsnJNkdte/xjndlZj++ib9JgQZRmR5iLiRKuxuPM+BSoh5yuGRNfFzA4HDt7sw==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
 
-metascraper-image@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.46.18.tgz#8292daf09a94fe1e8d0b2476146cc7ac899c96f6"
-  integrity sha512-1sA7hEqSX3w496s4LNCQdPGlWZDUcvRMsUcf7BNzNE+igt/X+ud8NTiDc/AW/wko+kiORTT3WvPjfFM6vi5wBw==
+metascraper-image@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.47.1.tgz#35703d0b7a9907b0084a778ebde1c8f830b8db27"
+  integrity sha512-2MpzmngbtCrcP90PaW1S6pW+JfzLHMFZqkDhQdNgEluXzibDkhZiwSC5A60vVMP7tdjKE5tBfeXBDHygf7Q3vw==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
 
-metascraper-logo-favicon@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.46.18.tgz#160a6c78d7a30208effeb182cac58aa01140129a"
-  integrity sha512-s6aV7YV2LpYGWZofNO2mHcq8It5/jeFAyTL1sGcDP19VmDWTiE1Khgo2T7zMPZHa997uVBHQ9BmUbNvDufsNrw==
+metascraper-logo-favicon@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.47.1.tgz#8d31219507f08829053c5d8e55b02afcaab93ee3"
+  integrity sha512-eYCTHhytDOcCEr0FTVHN4RZMEfHicWvc8WnLr3t+P3cQ9snC4N0X1qB6gZfKx/XGYTIpPJWbZuyTvtHTckIs4A==
   dependencies:
     "@keyvhq/memoize" "~2.1.9"
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
     lodash "~4.17.21"
     reachable-url "~1.8.1"
 
-metascraper-logo@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-logo/-/metascraper-logo-5.46.18.tgz#039d4fc3fbbda6b13ad15a298485ca98f39848be"
-  integrity sha512-LMb4AF/NsQQzcZ+gDF27moqhim1S8KsHe8AiFyYoFV2IUa1fsXrLQHdnR2f1NX62wqxwtikqIzxZK/Q6sLx7gg==
+metascraper-logo@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-logo/-/metascraper-logo-5.47.1.tgz#7cbf7c2fe33a307f2ec6e50b5f9bed1cc9ce8412"
+  integrity sha512-ei5pv5vYqnKFr/bZgORlpMEqsA99pQC+ECM8Mdr6HHisP7EoAFoFJdZRAkAS8BKdDYI7jRTItzyemsUmbztWLw==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
     lodash "~4.17.21"
 
-metascraper-title@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.46.18.tgz#c5a76f6a549b5cac8ab26fd3bc804f2a96c2b00a"
-  integrity sha512-4Z4z+6Y+avQm1XrUiYkF+lol8QJyPc4EqvsNx7QJ5GPUJ/NVtVuJOud7HifLq67MBkecd+HRVmqw4QMyH6F4nw==
+metascraper-title@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.47.1.tgz#5e61ff2c88e7e7d0db13aa5cee0f9332b4571343"
+  integrity sha512-3E1dF0Vfrfka6Nxf5ILdIZEr2LdpkSI4VU5ziUh+fIWD9npvxrpgG8RC5lEqnnddDkpWVdf2k6gAB4mZoN5BHw==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
 
-metascraper-url@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.46.18.tgz#0ed50dedf71b0114f571645c386860439b6c0b3d"
-  integrity sha512-8R0kDSnqiGY1weByIOHAKp4pifbEQVpvspIza7PAzp1Ymc3b131CR8hJ0vLdsoc/splq1Ou8rVCrKOVjPzzCXg==
+metascraper-url@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.47.1.tgz#d009b474900caf5af75035f1983fc7149c03f77a"
+  integrity sha512-OtU6CioGZq+VXfpXY66/D0I6I24BKvELfZujSYFNakNFYhBLwv6+doO6f5HMMFBBNKNkxdb46bZV4qxHU2URwA==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
 
-metascraper@^5.46.18:
-  version "5.46.18"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.46.18.tgz#454c0123d462de0b62b4c19dcf25c56b4ec99228"
-  integrity sha512-X3w2VhamqQg52BonoVkKFnLlcG27i6qQ8t6gtZe3JPccGtnvQSB0/cCrq8VYqFJWioo9gkk9ea3waeUHNG4fgw==
+metascraper@^5.47.1:
+  version "5.47.1"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.47.1.tgz#44887f7cd754d674fe774b926449ae34eccee74d"
+  integrity sha512-zcWFCSarDaZAffFqp1neIwuBkq+WSwtr36+UMAcNtTIaOSS4SooRtG73VeTRp8LXytYJRMWqicLSFiE0Tirxng==
   dependencies:
-    "@metascraper/helpers" "5.46.18"
+    "@metascraper/helpers" "5.47.1"
     cheerio "~1.0.0"
     debug-logfmt "~1.2.3"
     lodash "~4.17.21"
