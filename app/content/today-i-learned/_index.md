@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2025-06-27"
+    link: https://mjml.io/
+    title: MJML is a HTML-like library for coding responsive emails.
   - date: "2023-10-30"
     link: https://en.wikipedia.org/wiki/Weltschmerz
     title: Weltschmerz describes the feeling of world-weariness.
