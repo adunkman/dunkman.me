@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2025-07-16"
+    link: https://airport.revolvertype.com/
   - date: "2025-07-15"
     link: https://aresluna.org/the-hardest-working-font-in-manhattan/
   - date: "2024-11-04"
