@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2025-08-08"
+    link: https://werd.io/evaluating-ai/
   - date: "2025-07-16"
     link: https://airport.revolvertype.com/
   - date: "2025-07-15"
