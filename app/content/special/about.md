@@ -8,15 +8,37 @@ aliases:
 
 ## Career history
 
-While currently in government as a non-partisan civil servant, my career has bridged between government and private industry in business-to-business, healthcare, and sales software.
+While currently a government contractor, my career has bridged between government and private industry in business-to-business, healthcare, and sales software.
 
 <ol class="workplaces">
+  <li>
+    {{<figure class="workplace-logo" src="images/logos/skylight.svg" alt="Skylight logo">}}
+    <div class="workplace-details">
+      <h3>Skylight</h3>
+      <div class="byline">
+        <span class="byline-item">Full-time</span>
+        <span class="byline-item">Washington, DC</span>
+        <span class="byline-item">Remote</span>
+      </div>
+      <p class="summary">A digital consultancy using design and technology to help agencies deliver better public services.</p>
+      <ol class="positions">
+        <li>
+          <h4>Staff Software Engineer</h4>
+          <div class="byline">
+            <span class="byline-item"><time datetime="2025-09-01">Sep 2025</time> – <time datetime="now">present</time></span>
+          </div>
+          <p>Working on cross-functional team to deliver a Minimum Viable Product (MVP) for improving the complaint submission experience to the Food and Drug Administration (FDA).</p>
+        </li>
+      </ol>
+    </div>
+  </li>
   <li>
     {{<figure class="workplace-logo" src="images/logos/18f.svg" alt="18F logo">}}
     <div class="workplace-details">
       <h3>18F</h3>
       <div class="byline">
-        <span class="byline-item"><time datetime="2018-01-01">Jan 2018</time> – <time datetime="now">present</time></span>
+        <span class="byline-item"><time datetime="2018-10-01">Oct 2018</time> – <time datetime="2025-02-01">Feb 2025</time></span>
+        <span class="byline-item">6 years, 4 months</span>
       </div>
       <div class="byline">
         <span class="byline-item">Full-time</span>
@@ -28,7 +50,8 @@ While currently in government as a non-partisan civil servant, my career has bri
         <li>
           <h4>Chief of Delivery</h4>
           <div class="byline">
-            <span class="byline-item"><time datetime="2023-05-01">May 2023</time> – <time datetime="now">present</time></span>
+            <span class="byline-item"><time datetime="2023-05-01">May 2023</time> – <time datetime="2025-02-01">Feb 2025</time></span>
+            <span class="byline-item">1 year, 9 months</span>
           </div>
           <p>Oversaw delivery of $32 million of projects annually across 13 federal agencies, analyzing practices and making systemic improvements to organizational capacity projections and targeting business development activities. Supervised the Director of Account Management, supporting billing, invoicing, and inter-agency agreements.</p>
         </li>
