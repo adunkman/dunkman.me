@@ -20,7 +20,7 @@ While currently a government contractor, my career has bridged between governmen
         <span class="byline-item">Washington, DC</span>
         <span class="byline-item">Remote</span>
       </div>
-      <p class="summary">A digital consultancy using design and technology to help agencies deliver better public services.</p>
+      <p class="summary">A digital consultancy using design and technology to help agencies deliver better public services. <a href="https://skylight.digital/">skylight.digital</a></p>
       <ol class="positions">
         <li>
           <h4>Staff Software Engineer</h4>
@@ -45,7 +45,7 @@ While currently a government contractor, my career has bridged between governmen
         <span class="byline-item">Washington, DC</span>
         <span class="byline-item">Remote</span>
       </div>
-      <p class="summary">A digital services consulting team of designers, software engineers, strategists, and product managers within the General Services Administration of the U.S. Government, helping other government agencies build, buy, and share technology products.</p>
+      <p class="summary">A digital services consulting team of designers, software engineers, strategists, and product managers within the General Services Administration of the U.S. Government, helping other government agencies build, buy, and share technology products. <a href="https://18f.org/">18f.org</a>, formerly <a href="https://web.archive.org/web/20250301115820/https://18f.gsa.gov/">18f.gsa.gov</a></p>
       <ol class="positions">
         <li>
           <h4>Chief of Delivery</h4>
@@ -91,7 +91,7 @@ While currently a government contractor, my career has bridged between governmen
         <span class="byline-item">Washington, DC</span>
         <span class="byline-item">Remote</span>
       </div>
-      <p class="summary">An industry-leading business intelligence platform to plan, track, understand, and invoice teams' time.</p>
+      <p class="summary">An industry-leading business intelligence platform to plan, track, understand, and invoice teams' time. <a href="https://www.getharvest.com/">getharvest.com</a></p>
       <ol class="positions">
         <li>
           <h4>Frontend Developer</h4>
@@ -113,7 +113,7 @@ While currently a government contractor, my career has bridged between governmen
         <span class="byline-item">Prairie Village, KS</span>
         <span class="byline-item">On-site</span>
       </div>
-      <p class="summary">A software company providing software and consulting services for Cerner Millennium hospitals, offering a comprehensive range of optimization, monitoring, and consulting services.</p>
+      <p class="summary">A software company providing software and consulting services for Cerner Millennium hospitals, offering a comprehensive range of optimization, monitoring, and consulting services. <a href="https://www.softekinc.com/">softekinc.com</a></p>
       <ol class="positions">
         <li>
           <h4>Software Engineer</h4>
