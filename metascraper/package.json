@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^5.1.0",
-    "got": "^14.4.9",
+    "got": "^14.5.0",
     "jsdom": "^27.0.0",
     "metascraper": "^5.49.4",
     "metascraper-description": "^5.49.2",
