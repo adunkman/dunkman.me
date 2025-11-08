@@ -39,4 +39,4 @@ When it comes time to actually present your application to the public, you’ll 
 
 Yeah, pretty much.
 
-> **Note:** I went through the creation of the [Node Labs](http://nodelabs.org) site as a part of this talk. The content of the pages are statically hosted on GitHub Pages, but the site has interactive features which are controlled via client-side scripting. The interactive features are run with socket.io on node.js, using a MongoDB backend.
+> **Note:** I went through the creation of the [Node Labs](https://web.archive.org/web/20170731162409/http://nodelabs.org/) site as a part of this talk. The content of the pages are statically hosted on GitHub Pages, but the site has interactive features which are controlled via client-side scripting. The interactive features are run with socket.io on node.js, using a MongoDB backend.

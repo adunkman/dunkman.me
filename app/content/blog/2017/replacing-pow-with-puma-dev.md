@@ -6,13 +6,13 @@ aliases:
   - /blog/2017/replacing-pow-with-puma-dev.html
 ---
 
-I’ve been a long-time user of [Pow](http://pow.cx) to manage my local development environment. If you’re not familiar, it maps local hostnames like `http://myapp.dev` to a folder (say, `~/projects/myapp`) and will start/stop the `myapp` project’s development server with [Rack](https://rack.github.io/).
+I’ve been a long-time user of [Pow](https://web.archive.org/web/20170626034754/http://pow.cx/) to manage my local development environment. If you’re not familiar, it maps local hostnames like `http://myapp.dev` to a folder (say, `~/projects/myapp`) and will start/stop the `myapp` project’s development server with [Rack](https://rack.github.io/).
 
 This worked great… until Chrome 63.
 
 Chrome 63, released December 6, 2017, requires all `.dev` domains to be loaded over `https` because [Google purchased the `.dev` top-level domain](https://icannwiki.org/.dev) and decided it would require `https` via [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security).
 
-I found this gem in the Pow [release notes](http://pow.cx/manual.html#section_6):
+I found this gem in the Pow [release notes](https://web.archive.org/web/20170630020037/http://pow.cx/manual.html#section_6):
 
 > This is the last release for the forseeable future. Check out [puma-dev](https://github.com/puma/puma-dev#readme) for a contemporary alternative.
 

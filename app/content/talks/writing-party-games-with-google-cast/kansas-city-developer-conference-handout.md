@@ -16,7 +16,7 @@ The [slides](https://speakerdeck.com/adunkman/writing-party-games-with-google-ca
 
 ## Getting Started
 
-The best way to get started in my opinion is to follow the official [Getting Started guides](https://developers.google.com/cast/docs/developers), specifically the [Custom Receiver guide](https://developers.google.com/cast/docs/custom_receiver).
+The best way to get started in my opinion is to follow the official [Getting Started guides](https://developers.google.com/cast/docs/overview), specifically the [Custom Receiver guide](https://developers.google.com/cast/docs/web_receiver/basic).
 
 {{<figure-video format="widescreen" src="https://www.youtube.com/embed/QZ6scX0NPDk?rel=0&amp;showinfo=0">}}
 

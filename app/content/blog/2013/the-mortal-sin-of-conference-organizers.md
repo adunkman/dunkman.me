@@ -15,7 +15,7 @@ Organizers and speakers must **stick to the contract**:
 
  - The organizer will give the speaker the scheduled time to give the prepared talk.
 
-I’ve witnessed talks get cut by over 25% twice: as a speaker at [Nebraska Code Camp](http://nebraskacodecamp.com) and just now as an attendee of [Dustin Black](https://twitter.com/dustinlblack)’s excellent overview of [GlusterFS](http://www.gluster.org/) at [FOSSCON](http://fosscon.org/). It sucks. Not just for the speaker, the organizers, and the attendees; but the community as a whole.
+I’ve witnessed talks get cut by over 25% twice: as a speaker at Nebraska Code Camp and just now as an attendee of [Dustin Black](https://twitter.com/dustinlblack)’s excellent overview of [GlusterFS](http://www.gluster.org/) at [FOSSCON](https://fosscon.us/). It sucks. Not just for the speaker, the organizers, and the attendees; but the community as a whole.
 
  - **As a speaker**, you’ve been robbed of the chance to share your well-prepared ideas and instead rush through your content at breakneck speed.
 

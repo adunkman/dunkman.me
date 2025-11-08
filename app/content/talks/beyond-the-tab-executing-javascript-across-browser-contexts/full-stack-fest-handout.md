@@ -16,7 +16,7 @@ This talk covered sharing state between tabs — and I’ve released a set of [
 
 **ServiceWorker Demos:** For more [demos of usage possibilities of ServiceWorker, see w3c-webmob/ServiceWorkersDemo](https://github.com/w3c-webmob/ServiceWorkersDemos) on GitHub.
 
-**Microsoft Edge:** Many of the examples given in this talk were not available for use in Microsoft Edge. Their [platform status, including ServiceWorker](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/serviceworker) is publicly available.
+**Microsoft Edge:** Many of the examples given in this talk were not available for use in Microsoft Edge.
 
 **Browser Sandboxes:** For more information about browser sandboxes, check out the [Chromium Sandbox Documentation](https://www.chromium.org/developers/design-documents/sandbox) (Chromium is the open-source project behind Google Chrome and ChromeOS) and [The Security Architecture of the Chromium Browser](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf).
 

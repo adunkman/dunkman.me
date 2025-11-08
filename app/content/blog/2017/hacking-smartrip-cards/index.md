@@ -18,6 +18,6 @@ I was able to read basic data off the card, including a card identifier that can
 
 ## Resources
 
-The most useful source of information I came across was [Security of the Metro System Cards](http://ece.gmu.edu/coursewebpages/ECE/ECE646/F15/project/F13_Project_Resources/F12_subway_report.pdf), a paper published by Aaron Hunter and Cesar Corzo out of George Mason University.
+The most useful source of information I came across was [Security of the Metro System Cards](./Security.of.Contactless.Cards.pdf), a paper published by Aaron Hunter and Cesar Corzo out of George Mason University.
 
 Hope this helps you with your Smartrip hacks! Let me know if this helped you out, and especially if you come up with a project!

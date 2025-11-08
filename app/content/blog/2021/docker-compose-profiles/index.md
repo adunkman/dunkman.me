@@ -16,7 +16,7 @@ But what about the ad-hoc commands you need to run when building an application?
 
 Another tool in the compose toolbox is `docker compose run`. You might have used `run` to open a command line within your application’s docker image to debug something or connecting to a database terminal within a `postgres` image.
 
-Another useful way to use `docker compose run` is with small, single-purpose docker images that expose a single command or tool — like [`aws`](https://hub.docker.com/r/amazon/aws-cli), [`terraform`](https://hub.docker.com/r/hashicorp/terraform/), or [`zap`](https://hub.docker.com/r/owasp/zap2docker-stable/). It’s especially handy to have the versions of these tools and their dependencies locked down across your team.
+Another useful way to use `docker compose run` is with small, single-purpose docker images that expose a single command or tool — like [`aws`](https://hub.docker.com/r/amazon/aws-cli), [`terraform`](https://hub.docker.com/r/hashicorp/terraform/), or [`zap`](https://hub.docker.com/r/zaproxy/zap-stable). It’s especially handy to have the versions of these tools and their dependencies locked down across your team.
 
 Adding these tools to your `docker-compose.yml` file as services allows you to run them directly from docker compose — for example, `docker compose run aws s3 sync` or `docker compose terraform plan` — and you’ll always have the correct version installed and running. Great! No more fighting over terraform state versions.
 

@@ -13,7 +13,6 @@ events:
     location: Nashville, TN
     date: "2016-11-20"
     slides_url: https://speakerdeck.com/adunkman/beyond-the-tab-executing-javascript-across-browser-contexts-at-nodevember
-    video_url: https://www.youtube.com/watch?v=_1MsH-PYr0E
     handout_url: /talks/tabs
 
   - name: All Things Open

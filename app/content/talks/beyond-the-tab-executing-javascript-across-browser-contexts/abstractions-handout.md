@@ -16,6 +16,6 @@ This talk presented a number of [minimalist code samples for cross-tab communica
 
 **Background Sync:** For more information on [syncing web applications in the background, see this blog post on developers.google.com](https://developers.google.com/web/updates/2015/12/background-sync).
 
-**Microsoft Edge:** Many of the examples given in this talk were not available for use in Microsoft Edge. Their [platform status, including ServiceWorker](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/serviceworker) is publicly available.
+**Microsoft Edge:** Many of the examples given in this talk were not available for use in Microsoft Edge.
 
 Thanks for listening!

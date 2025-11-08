@@ -9,7 +9,7 @@ aliases:
 
 I recently switched hosting for this site --- from Heroku to Amazon S3. I’ve always used [Jekyll](http://jekyllrb.com/) to build it, but had been using Heroku for the convenience of push-to-deploy (I use custom plugins as well as SASS, so I’m unable to use [GitHub Pages](http://pages.github.com/) without mucking up my site’s git history).
 
-My hesitation to use Amazon S3 has always been deploying --- I wanted something as simple as Heroku’s push-to-deploy. After a bit of struggling, I ended up writing a [Rake](http://rake.rubyforge.org/) task to do it all for me. To see the complete source (including the build task), check out [this site on GitHub](https://github.com/adunkman/dunkman.me/blob/master/Rakefile).
+My hesitation to use Amazon S3 has always been deploying --- I wanted something as simple as Heroku’s push-to-deploy. After a bit of struggling, I ended up writing a [Rake](https://ruby.github.io/rake/) task to do it all for me. To see the complete source (including the build task), check out [this site on GitHub](https://github.com/adunkman/dunkman.me/blob/eed26d52edec5aa6e872701703d452131228f4ee/Rakefile).
 
 Rake task to deploy the `_site/` directory to an S3 bucket:
 
