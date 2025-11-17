@@ -1,8 +1,5 @@
 {
   "type": "module",
-  "engines": {
-    "node": "^22.14.0"
-  },
   "license": "MIT",
   "dependencies": {
     "express": "^5.1.0",

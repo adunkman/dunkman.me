@@ -54,14 +54,14 @@ services:
   tfsec:
     profiles:
       - utilities
-    image: aquasec/tfsec:v1.28.4
+    image: aquasec/tfsec:v1.28.14
     volumes:
       - ./terraform:/terraform
 
   sops:
     profiles:
       - utilities
-    image: ghcr.io/getsops/sops:v3.8.1-alpine
+    image: ghcr.io/getsops/sops:v3.11.0-alpine
     volumes:
       - ./app:/app
     environment:
@@ -72,7 +72,7 @@ services:
   lychee:
     profiles:
       - utilities
-    image: lycheeverse/lychee:sha-e185e90-alpine
+    image: lycheeverse/lychee:sha-c7ddd15-alpine
     user: root
     volumes:
       - ./app:/app
