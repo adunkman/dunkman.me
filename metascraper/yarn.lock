@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@acemir/cssom@^0.9.19":
-  version "0.9.19"
-  resolved "https://registry.yarnpkg.com/@acemir/cssom/-/cssom-0.9.19.tgz#cf1931a6a71713f541118d538c5a514782bf6f96"
-  integrity sha512-Pp2gAQXPZ2o7lt4j0IMwNRXqQ3pagxtDj5wctL5U2Lz4oV0ocDNlkgx4DpxfyKav4S/bePuI+SMqcBSUHLy9kg==
+"@acemir/cssom@^0.9.23":
+  version "0.9.23"
+  resolved "https://registry.yarnpkg.com/@acemir/cssom/-/cssom-0.9.23.tgz#9930458ccace533c597e1cd90c200edc336ed80a"
+  integrity sha512-2kJ1HxBKzPLbmhZpxBiTZggjtgCwKg1ma5RHShxvd6zgqhDEdEkzpiwe7jLkI2p2BrZvFCXIihdoMkl1H39VnA==
 
 "@asamuzakjp/css-color@^4.0.3":
   version "4.0.5"
@@ -18,7 +18,7 @@
     "@csstools/css-tokenizer" "^3.0.4"
     lru-cache "^11.2.1"
 
-"@asamuzakjp/dom-selector@^6.7.2", "@asamuzakjp/dom-selector@^6.7.3":
+"@asamuzakjp/dom-selector@^6.7.2", "@asamuzakjp/dom-selector@^6.7.4":
   version "6.7.4"
   resolved "https://registry.yarnpkg.com/@asamuzakjp/dom-selector/-/dom-selector-6.7.4.tgz#1b7cafe7793e399f9291de2689fdd2efc01838dd"
   integrity sha512-buQDjkm+wDPXd6c13534URWZqbz0RP5PAhXZ+LIoa5LgwInT9HVJvGIJivg75vi8I13CxDGdTnz+aY5YUJlIAA==
@@ -186,13 +186,6 @@
   integrity sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==
   dependencies:
     defer-to-connect "^2.0.0"
-
-"@szmarczak/http-timer@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-5.0.1.tgz#c7c1bf1141cdd4751b0399c8fc7b8b664cd5be3a"
-  integrity sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==
-  dependencies:
-    defer-to-connect "^2.0.1"
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.3"
@@ -512,10 +505,10 @@ css-what@^6.1.0:
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
 
-cssstyle@^5.3.1, cssstyle@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-5.3.2.tgz#5ea3308bf2bfb45e2c17aae03df57401b7bd2f3d"
-  integrity sha512-zDMqXh8Vs1CdRYZQ2M633m/SFgcjlu8RB8b/1h82i+6vpArF507NSYIWJHGlJaTWoS+imcnctmEz43txhbVkOw==
+cssstyle@^5.3.1, cssstyle@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-5.3.3.tgz#977f3868f379c17d619e9672839f9b5bb3db9861"
+  integrity sha512-OytmFH+13/QXONJcC75QNdMtKpceNk3u8ThBjyyYjkEcy/ekBwR1mMAuNvi3gdBPW3N5TlCzQ0WZw8H0lN/bDw==
   dependencies:
     "@asamuzakjp/css-color" "^4.0.3"
     "@csstools/css-syntax-patches-for-csstree" "^1.0.14"
@@ -576,7 +569,7 @@ decompress-response@^6.0.0:
   dependencies:
     mimic-response "^3.1.0"
 
-defer-to-connect@^2.0.0, defer-to-connect@^2.0.1:
+defer-to-connect@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-2.0.1.tgz#8016bdb4143e4632b77a3449c6236277de520587"
   integrity sha512-4tvttepXG1VaYGrRibk5EwJd1t4udunSOVMdLSAL6mId1ix438oPwPZMALY41FCijukO1L0twNcGsdzS7dHgDg==
@@ -870,13 +863,12 @@ gopd@^1.2.0:
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.2.0.tgz#89f56b8217bdbc8802bd299df6d7f1081d7e51a1"
   integrity sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==
 
-got@^14.6.2:
-  version "14.6.2"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.6.2.tgz#1b1deb4d9c3e1e4a4d8db85d3796c21f41173c32"
-  integrity sha512-bnhvxegqufyxHAmzwCZSscjGLVpw6/NzTXOk2tQVu/b9Q9FeMAgLabYulXEQRwP04UYltnkcZwvBq14fsdqvyw==
+got@^14.6.4:
+  version "14.6.4"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.6.4.tgz#fe86680cc2d8e9df7162ebcd39c277c4ff6cf2cb"
+  integrity sha512-DjsLab39NUMf5iYlK9asVCkHMhaA2hEhrlmf+qXRhjEivuuBHWYbjmty9DA3OORUwZgENTB+6vSmY2ZW8gFHVw==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
-    "@szmarczak/http-timer" "^5.0.1"
     byte-counter "^0.1.0"
     cacheable-lookup "^7.0.0"
     cacheable-request "^13.0.12"
@@ -1119,14 +1111,14 @@ jsbn@1.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-1.1.0.tgz#b01307cb29b618a1ed26ec79e911f803c4da0040"
   integrity sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==
 
-jsdom@^27.1.0:
-  version "27.1.0"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-27.1.0.tgz#f7c84fcbb4e791b4ff3642fcd45c1856f01e310d"
-  integrity sha512-Pcfm3eZ+eO4JdZCXthW9tCDT3nF4K+9dmeZ+5X39n+Kqz0DDIABRP5CAEOHRFZk8RGuC2efksTJxrjp8EXCunQ==
+jsdom@^27.2.0:
+  version "27.2.0"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-27.2.0.tgz#499a41eef477c3632f44009e095cb8e418fdd714"
+  integrity sha512-454TI39PeRDW1LgpyLPyURtB4Zx1tklSr6+OFOipsxGUH1WMTvk6C65JQdrj455+DP2uJ1+veBEHTGFKWVLFoA==
   dependencies:
-    "@acemir/cssom" "^0.9.19"
-    "@asamuzakjp/dom-selector" "^6.7.3"
-    cssstyle "^5.3.2"
+    "@acemir/cssom" "^0.9.23"
+    "@asamuzakjp/dom-selector" "^6.7.4"
+    cssstyle "^5.3.3"
     data-urls "^6.0.0"
     decimal.js "^10.6.0"
     html-encoding-sniffer "^4.0.0"
