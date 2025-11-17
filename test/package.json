@@ -18,6 +18,9 @@
     "typescript": "^5.9.3",
     "xml-js": "^1.6.11"
   },
+  "resolutions": {
+    "glob": "12.0.0"
+  },
   "scripts": {
     "test": "jest"
   },
