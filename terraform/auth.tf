@@ -3,7 +3,7 @@ variable "friends_and_family_passcode" {
 }
 
 data "local_file" "authenticator" {
-  filename = "./auth.js"
+  filename = "./auth.mjs"
 }
 
 data "template_file" "config" {
@@ -19,7 +19,7 @@ data "archive_file" "authenticator" {
 
   source {
     content = data.local_file.authenticator.content
-    filename = "auth.js"
+    filename = "auth.mjs"
   }
 
   source {
