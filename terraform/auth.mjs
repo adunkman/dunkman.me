@@ -1,4 +1,4 @@
-import { passcode } from "./auth.config.json";
+import { passcode } from "./auth.config.json" with { type: 'json' };
 const cookieName = "token";
 const encodedPasscode = Buffer.from(passcode).toString('base64');
 
