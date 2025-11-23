@@ -1,13 +1,13 @@
-import { passcode } from "./auth.config.json" with { type: 'json' };
+import config from "./auth.config.json" with { type: 'json' };
 const cookieName = "token";
-const encodedPasscode = Buffer.from(passcode).toString('base64');
+const encodedPasscode = Buffer.from(config.passcode).toString('base64');
 
 export async function handler(event) {
     const { request } = event.Records[0].cf;
     const qs = new URLSearchParams(request.querystring || "");
     const cookieValue = ((request.headers.cookie || [])[0] || {}).value || "";
 
-    if (qs.get("code") === passcode) {
+    if (qs.get("code") === config.passcode) {
       // return a redirect to strip the code from the querystring and add it
       // as a cookie if authorized via embedded QR code
       return {
