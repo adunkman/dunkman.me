@@ -1,8 +1,8 @@
-const { passcode } = require("./auth.config.json");
+import { passcode } from "./auth.config.json";
 const cookieName = "token";
 const encodedPasscode = Buffer.from(passcode).toString('base64');
 
-exports.handler = async (event) => {
+export async function handler(event) {
     const { request } = event.Records[0].cf;
     const qs = new URLSearchParams(request.querystring || "");
     const cookieValue = ((request.headers.cookie || [])[0] || {}).value || "";

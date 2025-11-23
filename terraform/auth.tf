@@ -38,7 +38,7 @@ resource "aws_lambda_function" "authenticator" {
   source_code_hash = data.archive_file.authenticator.output_base64sha256
   role = aws_iam_role.authenticator.arn
   handler = "auth.handler"
-  runtime = "nodejs20.x"
+  runtime = "nodejs24.x"
   publish = true
 
   tracing_config {
