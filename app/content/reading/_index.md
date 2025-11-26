@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2025-11-26"
+    link: https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/
   - date: "2025-08-08"
     link: https://werd.io/evaluating-ai/
   - date: "2025-07-16"
