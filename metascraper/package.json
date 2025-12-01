@@ -2,7 +2,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.0",
     "got": "^14.6.4",
     "jsdom": "^27.2.0",
     "metascraper": "^5.49.5",
