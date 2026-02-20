@@ -72,7 +72,7 @@ services:
   lychee:
     profiles:
       - utilities
-    image: lycheeverse/lychee:sha-c7ddd15-alpine
+    image: lycheeverse/lychee:sha-7a0672c-alpine
     user: root
     volumes:
       - ./app:/app

@@ -1,4 +1,4 @@
-FROM hugomods/hugo:ci-0.152.2
+FROM hugomods/hugo:ci-0.154.5
 RUN apk add --no-cache openssl
 
 ENV DOCKERIZE_VERSION v0.9.7
