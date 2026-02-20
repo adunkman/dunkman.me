@@ -44,4 +44,10 @@
   &.button-brand-linkedin::before {
     mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/linkedin.svg").Content | base64Encode }}');
   }
+  &.button-brand-instagram::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/instagram.svg").Content | base64Encode }}')
+  }
+  &.button-brand-myspeedpuzzling::before {
+    mask-image: url('data:image/svg+xml;base64,{{ (resources.Get "images/logos/myspeedpuzzling.svg").Content | base64Encode }}')
+  }
 }
