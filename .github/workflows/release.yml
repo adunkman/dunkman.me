@@ -16,14 +16,14 @@ jobs:
       HUGO_ENV: production
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: terraform/.terraform
           key: terraform-v1-${{ hashFiles('terraform/.terraform.lock.hcl') }}
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: app/resources
           key: app-v1-${{ hashFiles('app/Dockerfile') }}
