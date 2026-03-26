@@ -1,4 +1,5 @@
 .page-footer {
+  clear: both;
   border-top: 3px rgba(var(--theme-foreground-color), 0.15) solid;
   width: 100%;
   max-width: unquote("min(#{$page-max-width}, calc(100vw - (2 * clamp(1rem, 4vw, 2rem))))");
