@@ -14,7 +14,7 @@ In addition to myself, my parents will also be competing as a pair for the first
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-I will compete in the Individual A Prelimiary round, the first round of competition that determines your placement in finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/A).
+I will compete in the Individual A Prelimiary round, the first round of competition that determines your placement in finals. I'll be at table 103, and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/A).
 
 The competition will happen at 9:15am ET on Friday, March 27, 2026 and will be live streamed below.
 
@@ -26,7 +26,7 @@ The competition will happen at 9:15am ET on Friday, March 27, 2026 and will be l
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-My pairs partner, Michael, will compete in the Individual C Prelimiary round, the first round of competition that determines your placement in finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/C).
+My pairs partner, Michael, will compete in the Individual C Prelimiary round, the first round of competition that determines your placement in finals. He will be at table 45 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/C).
 
 The competition will happen at 2:00pm ET on Friday, March 27, 2026 and will be live streamed below.
 
@@ -40,7 +40,7 @@ The competition will happen at 2:00pm ET on Friday, March 27, 2026 and will be l
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-I will compete with Michael Ha in Pairs A Prelimiary round. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/A).
+I will compete with Michael Ha in Pairs A Prelimiary round. We will be at table 63 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/A).
 
 The competition will happen at 9:00am ET on Saturday, March 28, 2026 and will be live streamed below.
 
@@ -52,7 +52,7 @@ The competition will happen at 9:00am ET on Saturday, March 28, 2026 and will be
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-My parents will compete in Pairs B Prelimiary round. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/B).
+My parents will compete in Pairs B Prelimiary round. They will be at table 186 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/B).
 
 The competition will happen at 11:00am ET on Saturday, March 28, 2026 and will be live streamed below.
 
@@ -64,7 +64,7 @@ The competition will happen at 11:00am ET on Saturday, March 28, 2026 and will b
 
 Teams preimilary competitions are held on two puzzles: one 500pc unreleased Ravensburger puzzle and one 1000pc unreleased Ravensburger puzzle, and competitors have 2 hours and 15 minutes to either complete or finish as much of both of the puzzles as possible.
 
-My team (myself, Michael Ha, Michelle Bone, and Julia Buck) will compete in Teams A Prelimiary round. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/A).
+My team (myself, Michael Ha, Michelle Bone, and Julia Buck) will compete in Teams A Prelimiary round. We will be at table 25 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/A).
 
 The competition will happen at 1:30pm ET on Saturday, March 28, 2026 and will be live streamed below.
 
