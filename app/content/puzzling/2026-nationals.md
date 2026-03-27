@@ -14,9 +14,9 @@ In addition to myself, my parents will also be competing as a pair for the first
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-I will compete in the Individual A Prelimiary round, the first round of competition that determines your placement in finals. I'll be at table 103, and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/A).
+I competed in the Individual A Prelimiary round, the first round of competition that determines your placement in finals. I was at table 103, and the [results are on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/A). I finished in 1:20:17 and secured 125th place which did not qualify me for finals, as anticipated. 
 
-The competition will happen at 9:15am ET on Friday, March 27, 2026 and will be live streamed below.
+The competition happened at 9:15am ET on Friday, March 27, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XFUJGBBNpU4?si=BrVf8cmoBPcUthNF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
