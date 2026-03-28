@@ -40,9 +40,9 @@ The competition happened at 2:00pm ET on Friday, March 27, 2026 and the recordin
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-I will compete with Michael Ha in Pairs A Prelimiary round. We will be at table 63 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/A).
+I competed with Michael Ha in Pairs A Prelimiary round. We were at table 63 and our [results are on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/A). We completed the puzzle in 38:21, which placed us 66th and qualified us for finals. 
 
-The competition will happen at 9:00am ET on Saturday, March 28, 2026 and will be live streamed below.
+The competition happened at 9:00am ET on Saturday, March 28, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/9Tha_LvIC_I?si=UFDMJTxCEbmXHbKZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -78,7 +78,7 @@ The competition will happen at 1:30pm ET on Saturday, March 28, 2026 and will be
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-I am hopeful that Michael and I will make the finals. Fingers crossed! 🤞 You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final).
+Michael and I made the finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final).
 
 The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and will be live streamed below.
 
@@ -90,7 +90,7 @@ The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and wi
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-While it's unlikely that I will make the finals, it is likely that at least one member of my team will. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final).
+Michael made the finals, and I did not. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final).
 
 The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and will be live streamed below.
 
