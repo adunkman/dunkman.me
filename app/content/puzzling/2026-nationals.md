@@ -26,9 +26,9 @@ The competition happened at 9:15am ET on Friday, March 27, 2026 and the recordin
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-My pairs partner, Michael, will compete in the Individual C Prelimiary round, the first round of competition that determines your placement in finals. He will be at table 45 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/C).
+My pairs partner, Michael, competed in the Individual C Prelimiary round, the first round of competition that determines your placement in finals. He was at table 45 and the [results are on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/C). He finished the puzzle in 52:30 and secured 32nd place, advancing him to the finals.
 
-The competition will happen at 2:00pm ET on Friday, March 27, 2026 and will be live streamed below.
+The competition happened at 2:00pm ET on Friday, March 27, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/snzFfpbxu9M?si=Bp3JaYTWHCE97ixR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
