@@ -52,9 +52,9 @@ The competition happened at 9:00am ET on Saturday, March 28, 2026 and the record
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-My parents will compete in Pairs B Prelimiary round. They will be at table 186 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/B).
+My parents competed in Pairs B Prelimiary round. They were at table 186 and their [results are on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/B). They assembled 266 pieces and placed 194th, which did not qualify them for finals — but they achieved their goal of having fun and not coming last!
 
-The competition will happen at 11:00am ET on Saturday, March 28, 2026 and will be live streamed below.
+The competition happened at 11:00am ET on Saturday, March 28, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TS3n6ZGEoDE?si=Sy-M_iKZ0h3580pz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
