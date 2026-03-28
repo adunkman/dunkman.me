@@ -64,9 +64,9 @@ The competition happened at 11:00am ET on Saturday, March 28, 2026 and the recor
 
 Teams preimilary competitions are held on two puzzles: one 500pc unreleased Ravensburger puzzle and one 1000pc unreleased Ravensburger puzzle, and competitors have 2 hours and 15 minutes to either complete or finish as much of both of the puzzles as possible.
 
-My team (myself, Michael Ha, Michelle Bone, and Julia Buck) will compete in Teams A Prelimiary round. We will be at table 25 and you will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/A).
+My team (myself, Michael Ha, Michelle Bone, and Julia Buck) competed in Teams A Prelimiary round. We were at table 25 and you can see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/A). We finished both puzzles in 1:41:20 and placed 39th, advancing us to the finals.
 
-The competition will happen at 1:30pm ET on Saturday, March 28, 2026 and will be live streamed below.
+The competition happened at 1:30pm ET on Saturday, March 28, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XDbWCNpuGTQ?si=_nk8WWaM_DRUcdhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
