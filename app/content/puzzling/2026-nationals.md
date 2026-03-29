@@ -78,7 +78,7 @@ The competition happened at 1:30pm ET on Saturday, March 28, 2026 and the record
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-Michael and I made the finals and competed at table 131. You can see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final) — we finished the puzzle in 54:01 and tied for 154th place.
+Michael and I made the finals and competed at table 131. You can see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final) — we finished the puzzle in 54:01 and tied for 155th place.
 
 The final competition happened at 9:00am ET on Sunday, March 29, 2026 and the recording is below.
 
