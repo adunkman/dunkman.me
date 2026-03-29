@@ -78,7 +78,7 @@ The competition happened at 1:30pm ET on Saturday, March 28, 2026 and the record
 
 Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and 15 minutes to either complete or finish as much of the puzzle as possible.
 
-Michael and I made the finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final).
+Michael and I made the finals and will be at table 131. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final).
 
 The final competition will happen at 9:00am ET on Sunday, March 29, 2026 and will be live streamed below.
 
@@ -90,7 +90,7 @@ The final competition will happen at 9:00am ET on Sunday, March 29, 2026 and wil
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-Michael made the finals, and I did not. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final).
+Michael made the finals, and I did not. He will be at table 126. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final).
 
 The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and will be live streamed below.
 
@@ -102,7 +102,7 @@ The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and wi
 
 Teams finals competitions are held on two 1000pc unreleased Ravensburger puzzles, and competitors have three hours to either complete or finish as much of both of the puzzles as possible.
 
-I am hopeful that our team will make the finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/final).
+My team, Jigsaw JAMM, has made the finals and will be at table 77. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/final).
 
 The final competition will happen at 1:30pm ET on Sunday, March 29, 2026 and will be live streamed below.
 
