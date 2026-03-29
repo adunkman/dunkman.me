@@ -80,7 +80,7 @@ Pairs competitions are held on 500pc unreleased Ravensburger puzzles, and compet
 
 Michael and I made the finals. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/pairs/final).
 
-The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and will be live streamed below.
+The final competition will happen at 9:00am ET on Sunday, March 29, 2026 and will be live streamed below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/73wSLBbpdIQ?si=lVIOtAIU9amgLDbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
