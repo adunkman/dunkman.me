@@ -90,9 +90,9 @@ The final competition happened at 9:00am ET on Sunday, March 29, 2026 and the re
 
 Individual competitions are held on 500pc unreleased Ravensburger puzzles, and competitors have an hour and a half to either complete or finish as much of the puzzle as possible.
 
-Michael made the finals, and I did not. He will be at table 126. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final).
+Michael made the finals, and I did not. He was at table 126, and you can see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/individual/final). He finiahed the puzzle in 1:06:58, securing 156th place. 
 
-The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and will be live streamed below.
+The final competition happened at 11:00am ET on Sunday, March 29, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ta61R8tPWmI?si=DBurWp25-B0CGDi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -102,12 +102,10 @@ The final competition will happen at 11:00am ET on Sunday, March 29, 2026 and wi
 
 Teams finals competitions are held on two 1000pc unreleased Ravensburger puzzles, and competitors have three hours to either complete or finish as much of both of the puzzles as possible.
 
-My team, Jigsaw JAMM, has made the finals and will be at table 77. You will be able to see the [results on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/final).
+My team, Jigsaw JAMM, made the finals at table 77, and the [results are on worldjigsaw.org](https://worldjigsawpuzzle.org/usajpa/nationals2026/teams/final). We finiahed both puzzles in 2:01:48 and secured 64th place. 
 
-The final competition will happen at 1:30pm ET on Sunday, March 29, 2026 and will be live streamed below.
+The final competition happened at 1:30pm ET on Sunday, March 29, 2026 and the recording is below.
 
 <div class="embed is-widescreen">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ral7NflKSFo?si=LcBGYYFif9fPPAYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-And after all that… my mind will be dead.
