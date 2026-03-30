@@ -4,14 +4,14 @@
   "dependencies": {
     "express": "^5.1.0",
     "got": "^14.6.4",
-    "jsdom": "^28.1.0",
-    "metascraper": "^5.49.5",
-    "metascraper-description": "^5.49.5",
-    "metascraper-image": "^5.49.5",
-    "metascraper-logo": "^5.49.5",
-    "metascraper-logo-favicon": "^5.49.5",
-    "metascraper-title": "^5.49.5",
-    "metascraper-url": "^5.49.5"
+    "jsdom": "^29.0.1",
+    "metascraper": "^5.50.0",
+    "metascraper-description": "^5.50.0",
+    "metascraper-image": "^5.50.0",
+    "metascraper-logo": "^5.50.0",
+    "metascraper-logo-favicon": "^5.50.0",
+    "metascraper-title": "^5.50.0",
+    "metascraper-url": "^5.50.0"
   },
   "resolutions": {
     "glob": "^13.0.0"
