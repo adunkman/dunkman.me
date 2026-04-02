@@ -1,0 +1,43 @@
+.page-puzzling {
+  .puzzling-result {
+    .puzzle-info {
+      font-weight: normal;
+    }
+
+    .result {
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .data {
+      :first-child {
+        margin-top: 0;
+      }
+
+      :last-child {
+        margin-bottom: 0;
+      }
+
+      p {
+        margin: .5rem 0;
+      }
+
+      time {
+        font-variant-numeric: tabular-nums lining-nums slashed-zero;
+      }
+    }
+
+    .puzzle-image {
+      max-width: 10rem;
+      margin: 0 2rem 0 0;
+
+      img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 95vh;
+      }
+    }
+  }
+}

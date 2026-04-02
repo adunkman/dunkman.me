@@ -1,0 +1,86 @@
+{{- $page := . -}}
+
+{{ range .Params.results }}
+  {{- $result := . -}}
+  <div class="puzzling-result {{ .type }}">
+    <h2>
+      {{ .type }}
+      <span class="puzzle-info">
+        {{ if .partners }}
+          <span class="partner-info">
+            with {{ delimit .partners ", " }}
+            {{ if .name }} as “{{ .name }}”{{ end }}
+          </span>
+        {{ end }}
+      </span>
+    </h2>
+
+    <div class="result">
+      {{ with .puzzle }}
+        {{ with $page.Resources.Get .image }}
+          <figure class="puzzle-image">
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Photo of puzzle image titled {{ $result.puzzle.name }}" />
+            </a>
+          </figure>
+        {{ end }}
+      {{ end }}
+      {{ with .puzzles }}
+        <div>
+          {{ range . }}
+            {{ with $page.Resources.Get .image }}
+              <figure class="puzzle-image">
+                <a href="{{ .RelPermalink }}">
+                  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Photo of puzzle image titled {{ $result.puzzle.name }}" />
+                </a>
+              </figure>
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+      <div class="data">
+        <p>
+          {{ with .puzzle }}
+            <strong>{{ .name }}</strong>
+            ({{ .pieces }}pc {{ .brand }})
+          {{ end }}
+          {{ with .puzzles }}
+            {{ range . }}
+              <strong>{{ .name }}</strong>
+              ({{ .pieces }}pc {{ .brand }})
+              {{ if not .IsLast }}<br>{{ end }}
+            {{ end }}
+          {{ end }}
+        </p>
+        {{ with .results }}
+          <p>
+            {{ if .time }}
+              {{- $duration := time.ParseDuration .time -}}
+              Completed in <time>{{ printf "%02d" (int (math.Floor $duration.Hours)) }}:{{ printf "%02d" (mod (math.Floor $duration.Minutes) 60) }}:{{ printf "%02d" (mod (math.Floor $duration.Seconds) 60) }}</time><br>
+              {{ if $result.puzzles }}
+                {{ $pieces := math.Sum (apply $result.puzzles "index" "." "pieces") }}
+                {{ printf "%.2f" (div $pieces $duration.Minutes) }} pieces per minute
+              {{ else }}
+                {{ printf "%.2f" (div $result.puzzle.pieces $duration.Minutes) }} pieces per minute
+              {{ end }}
+            {{ end }}
+            {{ if .pieces }}
+              {{- $duration := time.ParseDuration .time_cap -}}
+              Assembled {{ .pieces}} pieces in <time>{{ printf "%02d" (int (math.Floor $duration.Hours)) }}:{{ printf "%02d" (mod (math.Floor $duration.Minutes) 60) }}:{{ printf "%02d" (mod (math.Floor $duration.Seconds) 60) }}</time><br>
+              {{ printf "%.2f" (div $result.results.pieces $duration.Minutes) }} pieces per minute
+            {{ end }}
+            <br>
+            Placed {{ humanize .place }} of {{ .competitors }} competitors
+            {{ if .link }}
+              {{ with $page.Resources.Get .link }}
+                (<a href="{{ .RelPermalink }}">results</a>)
+              {{ else }}
+                (<a href="{{ .link }}">results</a>)
+              {{ end }}
+            {{ end }}
+          </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

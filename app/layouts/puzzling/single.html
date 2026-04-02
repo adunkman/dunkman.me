@@ -1,3 +1,4 @@
+{{- define "page-class" -}} page-puzzling {{- end -}}
 {{ define "body" }}
   {{ partial "header/banner.html" . }}
   <main class="page-section">
@@ -10,6 +11,9 @@
         </header>
         <div class="content">
           {{ .Content }}
+          {{ if .Params.results }}
+            {{ partial "puzzling/results.html" . }}
+          {{ end }}
         </div>
       </article>
     </div>
