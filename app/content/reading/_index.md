@@ -4,6 +4,8 @@ summary: What I’m reading — a list of articles, blog posts, twitter threads,
 type: reading
 
 links:
+  - date: "2026-05-01"
+    link: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
   - date: "2025-11-26"
     link: https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/
   - date: "2025-08-08"
