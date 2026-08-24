@@ -4,6 +4,9 @@ summary: As Randall Munroe of xkcd says, for each thing "everyone knows" by the 
 type: today-i-learned
 
 links:
+  - date: "2026-08-24"
+    link: https://postalmuseum.si.edu/exhibition/fad-to-fundamental-airmail-in-america-airmail-flight-school-by-the-seat-of-your-pants-7
+    title: Flying by the seat of your pants is an expression from early aviation, before instrumentation, where pilots had to feel the plane through the seat.
   - date: "2025-06-27"
     link: https://mjml.io/
     title: MJML is a HTML-like library for coding responsive emails.
