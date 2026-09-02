@@ -27,7 +27,7 @@ While currently a government contractor, my career has bridged between governmen
           <div class="byline">
             <span class="byline-item"><time datetime="2025-09-01">Sep 2025</time> – <time datetime="now">present</time></span>
           </div>
-          <p>Working on cross-functional team to deliver a Minimum Viable Product (MVP) for improving the complaint submission experience to the Food and Drug Administration (FDA).</p>
+          <p>Developed, delivered, and operated a simplified reporting experience for product issues to the Food and Drug Administration (FDA) (<a href="https://contact.fda.gov/report-problem">contact.fda.gov/report-problem</a>) to enable timely and complete reporting by consumers, health professionals, and FDA-regulated companies.</p>
         </li>
       </ol>
     </div>
