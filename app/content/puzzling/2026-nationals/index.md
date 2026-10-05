@@ -3,6 +3,7 @@ title: 2026 USA Jigsaw Nationals
 summary: 2026 was my first year competing in all three rounds — Individual, Pairs, and Teams (of 4 people). I qualified for finals in pairs and teams, but did not qualify in Individuals, and our teams photo is featured in [The Guardian](https://www.theguardian.com/wellness/2026/apr/09/jigsaw-puzzle-national-championship).
 date: "2026-03-27"
 date_end: "2026-03-29"
+location: Atlanta, GA
 results:
   - type: Individual Preliminary A
     puzzle:

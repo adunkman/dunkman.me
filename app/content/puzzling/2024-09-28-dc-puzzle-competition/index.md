@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition"
 summary: My first DC Puzzle Competition, I competed in both individual and pairs heats. For individual, I competed on a 300pc puzzle, and my pairs partner Alonso and I competed together on a 500pc puzzle.
 date: "2024-09-28"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

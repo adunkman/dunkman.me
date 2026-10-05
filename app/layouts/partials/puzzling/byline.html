@@ -1,4 +1,9 @@
-<time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}" class="byline-item">{{ dateFormat "January 2, 2006" .Date }}</time>
-{{ if .Params.date_end }}
-  <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.date_end }}" class="byline-item">{{ dateFormat "January 2, 2006" .Params.date_end }}</time>
+<span class="byline-item">
+  <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>
+  {{ if .Params.date_end }}
+    — <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.date_end }}">{{ dateFormat "January 2, 2006" .Params.date_end }}</time>
+  {{ end }}
+</span>
+{{ if .Params.location }}
+  <span class="byline-item">{{ .Params.location }}</span>
 {{ end }}

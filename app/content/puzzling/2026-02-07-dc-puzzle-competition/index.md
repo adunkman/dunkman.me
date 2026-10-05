@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition: Nationals Practice Event"
 summary: This shorter competition had two solo heats, and I competed in both. Both heats were competed on 500pc puzzles.
 date: "2026-02-07"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

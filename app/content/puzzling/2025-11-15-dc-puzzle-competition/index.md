@@ -1,8 +1,8 @@
 ---
 title: "DC Puzzle Competition: Leaves of Regret Edition"
 summary: I competed in two individual heats and one pairs heat. For individual, I competed on two 500pc puzzles, and my pairs partner Michael and I competed together on a 500pc puzzle.
-
 date: "2025-11-15"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

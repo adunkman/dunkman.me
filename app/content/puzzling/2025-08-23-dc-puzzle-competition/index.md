@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition"
 summary: A busy day for me, I only had time to compete in one individual heat on a 500pc puzzle.
 date: "2025-08-23"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

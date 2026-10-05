@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition: Valentines Edition"
 summary: I competed in two individual heats and one pairs heat. For individual, I competed on 300pc puzzles, and my pairs partner Michael and I competed together on a 500pc puzzle.
 date: "2025-02-22"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

@@ -3,6 +3,7 @@ title: 2025 USA Jigsaw Nationals
 summary: 2025 was my first year competing at the USA Jigsaw Nationals, which was held in Washington, DC. I did not qualify for finals in either Individual or Pairs categories, but had a great experience!
 date: "2025-04-04"
 date_end: "2025-04-06"
+location: Washington, DC
 results:
   - type: Individual Preliminary C
     puzzle:

@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition: Nationals Practice Event"
 summary: I competed in two individual heats and one pairs heat. For individual, I competed on a 500pc (my first in competition) and a 300pc puzzle, and my pairs partner Brian and I competed together on a 500pc puzzle.
 date: "2025-03-22"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

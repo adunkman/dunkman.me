@@ -2,6 +2,7 @@
 title: "DMV Speed Puzzling Championship"
 summary: "I competed in SpeedPuzzling.com's DMV (DC, Maryland, and Virginia) championship in 5 events: Individual, Individual Puzzle Pyramid, Pairs, Pairs Relay, and Teams."
 date: "2026-03-07"
+location: Fairfax, VA
 results:
   - type: Individual
     puzzle:

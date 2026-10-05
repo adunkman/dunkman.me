@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition: Halloween Edition"
 summary: In my second DC Puzzle Competition (dressed as a werewolf), I competed in both individual and pairs heats. For individual, I competed on a 300pc puzzle, and my pairs partner Michael and I competed together on a 500pc puzzle.
 date: "2024-10-26"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:

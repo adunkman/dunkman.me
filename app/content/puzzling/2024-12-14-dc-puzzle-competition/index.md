@@ -2,6 +2,7 @@
 title: "DC Puzzle Competition"
 summary: I competed in both individual and pairs heats. For individual, I competed on a 300pc puzzle, and my pairs partner Michael and I competed together on a 500pc puzzle.
 date: "2024-12-14"
+location: Washington, DC
 results:
   - type: Individual
     puzzle:
